@@ -1,0 +1,113 @@
+selection_rank,sentence_id,source_text,dev_mean_score,difficulty_norm,disagreement_raw,disagreement_norm,combined_score
+1,cs-de_DE_#_edu_#_edu08502_#_1,"cejn
+štika
+candát
+lín",51.17857142857143,0.9953488372093023,1567.914540816327,1.0,0.9976744186046511
+2,cs-de_DE_#_edu_#_edu34346_#_0,"Pojď si připravit medovnicové koule.
+Očísluj (1–7) jednotlivé kroky v popisu postupu tak, jak za sebou následují.
+6 Po dvou hodinách vyndáme těsto z ledničky a vytvarujeme z něj kuličky, které obalujeme v odložených drobečcích.
+3 V době pečení si připravíme krém z kondenzovaného mléka a másla.
+5 V misce si smícháme krém a rozmixované drobky z placek, vypracujeme z nich hmotu, kterou dáme na dvě hodiny odpočinout do lednice.
+1 Uděláme těsto, z něj vytvoříme placky libovolného tvaru.
+4 Vychladlé placky rozdrtíme na jemné drobečky a ty rozmixujeme v mixéru, trochu drobečků si odložíme na obalovaní.
+2 Placky pečeme na 180 °C asi 10 minut a pak je necháme vychladnout.
+7 Kuličky naservírujeme na talíř a je hotovo.
+Ať vám chutná!",55.82142857142857,0.8945736434108528,601.1288265306123,0.3782177698004613,0.636395706605657
+3,cs-de_DE_#_speech_#_vid_TnUw_OspWIw_#_0,"Takže, jdeme na to, proč existují, proč existují. Tohle jste druhá část unboxingu, přijedla jsem si sem hostíka. Čau, já jsem vrka. Wow, patiktv kámo. Vrka, popisku videa. Přesně, dej tomu odběr, nenatáčí videa. Tohle jste druhá část tohle videa, kvůli tomu, že ta první byla nezaostřená, jsem ji točila, byla nezaostřená, takže tohle jste asi třetí den po tom, ne, to je druhej den po tom unboxingu, já to točím znova, takže jsem viděla, jak to vypadá, ale tak vy jste to neviděli. Takže, vezmeme tady naši hlavu. Jako, jako je to skleněná, abych pravdu řekl, mělo to, mělo to tak, jako kdyby to byla plastování, že mělo to být fakt skleněná hlava. Je to skleněná hlava, ano. A je, je velice dobrá, takže budeme to mít držák, pana patika. Jo, hohu. Teď zdrhnu nálepku.",50.964285714285715,1.0,429.40943877551024,0.26777751162416774,0.6338887558120838
+4,cs-de_DE_#_speech_#_vid_gO2Xj7NBBMI_#_0,"A člověk jakoby… já vycházím z jana od kříže, jako z tohoto mystiku. Mystík a mukl a prorok a básník. Ten vlastně pomohl založit osví karbalitány, z které si ji zavíruji. Tak z toho vycházím. Ty mám takový kresby, ale jak jsi to říkal, tak já to většinou zúročuju. Když někdo prochází ven, já jsem dělal ve florencii, u florencii jsem dělal kostocan méně, tak já jsem vždycky jezdil pláčkem do florencii ráno o půl šest týdne k dominikánům, který mám šílství ve kytne.",53.75,0.9395348837209303,405.16964285714283,0.2521878373633729,0.5958613605421517
+5,cs-de_DE_#_edu_#_edu08494_#_1,"Ústní ústrojí sací mají…
+Skákací nohu mají...
+saranče, blecha
+krtonožka, veš
+potápník, kobylka
+Hmyz se ve vodě...
+vyskytuje, avšak pouze jeho larvy
+vůbec nevyskytuje
+vyskytuje, např. brouci
+Většinu života tráví v zemi…
+šídlo
+štěnice
+krtonožka",62.142857142857146,0.7573643410852713,652.8724489795917,0.4114963593467495,0.5844303502160104
+6,cs-de_DE_#_edu_#_edu08502_#_0,"Víš, jak vypadají rybí pásma?
+Roztřiď charakteristiky k jednotlivým pásmům.
+pásmo lipanové
+pásmo cejnové
+pásmo pstruhové
+pásmo parmové
+málo kyslíku
+hodně planktonu
+horské potoky a řeky
+dolní toky velkých řek
+meandry
+menší spád vody
+teplota vody 15–20 °C
+studená voda
+hodně bezobratlých živočichů
+střední toky
+teplota vody až 25 °C v létě
+hodně trav a řas
+hodně kyslíku
+teplejší voda, až 30 °C
+podhorské potoky
+Roztřiď ryby podle toho, ve kterém rybím pásmu se vyskytují.
+cejnové
+hrouzek
+pstruh
+sumec
+střevle
+kapr
+okoun
+karas
+plotice
+hlavatka
+vranka
+mník
+perlín
+Roztřiď znaky dravých a nedravých ryb.
+ryby dravé
+ryby nedravé
+rychlý pohyb vpřed
+potrava drobné ryby či obratlovci
+tělo zploštělé ze stran
+dlouhé válcovité tělo
+pomalý pohyb vlněním
+jen požeráková kost
+rostlinná potrava, hmyz, plankton
+ukrývá se mezi stonky vodních rostlin
+drobné zuby směrem dozadu
+hřbetní ploutev posunutá dozadu",64.53571428571429,0.7054263565891472,560.3737244897959,0.3520063789363845,0.5287163677627659
+7,cs-de_DE_#_news_#_ceska_televize-cs.156247_#_2,"V Rokytnici žije ševcovský tovaryš Franta (M. Vávra), který by si rád vzal za ženu Marjánku (C. Morávková). Jenže oba jsou chudí a mistrová ševcová (A. Kreuzmannová), vdova s živností, Frantovi za práci nic nezaplatí. Naopak si na něj ještě sama myslí. Když mu nabídne svou ruku a živnost k tomu, Franta odmítne a mistrová ho vyhodí z domu. Na bále se jí každý vysměje, a tak si jde ševcová pro pomoc k rybníku, kde žije hastrman (J. Skopeček) ...",71.75,0.5488372093023256,762.3839285714286,0.4819279875833871,0.5153825984428564
+8,cs-de_DE_#_edu_#_edu08486_#_0,"Plankton je...
+soubor velkých vodních organismů
+soubor mikroskopických organismů vznášející se ve vodě
+soubor vodních rostlin
+Součástí planktonu jsou…
+jen rostliny
+bakterie, rostliny, živočichové
+jen živočichové
+Příkladem živočichů tvořících plankton jsou…
+buchanky, perloočky, štiky
+trepky, buchanky, perloočky
+trepky, buchanky, nezmaři
+Mezi rostliny, které tvoří plankton, patří…
+řasy a sinice
+lekníny a stulíky
+olše a vrby
+Plankton slouží…
+jako potrava pro jiné organismy a k tvorbě fotosyntézy
+pouze jako potrava pro jiné organismy
+pouze k fotosyntéze
+Z korýšů tvoří plankton…
+perloočky a buchanky
+garnáti a krevety
+humři a krabi
+Buchanky mají tělo zakončeno…
+ocasem
+ve tvaru kruhu
+ve tvaru vidlice
+Perloočky mají…
+výrazné končetiny
+výrazné složené oko
+výraznou dutinu ústní",60.392857142857146,0.7953488372093023,348.2563775510204,0.21558442410739184,0.5054666306583471
+9,cs-de_DE_#_speech_#_vid_Ank-5bMvM00_#_0,"To je tedy pro měsíc dubeň všechno a o čem vám budu povídat v květnu. Poslechala jsem si audioknihu neuvěřitelná hrdinství se mahlouje, což je pro mě po delší době zase knížka z vydavatelství tympánum. A také pokračuji v poslechu oceňovaných knih a mám tady český ráj od jaroslava rudíšek, za které získal ocenění petr štrtníček. Čímž doplňuji mezery ve vzdělání, protože přiznám se, že české autory a zejména tady jaroslava rudíše nevyhledávám, nikdy jsem od něj nic nečetla. A tahle ta audiokniha zase je spíš kratšího rozsahu, hrozně příjemná záležitost právě díky petru štrtníčkovi. Také pro vás chystám přehled knih ze světa knihy a budu se těšit zase příště. Ahoj!",59.32142857142857,0.8186046511627908,281.16454081632656,0.17243472582714525,0.495519688494968
+10,cs-de_DE_#_news_#_ct24-cs.206310_#_2,"V Rokytnici žije ševcovský tovaryš Franta (M. Vávra), který by si rád vzal za ženu Marjánku (C. Morávková). Jenže oba jsou chudí a mistrová ševcová (A. Kreuzmannová), vdova s živností, Frantovi za práci nic nezaplatí. Naopak si na něj ještě sama myslí. Když mu nabídne svou ruku a živnost k tomu, Franta odmítne a mistrová ho vyhodí z domu. Na bále se jí každý vysměje, a tak si jde ševcová pro pomoc k rybníku, kde žije hastrman (J. Skopeček) ...",73.32142857142857,0.5147286821705428,745.7002551020407,0.47119798656616985,0.4929633343683563

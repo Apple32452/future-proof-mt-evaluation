@@ -1,0 +1,394 @@
+selection_rank,sentence_id,source_text,dev_mean_score,difficulty_norm,disagreement_raw,disagreement_norm,combined_score
+1,cs-de_DE_#_edu_#_edu08502_#_1,"cejn
+štika
+candát
+lín",51.17857142857143,0.9953488372093023,1567.914540816327,1.0,0.9976744186046511
+2,cs-de_DE_#_edu_#_edu34346_#_0,"Pojď si připravit medovnicové koule.
+Očísluj (1–7) jednotlivé kroky v popisu postupu tak, jak za sebou následují.
+6 Po dvou hodinách vyndáme těsto z ledničky a vytvarujeme z něj kuličky, které obalujeme v odložených drobečcích.
+3 V době pečení si připravíme krém z kondenzovaného mléka a másla.
+5 V misce si smícháme krém a rozmixované drobky z placek, vypracujeme z nich hmotu, kterou dáme na dvě hodiny odpočinout do lednice.
+1 Uděláme těsto, z něj vytvoříme placky libovolného tvaru.
+4 Vychladlé placky rozdrtíme na jemné drobečky a ty rozmixujeme v mixéru, trochu drobečků si odložíme na obalovaní.
+2 Placky pečeme na 180 °C asi 10 minut a pak je necháme vychladnout.
+7 Kuličky naservírujeme na talíř a je hotovo.
+Ať vám chutná!",55.82142857142857,0.8945736434108528,601.1288265306123,0.3782177698004613,0.636395706605657
+3,cs-de_DE_#_speech_#_vid_TnUw_OspWIw_#_0,"Takže, jdeme na to, proč existují, proč existují. Tohle jste druhá část unboxingu, přijedla jsem si sem hostíka. Čau, já jsem vrka. Wow, patiktv kámo. Vrka, popisku videa. Přesně, dej tomu odběr, nenatáčí videa. Tohle jste druhá část tohle videa, kvůli tomu, že ta první byla nezaostřená, jsem ji točila, byla nezaostřená, takže tohle jste asi třetí den po tom, ne, to je druhej den po tom unboxingu, já to točím znova, takže jsem viděla, jak to vypadá, ale tak vy jste to neviděli. Takže, vezmeme tady naši hlavu. Jako, jako je to skleněná, abych pravdu řekl, mělo to, mělo to tak, jako kdyby to byla plastování, že mělo to být fakt skleněná hlava. Je to skleněná hlava, ano. A je, je velice dobrá, takže budeme to mít držák, pana patika. Jo, hohu. Teď zdrhnu nálepku.",50.964285714285715,1.0,429.40943877551024,0.26777751162416774,0.6338887558120838
+4,cs-de_DE_#_speech_#_vid_gO2Xj7NBBMI_#_0,"A člověk jakoby… já vycházím z jana od kříže, jako z tohoto mystiku. Mystík a mukl a prorok a básník. Ten vlastně pomohl založit osví karbalitány, z které si ji zavíruji. Tak z toho vycházím. Ty mám takový kresby, ale jak jsi to říkal, tak já to většinou zúročuju. Když někdo prochází ven, já jsem dělal ve florencii, u florencii jsem dělal kostocan méně, tak já jsem vždycky jezdil pláčkem do florencii ráno o půl šest týdne k dominikánům, který mám šílství ve kytne.",53.75,0.9395348837209303,405.16964285714283,0.2521878373633729,0.5958613605421517
+5,cs-de_DE_#_edu_#_edu08494_#_1,"Ústní ústrojí sací mají…
+Skákací nohu mají...
+saranče, blecha
+krtonožka, veš
+potápník, kobylka
+Hmyz se ve vodě...
+vyskytuje, avšak pouze jeho larvy
+vůbec nevyskytuje
+vyskytuje, např. brouci
+Většinu života tráví v zemi…
+šídlo
+štěnice
+krtonožka",62.142857142857146,0.7573643410852713,652.8724489795917,0.4114963593467495,0.5844303502160104
+6,cs-de_DE_#_edu_#_edu08502_#_0,"Víš, jak vypadají rybí pásma?
+Roztřiď charakteristiky k jednotlivým pásmům.
+pásmo lipanové
+pásmo cejnové
+pásmo pstruhové
+pásmo parmové
+málo kyslíku
+hodně planktonu
+horské potoky a řeky
+dolní toky velkých řek
+meandry
+menší spád vody
+teplota vody 15–20 °C
+studená voda
+hodně bezobratlých živočichů
+střední toky
+teplota vody až 25 °C v létě
+hodně trav a řas
+hodně kyslíku
+teplejší voda, až 30 °C
+podhorské potoky
+Roztřiď ryby podle toho, ve kterém rybím pásmu se vyskytují.
+cejnové
+hrouzek
+pstruh
+sumec
+střevle
+kapr
+okoun
+karas
+plotice
+hlavatka
+vranka
+mník
+perlín
+Roztřiď znaky dravých a nedravých ryb.
+ryby dravé
+ryby nedravé
+rychlý pohyb vpřed
+potrava drobné ryby či obratlovci
+tělo zploštělé ze stran
+dlouhé válcovité tělo
+pomalý pohyb vlněním
+jen požeráková kost
+rostlinná potrava, hmyz, plankton
+ukrývá se mezi stonky vodních rostlin
+drobné zuby směrem dozadu
+hřbetní ploutev posunutá dozadu",64.53571428571429,0.7054263565891472,560.3737244897959,0.3520063789363845,0.5287163677627659
+7,cs-de_DE_#_news_#_ceska_televize-cs.156247_#_2,"V Rokytnici žije ševcovský tovaryš Franta (M. Vávra), který by si rád vzal za ženu Marjánku (C. Morávková). Jenže oba jsou chudí a mistrová ševcová (A. Kreuzmannová), vdova s živností, Frantovi za práci nic nezaplatí. Naopak si na něj ještě sama myslí. Když mu nabídne svou ruku a živnost k tomu, Franta odmítne a mistrová ho vyhodí z domu. Na bále se jí každý vysměje, a tak si jde ševcová pro pomoc k rybníku, kde žije hastrman (J. Skopeček) ...",71.75,0.5488372093023256,762.3839285714286,0.4819279875833871,0.5153825984428564
+8,cs-de_DE_#_edu_#_edu08486_#_0,"Plankton je...
+soubor velkých vodních organismů
+soubor mikroskopických organismů vznášející se ve vodě
+soubor vodních rostlin
+Součástí planktonu jsou…
+jen rostliny
+bakterie, rostliny, živočichové
+jen živočichové
+Příkladem živočichů tvořících plankton jsou…
+buchanky, perloočky, štiky
+trepky, buchanky, perloočky
+trepky, buchanky, nezmaři
+Mezi rostliny, které tvoří plankton, patří…
+řasy a sinice
+lekníny a stulíky
+olše a vrby
+Plankton slouží…
+jako potrava pro jiné organismy a k tvorbě fotosyntézy
+pouze jako potrava pro jiné organismy
+pouze k fotosyntéze
+Z korýšů tvoří plankton…
+perloočky a buchanky
+garnáti a krevety
+humři a krabi
+Buchanky mají tělo zakončeno…
+ocasem
+ve tvaru kruhu
+ve tvaru vidlice
+Perloočky mají…
+výrazné končetiny
+výrazné složené oko
+výraznou dutinu ústní",60.392857142857146,0.7953488372093023,348.2563775510204,0.21558442410739184,0.5054666306583471
+9,cs-de_DE_#_speech_#_vid_Ank-5bMvM00_#_0,"To je tedy pro měsíc dubeň všechno a o čem vám budu povídat v květnu. Poslechala jsem si audioknihu neuvěřitelná hrdinství se mahlouje, což je pro mě po delší době zase knížka z vydavatelství tympánum. A také pokračuji v poslechu oceňovaných knih a mám tady český ráj od jaroslava rudíšek, za které získal ocenění petr štrtníček. Čímž doplňuji mezery ve vzdělání, protože přiznám se, že české autory a zejména tady jaroslava rudíše nevyhledávám, nikdy jsem od něj nic nečetla. A tahle ta audiokniha zase je spíš kratšího rozsahu, hrozně příjemná záležitost právě díky petru štrtníčkovi. Také pro vás chystám přehled knih ze světa knihy a budu se těšit zase příště. Ahoj!",59.32142857142857,0.8186046511627908,281.16454081632656,0.17243472582714525,0.495519688494968
+10,cs-de_DE_#_news_#_ct24-cs.206310_#_2,"V Rokytnici žije ševcovský tovaryš Franta (M. Vávra), který by si rád vzal za ženu Marjánku (C. Morávková). Jenže oba jsou chudí a mistrová ševcová (A. Kreuzmannová), vdova s živností, Frantovi za práci nic nezaplatí. Naopak si na něj ještě sama myslí. Když mu nabídne svou ruku a živnost k tomu, Franta odmítne a mistrová ho vyhodí z domu. Na bále se jí každý vysměje, a tak si jde ševcová pro pomoc k rybníku, kde žije hastrman (J. Skopeček) ...",73.32142857142857,0.5147286821705428,745.7002551020407,0.47119798656616985,0.4929633343683563
+11,cs-de_DE_#_edu_#_edu08606_#_0,"Dva páry hlodavých řezáků v horní čelisti mají…
+hmyzožravci
+zajíci
+hlodavci
+šelmy
+Lenochodi žijí v…
+Evropě
+Střední a Jižní Americe
+Africe
+Z uvedených druhů letounů nežije na území Česka…
+netopýr ušatý
+vrápenec velký
+kaloň jedlý
+netopýr velký
+Mezi hlodavce patří…
+ježek
+dikobraz
+zajíc
+rejsek
+Velryby dýchají…
+kosticemi
+Mezi ploutvonožce nepatří…
+mrož
+tuleň
+rypouš
+Krční páteř žirafy je tvořena...
+5 obratly
+12 obratly
+7 obratly
+14 obratly
+Pavián patří mezi…
+úzkonosé opice
+poloopice
+lidoopy
+ploskonosé opice
+Nejdelší dobu březosti má samice...
+krysy
+koně
+slona
+medvěda
+Rohy na hlavě má…
+srnec obecný
+tur domácí
+jelen lesní
+lama guanaco",66.39285714285714,0.6651162790697676,497.04209183673476,0.3112750325673578,0.48819565581856267
+12,cs-de_DE_#_speech_#_vid_3QlubgOA774_#_0,"Prošli jsme si město a my jsme dál pokračovali pak do karlova na taních, což bylo nějaké dvě hodiky a tam jsme vlastně byli tři dny. A pak jsme naspátek jeli přes rakousko, přes hallstatt k těm jezerům, tam jsme se zastavili a pak o kousek dál jsme se byli ještě, nebo já ne, teda byl jsem za vykoupat, protože na mě už je to vlastně sudený, tady ty jezera, tak jsme se vykoupali a vlastně ten, kde to bylo v úterý, vlastně jeli jsme ráno asi v 8, když jsme se museli něco nakoupit do obchudku, protože v itálii těstoviny jsou neskutečně levný a prostě jsem jim to tam nemohla nechat. Až se jsme tam kupovali parmazán a ještě nějaký melon a ještě nějaký housky a prošuto, to prostě...",60.285714285714285,0.7976744186046513,258.3112244897959,0.15773675730837755,0.4777055879565144
+13,cs-de_DE_#_news_#_ctk.cz.120672_#_6,"""Upravujeme v oblasti hospodaření, abychom podpořili a rozšířili populaci této ohrožené rostliny a dalších vázaných na horninu zvanou hadec jako kuřička Smejkalova nebo houba zvaná kuřátka něžná. Zásadní jsou opakovaná opatření, zejména kosení, lesní pastva, prosvětlování lesa a výsadba kuřičky, která provádí Český svaz ochránců přírody Vlašim,"" uvedl lesní správce z Ledče nad Sázavou Jaroslav Moravec.",62.785714285714285,0.7434108527131784,229.20408163265304,0.13901667908109186,0.4412137658971351
+14,cs-de_DE_#_speech_#_vid_83uzO97cy28_#_0,"Protože to dělá hodně a když je to čistý tisícka, tak to funguje naprosto výborně. A cena tablet, nepamatuju si to, ale rozhodně to bylo do stovky a bylo jich tam strašně moc. Opět tady někdy uvidíte cenu a samotný produkt. Poslední z kuchyně a rozhodně jste to asi čekali si, myslím, je tady ten spray na mytí trouby. Cena do 50 kč. Já jsem díky vám zjistila, že se s tím dá krásně mít i varná deska. A všechno různý možný. Já s tím jenom třeba i grill a jde to naprosto geniálně dolů, protože to skvěle odmašťuje. A to balení mi podle mě vydrží do konce života. A naším dnešním posledním top produktem z drogerie dm je, prosím bubny, děl do záchoda.",73.21428571428571,0.5170542635658917,543.5255102040817,0.3411705545146397,0.4291124090402657
+15,cs-de_DE_#_edu_#_edu08596_#_0,"Člověk má celkem kostí více než…
+Mezi kosti obličejové části lebky nepatří…
+kost čelní
+kost nosní
+kost lícní
+kost slzní
+Mezi svaly horní končetiny patří…
+velký prsní sval
+sval trapézový
+sval krejčovský
+sval deltový
+Dvojcípá chlopeň se v srdci nachází...
+na začátku aorty
+mezi pravou síní a pravou komorou
+na začátku plicní tepny
+mezi levou síní a levou komorou
+Žluč…
+se vytváří ve žlučníku
+má nažloutlou barvu
+usnadňuje trávení cukrů
+je tvořena jaterními buňkami
+Působením UV záření vzniká v kůži vitamin…
+Zrakové centrum koncového mozku je v laloku…
+týlním
+temenním
+čelním
+spánkovým
+V přední části přechází oko v průhlednou…
+rohovku
+bělimu
+zornici
+cévnatku",77.75,0.4186046511627908,681.6339285714286,0.42999412639088036,0.4242993887768356
+16,cs-de_DE_#_news_#_radio_praha-cs.18156_#_1,"Konipas horský je již druhým ptákem z čeledi konipasovitých, který má v Česku titul ptáka roku. V roce 1999 ČSO vybrala konipasa bílého, který je známější a početnější než konipas horský.",73.25,0.516279069767442,528.7767857142857,0.3316850039212082,0.4239820368443251
+17,cs-de_DE_#_news_#_cesky_rozhlas-cs.188622_#_2,"No tak výživa zvířat jakožto taková je velice složitá záležitost. Ono řada z nás vychází z určitých tradic a z toho, co viděli třeba v dětství. Dnešní mladá generace už bych zase řekla, že někde úplně jinde. Ty zase propočítávají a čtou hodně prostě o tom a propočítali prostě, což ono ta strana má obsahovat jako. Nicméně pravdou je, že co svědčí jednomu, nemusí svědčit druhému. Je v každém případě je to zvířátko, které, dejme tomu je krmeno nějakým levným krev s krmivem a ze supermarketu o může prospívat a jiné zvířátko krmené tou stejnou značkou, může totálně neprospívat. Nejhorší pokusy, které bych teda vypíchla, tak jsou snad případy domácí stravy, kdy se setkávám občas, velice zřídka. Teda, ale přesto se setkávám se situací, kdy mi majitel říká, že jeho zvířátko jí to, co on. A to bych řekla, že největší katastrofa, když třeba co Vánoce a zvířátko stávají, bramborový salát například stejně udělán jako pro lidi je ochucený. Nebo když nedej bože, majitelka se rozhodne, že zpestří stravu třeba pórkem čerstvým. A pak nám hrozí i torza žaludku.",66.14285714285714,0.6705426356589149,264.015306122449,0.16140530199866773,0.41597396882879134
+18,cs-de_DE_#_news_#_radio_praha-cs.18156_#_0,"Ptákem roku 2025 vyhlásili ornitologové konipase horského. Pomyslnou korunu mu předal rehek domácí. Konipas horský má výrazné žlutou spodní část těla a dlouhý ocas, kterým téměř neustále kmitá. Proto se mu lidově říká třeba třasořitka. Titul pták roku uděluje Česká společnost ornitologická zpravidla známým druhům, které lze potkat na mnoha místech republiky. ""Konipas horský upřednostňuje především horské a kopcovité oblasti, které dávají vodním tokům potřebný spád a charakter řečišť, nevyhýbá se však ani nižším polohám, a tak na něj můžeme narazit téměř kdekoli. V Polabí a v Dolním Povltaví, stejně jako na jihu Moravy, existují hnízdiště v nadmořské výšce dokonce nižší než 200 metrů nad mořem,"" přiblížil ředitel České společnosti ornitologické Zdeněk Vermouzek. Právě necitlivé zásahy do vodních toků tak mohou konipase horského ohrožovat.",69.57142857142857,0.596124031007752,377.1377551020408,0.23415930277962801,0.41514166689369003
+19,cs-de_DE_#_news_#_reflex.cz.16563_#_1,"Dlouhá desetiletí to bývalo originální místo autentické kultury a svérázné poetiky, čím dál osamělejší ve zglajchšaltované šedi jiných kulturních svatostánků. Nyní se Dejvická nádražka dostává do rukou korporátu... Fantasy sága Maková válka je jen pro masochisty. A rozloučili jsme se s posledním zakládajícím členem slavné skupiny The Band.",77.60714285714286,0.42170542635658914,619.1849489795917,0.3898304528585443,0.40576793960756674
+20,cs-de_DE_#_edu_#_edu30034_#_0,"Pozorně si přečti úryvek.
+Pak vyber správnou odpověď.
+Peter Wohlleben: Slyšíš, jak mluví stromy?, upraveno
+Srnčí rodina V prvních týdnech života srnčí miminko často leží opuštěné v trávě.
+Maminka odešla do lesa hledat potravu.
+Malé srnče skoro není cítit.
+A protože se také pevně tiskne k zemi a zůstává ležet, tak je lišky a divočáci nezpozorují.
+Jestli někdy narazíš na takového malého srnečka, pěkně ho nech tam, kde je.
+Ani se ho nedotýkej, protože jinak by načichl člověčinou a maminka srna by se k němu už nevrátila.
+Už zakrátko bude větší a půjde s maminkou.
+Po pozorném čtení určitě vybereš správnou odpověď.
+Srnčí miminko je po narození stále s maminkou.
+NESrna odchází od srnčete hledat potravu.
+ANOSrnčí miminko si najde potravu samo.
+NESrnčí miminko se schovává v trávě.
+ANOSrnčí miminko umí být velmi nenápadné.
+ANOLišky a divočáci srnčí miminko snadno najdou.
+NEMaminka se pro opuštěné srnčí miminko vrátí.
+ANOPokud narazíme na srnčí miminko, smíme se ho dotýkat.",70.5,0.5759689922480621,363.07142857142856,0.22511263219722197,0.40054081222264204
+21,cs-de_DE_#_speech_#_vid_Dbei9GDQ5js_#_0,"Já už jsem tady jednou byl, jsem vlastně zkušený matador na serii j, tak jsem přišel prožnádovysvětlit něco, co se ještě nebylo řečeno, nebo prožná nějaké moudro pustit, mezilit, povedíme. Já jsem tady vyslán jako takovej, řekněme, takovej posel takového, řekněme, studentského, řekněme, oslavného hnutí majález, ale myslím, že to bude jenom taková jedna z věcí, o kterých zavadíme s jendou, už můžu říkat s jendou, že jo. Co jenom tak měl, samozřejmě, jako co rází, jak jí má rád zvíře, má rád barvu, to jsou takové zajímavé otázky.",65.07142857142857,0.6937984496124032,170.53061224489798,0.10128120149760625,0.3975398255550047
+22,cs-de_DE_#_news_#_ctk.cz.120672_#_1,"Bernartice (Benešovsko) - Borové lesy u Želivky s výskytem kriticky ohrožené byliny kuřičky hadcové, Ždánický nebo Český les a další místa zařadily Lesy ČR do nového programu 100 ostrovů obnovy přírody. V těchto oblastech upraví způsob hospodaření tak, aby lépe vyhovoval přirozenému prostředí vzácných rostlinných nebo živočišných druhů. U Želivky je například potřeba strhávat humusovou vrstvu, aby se vzácná kuřička dostala k hornině hadec, na níž je závislá, řekl dnes novinářům generální ředitel Lesů ČR Dalibor Šafařík.",69.53571428571429,0.5968992248062015,316.08801020408157,0.1948955383540112,0.39589738158010634
+23,cs-de_DE_#_news_#_ceska_televize-cs.156247_#_0,Jak se stal hastrman v Rokytnici ševcem,78.78571428571429,0.3961240310077519,612.9897959183673,0.38584607862760983,0.39098505481768087
+24,cs-de_DE_#_edu_#_edu08512_#_0,"Přetáhni základní znaky k nelétavým ptákům.
+PŠTROSI
+TUČŇÁCI
+potrava ryby, korýši, hlavonožci
+křídla mají funkci ploutví
+silné nohy
+tělo uzpůsobené k plavání
+tělo uzpůsobené k běhu
+všežravec
+vejce zahřívají v záhybu kůže
+malá hlava
+dlouhý krk
+mohutné tělo
+silná vrstva podkožního tuku
+torpédovitý tvar těla
+Přetáhni charakteristické znaky k jednotlivým ptákům.
+emu hnědý
+nandu pampový
+tučňák císařský
+pštros dvouprstý
+všežravý
+dokáže běžet rychlostí 70 km/h
+výskyt: Afrika
+výška až 250 cm
+výška 150–190 cm
+výskyt: Antarktida
+stepní pták
+masožravý
+býložravý
+žije ve velkých koloniích
+výskyt: Jižní Amerika
+výška 90–140 cm
+hustě opeřený krk
+výška až 120 cm
+výskyt: Austrálie",75.32142857142857,0.47131782945736445,492.9502551020409,0.3086433931741443,0.38998061131575434
+25,cs-de_DE_#_speech_#_vid_DmbQP3rlSh0_#_0,"To je boží fakt, jak to úplně krásně kvete, ty květy, to je tak krásné to jaro, vtěličky tady. Jak jsem měla městem dneska, jak to všechno kvete, a i růžověně, které ty stromy, tak to je úplně nádhera. To úplně miluju, to je nejkrásnější období. Krásné úplně. To by člověk nepozoroval tu přírodu nejradši pořád. Prostě úplně super. Chození boso, to je prostě bomba, úplně balonek, že třeba posekat zahradu.",68.46428571428571,0.6201550387596901,257.23086734693874,0.15704193231895988,0.388598485539325
+26,cs-de_DE_#_speech_#_vid_0VTV_tXxpNM_#_0,"Samozřejmě to mají ty firmy, tam nemají, co by dali jinýho, tak to tam nechali asi. Ale zrovna někomu to může dělat do zplatný jméno, jako třeba tomu drahošovi. No, což se připomnělo ty včerejší demonstrace, ale o tom to dneska není, takže tak. Tak, vítám u dalšího vstupu, už v praze, v takovémto areálu. Už máme po pohovoru, já jsem kvůli tomu, jak nasnižilo, takže samozřejmě kalamita v praze, tak jsem dorazil pozdě, ale bylo to v pohodě. Takže pohovor úspěšný, budu do druhého kola přišít jeden, což mi narušilo úplně nějaké pracovní plány, ale s tím si poradím.",77.60714285714286,0.42170542635658914,548.4349489795918,0.34432802958461434,0.3830167279706017
+27,cs-de_DE_#_dialogue_#_MUL2305_#_0,"Cestujete do Cambridge a těšíte se na místní turistické atrakce
+Hledáte <i>místa k návštěvě</i> ve městě. Atrakce by měla být typu <i>zábava</i>
+Ujistěte se, že dostanete <i>poštovní směrovací číslo</i>, <i>adresu</i> a <i>oblast</i>
+Také hledáte <i>restauraci</i>. Restaurace by měla podávat <i>britská</i> jídla a měla by být v <i>střední</i> cenové kategorii
+Jakmile najdete <i>restauraci</i>, kterou chcete, rezervujte stůl pro <i>7 osob</i> na <i>19:30</i> v <i>pátek</i>
+Ujistěte se, že dostanete <i>referenční číslo</i>
+Také chcete zarezervovat <i>taxi</i>, abyste se přepravili mezi dvěma místy
+Chcete se ujistit, že dorazí k restauraci <i>včas podle rezervace</i>
+Ujistěte se, že dostanete <i>kontaktní číslo</i> a <i>typ vozu</i>",81.53571428571429,0.33643410852713174,668.3737244897959,0.42146590845701265,0.37895000849207217
+28,cs-de_DE_#_edu_#_edu02178_#_4,"Nejvyšší polohy hor tvoří stupeň alpinských luk.
+Kterou přírodní krajinu tyto louky připomínají?
+prérii
+Rostou zde většinou mechy a lišejníky, vřesy, pokroucené zakrslé vrby, nerostou zde stromy.
+Je zde chladné podnebí.",79.75,0.3751937984496125,594.2053571428571,0.37376498344560993,0.3744793909476112
+29,cs-de_DE_#_speech_#_vid_tYQUxfKatQ0_#_0,"Měřím tady teďka na 200kω rozsah a motor je přerušený, tady mám teďka over range stále, což je jednoduše opravu, proč nebudu se hledat problém ve drátech a jenom změním motor. Takže já se podívám, který z těchto motorů je mu nejpodobnější, nebo který je ideálně úplně stejný a tyto dva kusy vyměním. Tak nový motor je na svém místě, jinak teda funkční motor má odporověnutí asi nějakých 12kω, takže já teďka mikrovonku sestavím, což bude asi nejsložitější udala z celého pravy a podíváme se, jestli už se tady jich bude točit. Tak všechno je poskládáno a mikrovonka už doufám bude fungovat. Teď tam mám skleničku vody, já to samozřejmě nebudu zařívat až kvaru, ale je to spíš proto, abych to nepouštěl prázdný, aby tam něco bylo. Tak já tady zhasnu na ti vidět dovnitř a pak si to zkusím opustit, jestli se bude tady jich točit. Takže pouštím.",74.75,0.48372093023255824,416.88392857142856,0.2597218074965627,0.3717213688645605
+30,cs-de_DE_#_social_#_social48_#_2,"Pavlínka Syrova: „DIVÍTE SE, ŽE PROTI TOMUHLE PÁN PUTIN BOJUJE???? VLÁDO, TOHLE JE NA OKAMŽITOU DEMISI!!!! OKAMŽITOU DEMISI!!! PÁVKU, ABDIKACI! HNED!!! LID ŽÁDÁ SPRAVEDLNOST!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Nechceme válku. Chceme mír.“
+Jolda Tokany: „Nikoho nikdy neházím do jednoho pytle, nesnáším z důvodů blízkým naší rodině kolektivní vinu, ale tohle si vyžaduje nekompromisní pomstu, libtardi nic řešit nebudou, vše nehodící zametou dle jejich zvyků pod koberec… zub za zub, oko za oko… jinak žádný respekt banderovců nikdo nikdy nezískal.“",78.85714285714286,0.3945736434108527,551.6938775510204,0.3464239892634362,0.37049881633714443
+31,cs-de_DE_#_news_#_ct24-cs.206310_#_0,Jak se stal hastrman v Rokytnici ševcem,80.0,0.36976744186046523,589.9285714285714,0.3710143952643616,0.3703909185624134
+32,cs-de_DE_#_speech_#_vid_Y6QKUqCqDNI_#_0,"A jakoby když jsem odsud stál v pohodě, chvilku potom taky v pohodě, ale prostě jsem začal zaspat hnedka usínat, že když tam to cukru bylo dost, tak prostě to ani náhodou nepřipomnělo. Další varianta jsou samozřejmě energy drinky, což je prakticky to samý, to je hlavně cukry, kofeína, tak. Který fungujou, taky asi zafungujou, je to vyloženě tohle jejich ten jakoby claim, že takhle fungujou. Ale to už já nedoporučuju z toho důvodu, že to je prostě jak písenstvo a nic z toho moc nemají. Takže to jsem prošel asi všechno, co znám. Pak je dobrý ještě spát, jakoby nemít spánkový deficit.",70.67857142857143,0.572093023255814,272.093112244898,0.1666004928581507,0.36934675805698236
+33,cs-de_DE_#_speech_#_vid_tCOeLB18d1s_#_0,"I tak umí tyhlens ty hodnoty zvýšit. Myslel jsem si, že budu frajér, ne, a že konečně si dám nějakýho pořádnýho sejra po dlouhý době a že do ženu kalorie, tyvole, něčím dobrým, na co furt koukám v ledníčce u manželky, no a to zase taky není, že, to nemůžu použít, protože to prostě není živočišný zdroj tuku. Tahle dieta prostě nechce, abych se vrátil, tyvogo, do svého mladejch, krásnejch let, kdy jsem bagroval rohlíky s roztaveným sejrem, politejma, tatarkou. Prostě ne. Už když jsem byl nakupovat na startu, tak jsem chtěl normálně poslat nějaký rybičky do sebe, kromě obyčejného lososa a makrely a měl jsem chuť zrovna na rybičky v rajčatový omáci, o kterých po každý chodíme, říkám si, good, teď je ten čas. A pak jsem si uvědomil, že ne, je tam totiž kapánek rajčat a oliváče, to nemůžu.",75.39285714285714,0.46976744186046526,421.1849489795918,0.26248798207072604,0.3661277119655957
+34,cs-de_DE_#_edu_#_edu08482_#_0,"Perlotvorka je mořský mlž.
+Pokud do schránky vnikne cizí předmět, např. zrnko písku, vyvolá to obrannou reakci těla živočicha.
+Začne vylučovat perleť, která obaluje cizí předmět – vzniká perla.
+Velevrub malířský má velmi malé lastury.
+Potravu mlžů tvoří obojživelníci.
+Perlotvorka žije v moři.
+Larvy škeble jsou vnějšími parazity ryb.
+Ke spojení lastur pomáhá pružný sval a vaz.
+Vybranou pochoutkou je mořský mlž ústřice.
+Lesklá vrstva na vnitřní straně pevné schránky je tvořena křemenem.
+Tělo mlžů je tvořeno ulitou.
+Škeble nasává vodu do plášťové dutiny vstupním otvorem.
+Škeble rybničná žije na dně stojatých vod.
+Mlži mají pouze svalnatou nohu, nemají zřetelnou hlavu.
+Mlži dýchají plicním vakem.
+Škeble je odděleného pohlaví.
+Tělo mlžů nekryje plášť.
+Pevnou schránku mlžů tvoří dvě lastury.
+Hřebenatka jakubská tvoří perly.
+Mlži žijí pouze ve sladkých vodách.
+Ústní otvor u škeble rybničné je hned u vstupního otvoru do plášťové dutiny.",71.60714285714286,0.551937984496124,292.72066326530614,0.1798669742381535,0.3659024793671387
+35,cs-de_DE_#_news_#_ceska_televize-cs.156327_#_0,"Vypravěčem spletitého příběhu, točícího se kolem ukradeného velkého diamantu, je neúspěšný boxerský promotér zvaný Turek, který se k divokému kolotoči událostí připletl se svým komplicem Tommym vlastně náhodou. Ukradený diamant má předat kurýr Franky Čtyřprsťák americkému šéfovi Avimu. O drahokam však mají zájem další gangsteři a zlodějíčci, mezi nimi především bezohledný ruský zabiják Boris Břitva, černošští provozovatelé zastavárny Vincent a Solomon a nakonec i nemilosrdný gangster a organizátor nelegálních boxerských zápasů Kruťák. V nepřehledné hře o drahocenný lup sehraje významnou roli také irsko-cikánský boxerský šampion Mickey, jehož podivnému dialektu jen málokdo rozumí. Není divu, že při tomto počtu účastníků v pomyslném ringu v tomhle zápase brzy nejde o vítězství, ale o holé přežití.",69.0,0.6085271317829458,190.28571428571428,0.113986572732672,0.3612568522578089
+36,cs-de_DE_#_edu_#_edu08492_#_0,"Doplněním správných slov do vět vytvoříš charakteristiku brouků a jejich zástupců.
+Brouci jsou důležitou skupinou hmyzu.
+Jejich ústní ústrojí je kousací.
+První pár křídel je přeměněn v krovky.
+Druhý pár křídel je blanitý.
+Vývin brouků je nepřímý s proměnou dokonalou.
+Brouci mohou žít v různých prostředích.
+Potápník a vodomil žijí ve vodě.
+Velké škody v lese způsobuje lýkožrout smrkový.
+Kovově lesklé tělo má zlatohlávek.
+Jeho příbuzný z Afriky je vruboun posvátný neboli skarabeus (znáš z dějepisu).
+Náš největší brouk je roháč obecný.
+V noci vidíme světlo, které vytváří světluška menší.
+Nať a listy brambor jsou potrava pro mandelinku bramborovou, která byla do Evropy dovezena z Ameriky.
+Potravou slunéček sedmitečných jsou mšice.
+Nápadně dlouhými tykadly se vyznačují tesaříci.",75.0,0.47829457364341094,379.39285714285717,0.23560965765718464,0.3569521156502978
+37,cs-de_DE_#_speech_#_vid_NxMnsb0JX24_#_0,"Takže to vlastně pocházím a jinak nic, nemám už pak dál jako šajna. No zatím jsem si nad tím nepřemýšlela, ale něco vymyslím. Jo, já se těším, jsou tam trošku nervy, ale těším se, že to bude takový příjemný poket, sezeníčko.",76.10714285714286,0.4542635658914729,374.1135204081633,0.23221428501114014,0.3432389254513065
+38,cs-de_DE_#_news_#_ctk.cz.120672_#_5,"Prvním pomyslným ostrovem obnovy přírody je 45hektarová plocha v hospodářském lese nedaleko národní přírodní památky Hadce u Želivky, kde roste kuřička hadcová uvedená na seznamu kriticky ohrožených rostlin. Roste jen v Čechách, a to na dvou místech. Lesy v Bernarticích-Borovsku jsou jedním z nich. V minulosti se tam osvědčila lesní pastva, návratu ohrožených rostlin pomáhá stádo ovcí. Podle jednatele Českého svazu ochránců přírody Vlašim Karla Kříže se za posledních 15 let podařilo populaci kuřičky zvýšit třikrát, předtím byla téměř na vyhynutí.",71.21428571428571,0.5604651162790699,194.34693877551018,0.11659852405062457,0.33853182016484723
+39,cs-de_DE_#_news_#_ct24-cs.205786_#_3,"Titul pták roku ČSO uděluje zpravidla známým druhům, které lze potkat na mnoha místech republiky. ""Konipas horský upřednostňuje především horské a kopcovité oblasti, které dávají vodním tokům potřebný spád a charakter řečišť, nevyhýbá se však ani nižším polohám, a tak na něj můžeme narazit téměř kdekoli. V Polabí a v Dolním Povltaví, stejně jako na jihu Moravy,"" uvedl ředitel ČSO Zdeněk Vermouzek. Konipas podle něj v Česku hnízdí i v nadmořských výškách pod dvě stě metrů.
+Loni byl ptákem roku rehek domácí, malý pěvec lidově zvaný kominíček.",76.96428571428571,0.4356589147286824,384.5165816326531,0.23890494925398598,0.33728193199133416
+40,cs-de_DE_#_speech_#_vid_eUsprvdS_js_#_0,"Je to už tedy doba moderní, kdy už se na tom náměstí svítilo. V těch předchozích dobách barokních, renezančních, středověkých takovéto osvětlení na náměstí nebylo. To světlo maximálně procházelo z těch pocínních domů nebo z těch domů, kde se svítilo. Ta fotografie je velmi zajímavá tím, že děti vždycky rádi pouzují fotografům. I před těmi zhruba stolety.",80.25,0.3643410852713179,479.7767857142857,0.3001709581201825,0.3322560216957502
+41,cs-de_DE_#_news_#_reflex.cz.16563_#_3,"Richard Klíčník: Fantasy sága R. F. Kuang s názvem Maková válka (vyd. Host) je u konce, a to i v audiopodobě (vyd. OneHotBook). Její četba či poslech jsou masochistické guilty pleasure. První dva díly jsou jak kvůli plochosti obřího množství postav, nesnesitelné hlavní hrdince a snad ještě nesnesitelnějšímu překladu Daniely Orlando k nepřežití. Jde o překlad překladu, originál je čínsky, česká verze vznikla na základě hojně kritizovaného anglického převodu. Kupodivu díl třetí je na tom po dějové stránce podstatně lépe (překlad jen o fous). Autorka už vyvraždila většinu otravných postav a zbylým může věnovat dost prostoru, aby mohly čtenáři lézt na nervy ještě víc. Vyzdvihnout musíme výkon Terezy Dočkalové, která četbu tří rozměrných knih přežila. Ale pokud rádi trpíte u béčkových fantasy, berte tohle Never more jako doporučení!",73.67857142857143,0.5069767441860465,254.09311224489798,0.15502390460471266,0.33100032439537963
+42,cs-de_DE_#_speech_#_vid_I3UGDXbIfxw_#_0,"Tyjo, co jsem řešila, jako. A já jsem to taky jako hodně odkládala, já jsem třeba odkládala na koupení teletenky, že nějakej tam jako sabotér toho strachu byl. Když jsem se na to těšila, tak tam byly ty smíšený emoce, ale jak jsi řekla, já často taky říkávám, že bez temnoty nemohou hvězdy zářit. Takže ono je to v pořádku, cítit ten strach, že strach je náš ochránce, nás chrání. A pokud tam je, tak zároveň s ním je tam v ruce i odvaha, že to je opětčná polarita strachů. Takže přesně, pak jsem se ohlídla zpět a říkám, tyjo, jsem zůstal. Odvaha tam byla, žiju si ve španělsku a pak jsem tam nakonec zůstala a žila jsem tam tři roky. Takže děkuju za měj doporučenou, no.",70.32142857142857,0.5798449612403102,135.16454081632654,0.07853573221592566,0.3291903467281179
+43,cs-de_DE_#_news_#_reflex.cz.16563_#_2,"Marek Gregor: Boje o zachování jedné z posledních klasických nádražních restaurací utichly. Zánik proslulé dejvické nádražky hrozil opakovaně, ale vždycky se místním z Prahy 6 místo skvělých koncertů s jedinečnou atmosférou a piva za slušnou cenu, kde kdysi vznikl legendární slogan Miloš Frýba na Hrad, podařilo ochránit. Nyní se zdá, že éra tamních bigbítů definitivně končí, Správa železnic vyhlásila vítěze výběrového řízení, kterým se stala společnost Spojka Events, provozující mimo jiné Fantovu kavárnu na hlavním nádraží.",75.46428571428571,0.4682170542635661,300.2308673469388,0.18469711536883965,0.32645708481620284
+44,cs-de_DE_#_speech_#_vid_KL6WSkyezCw_#_0,"Nedefinuje si ty náklady, které tam třeba má. Protože samozřejmě jako financer máte náklady, které třeba často za vás zaměstnávatel řeší, pokud jste zaměstnáný. Jako oseveček, v česku definovaný freelancer, nebo osova samozřejmě výhledně činná, tak v podstatě odvádíte nějaký daní, odvádíte nějaký strukturně sociální. Většina těch freelanců vlastně funguje v rámci paušálu, to znamená, že tam máte nějakých 60%, na které říkáte, že jsou náklady, 40 % vašich výdělků je váš reálný výdělek a 15 % z těch 40 daníte. To znamená, že na to výsledko není tak moc. Ono, jestli to člověk propočítá, tak to vychází docela hezky. Ale to vlastně není téma dnešní přednášky.",73.25,0.516279069767442,216.95535714285714,0.13113898796730464,0.3237090288673733
+45,cs-de_DE_#_speech_#_vid_hKkues3pJ_I_#_0,"Holy moly, ať jde snihulka i s celým pantheonem, trpaj zlíku pěkně do prdale, this is the way. Takže dámy a pánové, to jsem já, tomny, dnes si pokecáme o novém přírostku ze řady miniserii na netflixu a pro začátek je dobré říct si, že netflix s těmito miniseriemi poměrně jede bomby, co si budeme. Máme tady přece jenom počiny jako queen's gambit, painkiller, nebo já nevím, třeba jeffrey dahmer. Prostě pointou je, že v tomhle netflix opravdu válí a třeba by se mohli konečně vysát na kůdovění mých oblíbených knižních sérií, prezím, ale o tom někdy jindy. V tomhle videu nás totiž čeká rozebrání počinů, který v momentální chvíli dost hýbe internetem, řekneme si proč je tak zajímavý a inovativní a samozřejmě jestli a proč stojí za vaši pozornost. Video obsahuje spojlery.",76.5,0.4457364341085272,325.35714285714283,0.20085692347573275,0.32329667879213
+46,cs-de_DE_#_edu_#_edu08500_#_0,"Mihule potoční je v Česku kriticky ohrožený druh.
+Malé tělní otvory za hlavou na boku těla mihule jsou žaberní otvory, které slouží k dýchání.
+Rozhodni, zda se jedná o pravdivé, nebo nepravdivé tvrzení. Odpovíš-li na vše dobře, odkryje se obrázek.
+Larvy mihule se nazývají minohy.
+Kruhoústí mají chrupavčitou kostru.
+Potravou mihule říční je plankton.
+Mihule mají velké zuby v několika řadách.
+Mihule říční žije v moři u severoevropských břehů.
+Ústa mihule jsou tvořena kruhovitou přísavkou.
+Mihule mořská parazituje na rybách.
+Mihule mořská žije v tropických oblastech.
+Mihule mořská je menší než mihule říční.
+Mihule říční žije v řekách a tře se v potocích.
+Dospělci mihule potoční se živí planktonem.
+Mihule dýchají celým povrchem těla.
+Mihule má hadovitý tvar těla.
+Mihule nemají čelisti.",78.03571428571429,0.41240310077519376,374.40943877551024,0.23240460307199598,0.3224038519235949
+47,cs-de_DE_#_edu_#_edu34434_#_0,"Na obrázku vidíte císaře Josefa II., který je znám velkým množstvím svých reforem ve prospěch obyvatelstva.
+Za svůj život vydal nad 6 000 nařízení, mezi které patří například toleranční patent, zrušení nevolnictví či cenzury.
+Některá nařízení byla také úsměvná.
+Například zákaz nošení korzetů či zákaz hlubokého klanění.
+Lidé se směli přestěhovat pouze do sousedního panství.
+Poddaný mohl jít svobodně studovat mimo hranice panství.
+Zrušení nevolnictví je ukázka osvícenského absolutismu.
+Po vydání patentu o zrušení nevolnictví se lidé stěhovali do měst za prací.
+Poddaní se nesměli svobodně ženit ani po vydání patentu o zrušení nevolnictví.
+Po zrušení nevolnictví se poddaní mohli bez svolení vrchnosti ženit.
+Ke zrušení nevolnictví došlo ve 20. století.
+Patent o zrušení nevolnictví neruší povinnost robotovat.
+Poddaný si díky zrušení nevolnictví vyměnil roli s vrchností.
+Patent o zrušení nevolnictví vešel v platnost v roce 1781.
+Zrušení nevolnictví nedovolovalo poddaným se stěhovat do měst.
+Patent o zrušení nevolnictví nařizuje vrchnosti pracovat na polích.
+Po zrušení nevolnictví se mohli lidé volně stěhovat.
+Poddaní již nemuseli pracovat pro vrchnost.
+Patent o zrušení nevolnitví vydala Marie Terezie.
+Patent o zrušení nevolnictví vydal Josef II.",79.71428571428571,0.37596899224806224,410.6683673469388,0.2557243078821209,0.3158466500650916
+48,cs-de_DE_#_edu_#_edu08494_#_0,"Tělo hmyzu se dělí na...
+hlavu a hrudozáď
+hlavu, hruď a zadeček
+hlavohruď a zadeček
+Na hrudi vyrůstají…
+2 páry končetin
+4 páry končetin
+Většina hmyzu má…
+2 páry křídel
+nemá křídla
+3 páry křídel
+Hmyz dýchá…
+plicním vakem
+Cévní soustava hmyzu je…
+otevřená
+zakrnělá
+uzavřená
+Nervová soustava hmyzu je...
+žebříčkovitá
+rozptýlená
+provazcovitá
+Nymfa je název pro…
+larvu motýla
+larvu mravkolva
+larvu vážky
+Vývin nepřímý s proměnou nedokonalou má tato stádia…
+vajíčko – larva – kukla – dospělý jedinec
+larva (několik) – kukla – dospělý jedinec
+vajíčko – larva (několik) – dospělý jedinec
+Vývin nepřímý s proměnou dokonalou má tato stádia:…
+vajíčko – kukla (několik) – dospělý jedinec",77.67857142857143,0.42015503875968996,341.3073979591837,0.2111152310231564,0.3156351348914232
+49,cs-de_DE_#_news_#_reflex.cz.16578_#_3,"Vyhlašování Cen české filmové kritiky v sobotu 1. února v prostoru Archa+ moderoval Jan Špaček - a i když byli v kategorii Cena innogy pro objev roku nominováni Kristina Dufková za animovaný Život k sežrání, Alexander Kashcheev za dokument Ještě nejsem, kým chci být a (vítězný) Martin Pavol Repka za hraný film Od marca do mája, ""objevem roku"" patnáctého ročníku akce se stal právě i Špaček. Projev čerstvě šestadvacetiletého komika nemusí být pro každého, satirické jehličky v něm jsou někdy schované až zákeřně a Špačkovo moderování tiskových konferencí festivalu dokumentů Ji.hlava bývalo k chytání za hlavu trapností (jistě záměrně). Ale omezení daná ceremoniálem v přímém přenosu mu zjevně pomohla k většímu soustředění a důstojnost večera k vlídnější poloze. Co ale Špaček má v sobě nezávisle na žánru a příležitosti, je pohotovost, s jakou reaguje na osoby, s nimiž mluví, a schopnost udržovat linky průběžných vtipů - třeba s tím, že by ocenění neměli děkovat svým rodinám. Kouzelné byly přednahrané skeče s představiteli opomíjených filmových profesí, jako jsou kašéři nebo lidé od stavby. Scénka ""tréninku"" s nominanty právě na Objev roku by obstála i sama o sobě jako krátký film. Podívejte se sami - záznam udílení je k vidění na iVysílání České televize.",72.17857142857143,0.5395348837209303,149.48596938775512,0.087746470092173,0.3136406769065516
+50,cs-de_DE_#_news_#_ct24-cs.205786_#_5,"Konipas horský je už druhý z čeledi konipasovitých, kterému ČSO udělila titul ptáka roku. V roce 1999 ho získal konipas bílý, který je známější a početnější než konipas horský. Konipas bílý je černobílý, konipas horský mnohem pestřejší. Žlutou spodinu těla kryje shora popelavě šedý kabátek. Zpěv konipasa horského tvoří řada krátkých, ostrých tónů, které jsou dobře slyšitelné i přes zurčení vody.",77.89285714285714,0.4155038759689924,339.11352040816325,0.20970425229612172,0.31260406413255704
