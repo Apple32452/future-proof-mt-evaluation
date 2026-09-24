@@ -1,0 +1,15 @@
+language_pair,segments,translation_systems,human_scored_systems,mean_scored_systems_per_segment,median_scored_systems_per_segment,min_scored_systems_per_segment,max_scored_systems_per_segment,observed_sentence_system_cells,human_score_coverage,avg_annotations_per_scored_cell
+cs-de_DE,231,41,21,21,21.0,21,21,4851,1.0,2.0
+en-cs_CZ,212,43,20,20,20.0,20,20,4240,1.0,2.0
+cs-uk_UA,225,43,19,19,19.0,19,19,4275,1.0,2.0
+en-sr_Cyrl_RS,206,33,19,19,19.0,19,19,3914,1.0,2.0
+en-is_IS,202,34,19,19,19.0,19,19,3838,1.0,2.0
+en-ru_RU,200,41,19,19,19.0,19,19,3800,1.0,2.0
+en-ar_EG,199,38,19,19,19.0,19,19,3781,1.0,2.0
+en-uk_UA,199,43,19,19,19.0,19,19,3781,1.0,2.0
+en-zh_CN,198,39,19,19,19.0,19,19,3762,1.0,2.0
+en-et_EE,190,39,19,19,19.0,19,19,3610,1.0,2.0
+en-bho_IN,189,36,19,19,19.0,19,19,3591,1.0,2.0
+en-ja_JP,189,44,19,19,19.0,19,19,3591,1.0,2.0
+en-mas_KE,185,28,19,19,19.0,19,19,3515,1.0,2.0
+en-it_IT,215,33,18,18,18.0,18,18,3870,1.0,2.0

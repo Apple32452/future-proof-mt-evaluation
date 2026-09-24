@@ -1,0 +1,28 @@
+{
+  "language_pair": "cs-de_DE",
+  "seed": 42,
+  "dev_systems": [
+    "Algharb",
+    "Claude-4",
+    "CommandA",
+    "CommandA-MT",
+    "DeepSeek-V3",
+    "GPT-4.1",
+    "Gemma-3-12B",
+    "Gemma-3-27B",
+    "Mistral-Medium",
+    "SRPOL",
+    "Shy",
+    "TowerPlus-9B",
+    "Wenyiil",
+    "Yolu"
+  ],
+  "test_systems": [
+    "CUNI-MH-v2",
+    "GemTrans",
+    "Gemini-2.5-Pro",
+    "IRB-MT",
+    "Laniqo",
+    "UvA-MT"
+  ]
+}
