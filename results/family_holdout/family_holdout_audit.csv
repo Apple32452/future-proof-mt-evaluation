@@ -1,0 +1,57 @@
+language_pair,segments,total_mt_systems,family,heldout_family_systems,remaining_dev_systems,eligible,systems
+cs-de_DE,231,20,CommandA,2,18,True,"CommandA, CommandA-MT"
+cs-de_DE,231,20,EuroLLM,2,18,True,"CUNI-MH-v2, Laniqo"
+cs-de_DE,231,20,Gemma,5,15,True,"GemTrans, Gemma-3-12B, Gemma-3-27B, IRB-MT, UvA-MT"
+cs-de_DE,231,20,Qwen,3,17,True,"Algharb, Wenyiil, Yolu"
+en-cs_CZ,212,19,CommandA,2,17,True,"CommandA, CommandA-MT"
+en-cs_CZ,212,19,EuroLLM,2,17,True,"CUNI-MH-v2, Laniqo"
+en-cs_CZ,212,19,Gemma,3,16,True,"GemTrans, Gemma-3-27B, UvA-MT"
+en-cs_CZ,212,19,Qwen,3,16,True,"Algharb, Wenyiil, Yolu"
+cs-uk_UA,225,18,CommandA,2,16,True,"CommandA, CommandA-MT"
+cs-uk_UA,225,18,EuroLLM,1,17,False,Laniqo
+cs-uk_UA,225,18,Gemma,4,14,True,"GemTrans, Gemma-3-27B, IRB-MT, UvA-MT"
+cs-uk_UA,225,18,Qwen,3,15,True,"Algharb, Wenyiil, Yolu"
+en-sr_Cyrl_RS,206,18,CommandA,1,17,False,CommandA-MT
+en-sr_Cyrl_RS,206,18,EuroLLM,0,18,False,
+en-sr_Cyrl_RS,206,18,Gemma,4,14,True,"GemTrans, Gemma-3-12B, IRB-MT, UvA-MT"
+en-sr_Cyrl_RS,206,18,Qwen,0,18,False,
+en-is_IS,202,18,CommandA,1,17,False,CommandA-MT
+en-is_IS,202,18,EuroLLM,0,18,False,
+en-is_IS,202,18,Gemma,4,14,True,"GemTrans, Gemma-3-12B, IRB-MT, UvA-MT"
+en-is_IS,202,18,Qwen,0,18,False,
+en-ru_RU,200,18,CommandA,1,17,False,CommandA-MT
+en-ru_RU,200,18,EuroLLM,1,17,False,Laniqo
+en-ru_RU,200,18,Gemma,4,14,True,"GemTrans, Gemma-3-27B, IRB-MT, UvA-MT"
+en-ru_RU,200,18,Qwen,3,15,True,"Algharb, Wenyiil, Yolu"
+en-ar_EG,199,18,CommandA,2,16,True,"CommandA, CommandA-MT"
+en-ar_EG,199,18,EuroLLM,0,18,False,
+en-ar_EG,199,18,Gemma,3,15,True,"GemTrans, IRB-MT, UvA-MT"
+en-ar_EG,199,18,Qwen,3,15,True,"Algharb, Wenyiil, Yolu"
+en-uk_UA,199,18,CommandA,2,16,True,"CommandA, CommandA-MT"
+en-uk_UA,199,18,EuroLLM,1,17,False,Laniqo
+en-uk_UA,199,18,Gemma,3,15,True,"GemTrans, IRB-MT, UvA-MT"
+en-uk_UA,199,18,Qwen,3,15,True,"Algharb, Wenyiil, Yolu"
+en-zh_CN,198,18,CommandA,1,17,False,CommandA-MT
+en-zh_CN,198,18,EuroLLM,1,17,False,Laniqo
+en-zh_CN,198,18,Gemma,3,15,True,"GemTrans, IRB-MT, UvA-MT"
+en-zh_CN,198,18,Qwen,3,15,True,"Algharb, Wenyiil, Yolu"
+en-et_EE,190,18,CommandA,1,17,False,CommandA-MT
+en-et_EE,190,18,EuroLLM,1,17,False,Laniqo
+en-et_EE,190,18,Gemma,4,14,True,"GemTrans, Gemma-3-27B, IRB-MT, UvA-MT"
+en-et_EE,190,18,Qwen,3,15,True,"Algharb, Wenyiil, Yolu"
+en-bho_IN,189,18,CommandA,1,17,False,CommandA
+en-bho_IN,189,18,EuroLLM,0,18,False,
+en-bho_IN,189,18,Gemma,2,16,True,"Gemma-3-27B, IRB-MT"
+en-bho_IN,189,18,Qwen,3,15,True,"Algharb, Wenyiil, Yolu"
+en-ja_JP,189,18,CommandA,1,17,False,CommandA-MT
+en-ja_JP,189,18,EuroLLM,1,17,False,Laniqo
+en-ja_JP,189,18,Gemma,2,16,True,"GemTrans, UvA-MT"
+en-ja_JP,189,18,Qwen,3,15,True,"Algharb, Wenyiil, Yolu"
+en-mas_KE,185,18,CommandA,2,16,True,"CommandA, CommandA-MT"
+en-mas_KE,185,18,EuroLLM,0,18,False,
+en-mas_KE,185,18,Gemma,1,17,False,Gemma-3-12B
+en-mas_KE,185,18,Qwen,0,18,False,
+en-it_IT,215,18,CommandA,2,16,True,"CommandA, CommandA-MT"
+en-it_IT,215,18,EuroLLM,1,17,False,Laniqo
+en-it_IT,215,18,Gemma,4,14,True,"GemTrans, Gemma-3-12B, IRB-MT, UvA-MT"
+en-it_IT,215,18,Qwen,0,18,False,
