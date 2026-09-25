@@ -1,0 +1,2702 @@
+[
+  {
+    "split_id": 0,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "IRB-MT",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CommandA",
+      "CommandA-MT",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Mistral-Medium",
+      "TowerPlus-9B"
+    ]
+  },
+  {
+    "split_id": 1,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Mistral-Medium",
+      "SRPOL",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Laniqo",
+      "Shy",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 2,
+    "dev_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Algharb",
+      "CommandA",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Wenyiil"
+    ]
+  },
+  {
+    "split_id": 3,
+    "dev_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "Algharb",
+      "CommandA",
+      "GemTrans",
+      "Mistral-Medium",
+      "SRPOL",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 4,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CommandA",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "Mistral-Medium",
+      "TowerPlus-9B"
+    ]
+  },
+  {
+    "split_id": 5,
+    "dev_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "Algharb",
+      "GemTrans",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 6,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "CommandA-MT",
+      "Gemma-3-12B",
+      "SRPOL",
+      "Shy",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 7,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Shy",
+      "TowerPlus-9B",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "IRB-MT",
+      "Mistral-Medium",
+      "SRPOL",
+      "UvA-MT"
+    ]
+  },
+  {
+    "split_id": 8,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "SRPOL",
+      "TowerPlus-9B",
+      "Yolu"
+    ],
+    "test_systems": [
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "Shy",
+      "UvA-MT",
+      "Wenyiil"
+    ]
+  },
+  {
+    "split_id": 9,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "CommandA",
+      "Mistral-Medium",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 10,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA-MT",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "CommandA",
+      "DeepSeek-V3",
+      "IRB-MT",
+      "Mistral-Medium",
+      "Wenyiil"
+    ]
+  },
+  {
+    "split_id": 11,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "CommandA-MT",
+      "GPT-4.1",
+      "Gemma-3-12B",
+      "SRPOL",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 12,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "TowerPlus-9B",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "GemTrans",
+      "SRPOL",
+      "Shy",
+      "UvA-MT",
+      "Wenyiil"
+    ]
+  },
+  {
+    "split_id": 13,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "Mistral-Medium",
+      "TowerPlus-9B",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "DeepSeek-V3",
+      "Gemma-3-27B",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "UvA-MT"
+    ]
+  },
+  {
+    "split_id": 14,
+    "dev_systems": [
+      "Algharb",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "GPT-4.1",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "TowerPlus-9B"
+    ]
+  },
+  {
+    "split_id": 15,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "CommandA",
+      "GPT-4.1",
+      "GemTrans",
+      "IRB-MT",
+      "Mistral-Medium"
+    ]
+  },
+  {
+    "split_id": 16,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "DeepSeek-V3",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CommandA-MT",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemma-3-12B",
+      "Mistral-Medium",
+      "TowerPlus-9B"
+    ]
+  },
+  {
+    "split_id": 17,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "UvA-MT",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "CommandA",
+      "GPT-4.1",
+      "Mistral-Medium",
+      "TowerPlus-9B",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 18,
+    "dev_systems": [
+      "Algharb",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Mistral-Medium"
+    ]
+  },
+  {
+    "split_id": 19,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA-MT",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT"
+    ],
+    "test_systems": [
+      "CommandA",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "Gemma-3-27B",
+      "Wenyiil",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 20,
+    "dev_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT"
+    ],
+    "test_systems": [
+      "Algharb",
+      "CommandA",
+      "GemTrans",
+      "Mistral-Medium",
+      "Wenyiil",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 21,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA-MT",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "CommandA",
+      "DeepSeek-V3",
+      "SRPOL",
+      "Shy",
+      "Wenyiil"
+    ]
+  },
+  {
+    "split_id": 22,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "CommandA-MT",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Mistral-Medium",
+      "TowerPlus-9B"
+    ]
+  },
+  {
+    "split_id": 23,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "SRPOL",
+      "Shy"
+    ]
+  },
+  {
+    "split_id": 24,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "CommandA",
+      "GPT-4.1",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Mistral-Medium"
+    ]
+  },
+  {
+    "split_id": 25,
+    "dev_systems": [
+      "CUNI-MH-v2",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Laniqo",
+      "SRPOL",
+      "TowerPlus-9B",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Algharb",
+      "Claude-4",
+      "IRB-MT",
+      "Mistral-Medium",
+      "Shy",
+      "UvA-MT"
+    ]
+  },
+  {
+    "split_id": 26,
+    "dev_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "UvA-MT",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "Algharb",
+      "DeepSeek-V3",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "TowerPlus-9B",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 27,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "DeepSeek-V3",
+      "IRB-MT",
+      "Laniqo",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 28,
+    "dev_systems": [
+      "Algharb",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "Laniqo",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "GPT-4.1",
+      "Gemma-3-27B",
+      "Mistral-Medium",
+      "SRPOL"
+    ]
+  },
+  {
+    "split_id": 29,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Mistral-Medium",
+      "SRPOL",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "CommandA",
+      "GPT-4.1",
+      "Laniqo",
+      "Shy",
+      "Wenyiil"
+    ]
+  },
+  {
+    "split_id": 30,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "TowerPlus-9B"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "IRB-MT",
+      "Shy",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 31,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "SRPOL",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CommandA",
+      "CommandA-MT",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Mistral-Medium",
+      "Shy"
+    ]
+  },
+  {
+    "split_id": 32,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "SRPOL",
+      "Shy",
+      "UvA-MT",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Mistral-Medium",
+      "TowerPlus-9B",
+      "Wenyiil"
+    ]
+  },
+  {
+    "split_id": 33,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "GPT-4.1",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Shy"
+    ]
+  },
+  {
+    "split_id": 34,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Gemma-3-27B",
+      "UvA-MT"
+    ]
+  },
+  {
+    "split_id": 35,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "TowerPlus-9B",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "CommandA",
+      "Gemma-3-27B",
+      "Shy",
+      "UvA-MT",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 36,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "GPT-4.1",
+      "Mistral-Medium",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 37,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "Shy",
+      "TowerPlus-9B",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "DeepSeek-V3",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "SRPOL",
+      "UvA-MT"
+    ]
+  },
+  {
+    "split_id": 38,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Laniqo",
+      "Mistral-Medium",
+      "Shy",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CommandA",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "SRPOL",
+      "TowerPlus-9B"
+    ]
+  },
+  {
+    "split_id": 39,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "IRB-MT",
+      "Mistral-Medium",
+      "Wenyiil"
+    ]
+  },
+  {
+    "split_id": 40,
+    "dev_systems": [
+      "CommandA",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA-MT",
+      "GemTrans",
+      "Gemma-3-12B"
+    ]
+  },
+  {
+    "split_id": 41,
+    "dev_systems": [
+      "Claude-4",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "Laniqo"
+    ]
+  },
+  {
+    "split_id": 42,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Mistral-Medium",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "GPT-4.1",
+      "Gemma-3-12B",
+      "Laniqo",
+      "SRPOL",
+      "Shy"
+    ]
+  },
+  {
+    "split_id": 43,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "UvA-MT",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "CommandA",
+      "GPT-4.1",
+      "Gemma-3-12B",
+      "TowerPlus-9B",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 44,
+    "dev_systems": [
+      "Claude-4",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA",
+      "Gemma-3-27B",
+      "Shy",
+      "TowerPlus-9B"
+    ]
+  },
+  {
+    "split_id": 45,
+    "dev_systems": [
+      "Claude-4",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA",
+      "CommandA-MT",
+      "IRB-MT",
+      "Mistral-Medium"
+    ]
+  },
+  {
+    "split_id": 46,
+    "dev_systems": [
+      "Algharb",
+      "CommandA-MT",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "DeepSeek-V3",
+      "IRB-MT",
+      "TowerPlus-9B"
+    ]
+  },
+  {
+    "split_id": 47,
+    "dev_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Mistral-Medium",
+      "Shy",
+      "UvA-MT",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "Algharb",
+      "CommandA",
+      "Laniqo",
+      "SRPOL",
+      "TowerPlus-9B",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 48,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "CommandA",
+      "Gemini-2.5-Pro",
+      "Mistral-Medium",
+      "UvA-MT",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 49,
+    "dev_systems": [
+      "Algharb",
+      "CommandA",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA-MT",
+      "GemTrans",
+      "Mistral-Medium",
+      "UvA-MT"
+    ]
+  },
+  {
+    "split_id": 50,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B"
+    ],
+    "test_systems": [
+      "CommandA",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 51,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA-MT",
+      "GPT-4.1",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "CommandA",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Mistral-Medium"
+    ]
+  },
+  {
+    "split_id": 52,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CommandA",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil"
+    ]
+  },
+  {
+    "split_id": 53,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Laniqo",
+      "SRPOL",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "CommandA",
+      "IRB-MT",
+      "Mistral-Medium",
+      "Shy",
+      "TowerPlus-9B"
+    ]
+  },
+  {
+    "split_id": 54,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "GemTrans",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "IRB-MT",
+      "Wenyiil"
+    ]
+  },
+  {
+    "split_id": 55,
+    "dev_systems": [
+      "Claude-4",
+      "CommandA",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA-MT",
+      "Gemini-2.5-Pro",
+      "IRB-MT",
+      "UvA-MT"
+    ]
+  },
+  {
+    "split_id": 56,
+    "dev_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Algharb",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium"
+    ]
+  },
+  {
+    "split_id": 57,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA",
+      "CommandA-MT",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "DeepSeek-V3",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Wenyiil"
+    ]
+  },
+  {
+    "split_id": 58,
+    "dev_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "UvA-MT",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Algharb",
+      "GemTrans",
+      "Gemma-3-12B",
+      "Laniqo",
+      "TowerPlus-9B",
+      "Wenyiil"
+    ]
+  },
+  {
+    "split_id": 59,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA-MT",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "CommandA",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "Gemma-3-12B",
+      "Shy"
+    ]
+  },
+  {
+    "split_id": 60,
+    "dev_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Mistral-Medium",
+      "Shy",
+      "TowerPlus-9B",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Algharb",
+      "CommandA",
+      "Gemini-2.5-Pro",
+      "IRB-MT",
+      "SRPOL",
+      "UvA-MT"
+    ]
+  },
+  {
+    "split_id": 61,
+    "dev_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Algharb",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "Gemma-3-12B",
+      "Shy"
+    ]
+  },
+  {
+    "split_id": 62,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Mistral-Medium",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "SRPOL",
+      "Shy"
+    ]
+  },
+  {
+    "split_id": 63,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT"
+    ],
+    "test_systems": [
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GemTrans",
+      "SRPOL",
+      "Wenyiil",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 64,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "Gemma-3-12B",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 65,
+    "dev_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Algharb",
+      "CommandA-MT",
+      "GemTrans",
+      "IRB-MT",
+      "Laniqo",
+      "UvA-MT"
+    ]
+  },
+  {
+    "split_id": 66,
+    "dev_systems": [
+      "Algharb",
+      "CommandA",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA-MT",
+      "Gemma-3-12B",
+      "Mistral-Medium",
+      "UvA-MT"
+    ]
+  },
+  {
+    "split_id": 67,
+    "dev_systems": [
+      "CUNI-MH-v2",
+      "CommandA",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA-MT",
+      "Gemma-3-12B",
+      "Laniqo",
+      "UvA-MT"
+    ]
+  },
+  {
+    "split_id": 68,
+    "dev_systems": [
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "GemTrans",
+      "Gemma-3-27B",
+      "SRPOL",
+      "Shy"
+    ]
+  },
+  {
+    "split_id": 69,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Laniqo",
+      "Mistral-Medium",
+      "Shy",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CommandA",
+      "GemTrans",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "SRPOL",
+      "TowerPlus-9B"
+    ]
+  },
+  {
+    "split_id": 70,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "CommandA",
+      "GemTrans",
+      "Gemma-3-12B",
+      "Mistral-Medium",
+      "TowerPlus-9B"
+    ]
+  },
+  {
+    "split_id": 71,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "GPT-4.1",
+      "GemTrans",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B"
+    ]
+  },
+  {
+    "split_id": 72,
+    "dev_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Algharb",
+      "CommandA-MT",
+      "GemTrans",
+      "IRB-MT",
+      "TowerPlus-9B",
+      "UvA-MT"
+    ]
+  },
+  {
+    "split_id": 73,
+    "dev_systems": [
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "TowerPlus-9B",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Gemma-3-12B",
+      "SRPOL",
+      "Shy",
+      "UvA-MT"
+    ]
+  },
+  {
+    "split_id": 74,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA",
+      "CommandA-MT",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemma-3-12B",
+      "TowerPlus-9B"
+    ]
+  },
+  {
+    "split_id": 75,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "Laniqo",
+      "TowerPlus-9B",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Gemma-3-12B",
+      "IRB-MT",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "UvA-MT"
+    ]
+  },
+  {
+    "split_id": 76,
+    "dev_systems": [
+      "Algharb",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "Gemma-3-12B",
+      "Laniqo",
+      "Wenyiil"
+    ]
+  },
+  {
+    "split_id": 77,
+    "dev_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "Algharb",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "IRB-MT",
+      "UvA-MT",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 78,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "CommandA",
+      "CommandA-MT",
+      "GPT-4.1",
+      "Mistral-Medium",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 79,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT"
+    ]
+  },
+  {
+    "split_id": 80,
+    "dev_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Mistral-Medium",
+      "Shy",
+      "TowerPlus-9B",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "Algharb",
+      "Gemma-3-12B",
+      "Laniqo",
+      "SRPOL",
+      "UvA-MT",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 81,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "SRPOL",
+      "Shy",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "Gemma-3-12B",
+      "Laniqo",
+      "Mistral-Medium",
+      "TowerPlus-9B",
+      "UvA-MT"
+    ]
+  },
+  {
+    "split_id": 82,
+    "dev_systems": [
+      "Claude-4",
+      "CommandA",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "Gemma-3-27B",
+      "Wenyiil"
+    ]
+  },
+  {
+    "split_id": 83,
+    "dev_systems": [
+      "Algharb",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "GPT-4.1",
+      "IRB-MT",
+      "UvA-MT",
+      "Wenyiil"
+    ]
+  },
+  {
+    "split_id": 84,
+    "dev_systems": [
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "Mistral-Medium",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 85,
+    "dev_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "Laniqo",
+      "SRPOL",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Algharb",
+      "CommandA-MT",
+      "Gemma-3-27B",
+      "Mistral-Medium",
+      "Shy",
+      "TowerPlus-9B"
+    ]
+  },
+  {
+    "split_id": 86,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "GemTrans",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Mistral-Medium",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 87,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Mistral-Medium",
+      "Shy",
+      "UvA-MT",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "CommandA-MT",
+      "Laniqo",
+      "SRPOL",
+      "TowerPlus-9B",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 88,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Mistral-Medium",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "GPT-4.1",
+      "IRB-MT",
+      "SRPOL",
+      "Wenyiil",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 89,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Mistral-Medium",
+      "Shy",
+      "UvA-MT",
+      "Yolu"
+    ],
+    "test_systems": [
+      "DeepSeek-V3",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "SRPOL",
+      "TowerPlus-9B",
+      "Wenyiil"
+    ]
+  },
+  {
+    "split_id": 90,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "CommandA-MT",
+      "GemTrans",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 91,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "UvA-MT",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Laniqo",
+      "TowerPlus-9B",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 92,
+    "dev_systems": [
+      "Algharb",
+      "CommandA",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Laniqo",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA-MT",
+      "IRB-MT",
+      "Mistral-Medium",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 93,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "DeepSeek-V3",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy"
+    ]
+  },
+  {
+    "split_id": 94,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "IRB-MT",
+      "Shy",
+      "TowerPlus-9B"
+    ]
+  },
+  {
+    "split_id": 95,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA",
+      "CommandA-MT",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Mistral-Medium",
+      "SRPOL",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 96,
+    "dev_systems": [
+      "Algharb",
+      "Claude-4",
+      "CommandA-MT",
+      "GPT-4.1",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "CUNI-MH-v2",
+      "CommandA",
+      "DeepSeek-V3",
+      "GemTrans",
+      "Shy",
+      "TowerPlus-9B"
+    ]
+  },
+  {
+    "split_id": 97,
+    "dev_systems": [
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "UvA-MT",
+      "Wenyiil"
+    ],
+    "test_systems": [
+      "Algharb",
+      "Gemma-3-12B",
+      "IRB-MT",
+      "Shy",
+      "TowerPlus-9B",
+      "Yolu"
+    ]
+  },
+  {
+    "split_id": 98,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "CommandA",
+      "CommandA-MT",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "TowerPlus-9B",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "DeepSeek-V3",
+      "Gemma-3-12B",
+      "SRPOL",
+      "Shy",
+      "UvA-MT"
+    ]
+  },
+  {
+    "split_id": 99,
+    "dev_systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Yolu"
+    ],
+    "test_systems": [
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "SRPOL",
+      "Wenyiil"
+    ]
+  }
+]
