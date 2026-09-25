@@ -1,0 +1,181 @@
+language_pair,split_id,error_type,error
+cs-de_DE,15,ValueError,"Expected parameter concentration (Tensor of shape ()) of distribution Gamma(concentration: nan, rate: nan) to satisfy the constraint GreaterThan(lower_bound=0.0), but found invalid values:
+nan
+ Trace Shapes:    
+  Param Sites:    
+   loc_mu_diff    
+ scale_mu_diff    
+   loc_mu_disc    
+ scale_mu_disc    
+  loc_mu_theta    
+scale_mu_theta    
+    alpha_diff    
+     beta_diff    
+    alpha_disc    
+     beta_disc    
+     alpha_obs    
+      beta_obs    
+   alpha_theta    
+    beta_theta    
+   loc_ability  14
+ scale_ability  14
+      loc_diff 189
+    scale_diff 189
+      loc_disc 189
+    scale_disc 189
+ Sample Sites:    
+  mu_diff dist   |
+         value   |"
+en-cs_CZ,17,ValueError,"Expected parameter concentration (Tensor of shape ()) of distribution Gamma(concentration: nan, rate: nan) to satisfy the constraint GreaterThan(lower_bound=0.0), but found invalid values:
+nan
+ Trace Shapes:    
+  Param Sites:    
+   loc_mu_diff    
+ scale_mu_diff    
+   loc_mu_disc    
+ scale_mu_disc    
+  loc_mu_theta    
+scale_mu_theta    
+    alpha_diff    
+     beta_diff    
+    alpha_disc    
+     beta_disc    
+     alpha_obs    
+      beta_obs    
+   alpha_theta    
+    beta_theta    
+   loc_ability  13
+ scale_ability  13
+      loc_diff 179
+    scale_diff 179
+      loc_disc 179
+    scale_disc 179
+ Sample Sites:    
+  mu_diff dist   |
+         value   |"
+en-et_EE,16,ValueError,"Expected parameter concentration (Tensor of shape ()) of distribution Gamma(concentration: nan, rate: nan) to satisfy the constraint GreaterThan(lower_bound=0.0), but found invalid values:
+nan
+ Trace Shapes:    
+  Param Sites:    
+   loc_mu_diff    
+ scale_mu_diff    
+   loc_mu_disc    
+ scale_mu_disc    
+  loc_mu_theta    
+scale_mu_theta    
+    alpha_diff    
+     beta_diff    
+    alpha_disc    
+     beta_disc    
+     alpha_obs    
+      beta_obs    
+   alpha_theta    
+    beta_theta    
+   loc_ability  12
+ scale_ability  12
+      loc_diff 154
+    scale_diff 154
+      loc_disc 154
+    scale_disc 154
+ Sample Sites:    
+  mu_diff dist   |
+         value   |
+   u_diff dist   |
+         value   |
+  mu_disc dist   |
+         value   |
+   u_disc dist   |
+         value   |
+scale_obs dist   |
+         value   |
+ mu_theta dist   |
+         value   |"
+en-is_IS,2,ValueError,"Expected parameter concentration (Tensor of shape ()) of distribution Gamma(concentration: nan, rate: nan) to satisfy the constraint GreaterThan(lower_bound=0.0), but found invalid values:
+nan
+ Trace Shapes:    
+  Param Sites:    
+   loc_mu_diff    
+ scale_mu_diff    
+   loc_mu_disc    
+ scale_mu_disc    
+  loc_mu_theta    
+scale_mu_theta    
+    alpha_diff    
+     beta_diff    
+    alpha_disc    
+     beta_disc    
+     alpha_obs    
+      beta_obs    
+   alpha_theta    
+    beta_theta    
+   loc_ability  12
+ scale_ability  12
+      loc_diff 166
+    scale_diff 166
+      loc_disc 166
+    scale_disc 166
+ Sample Sites:    
+  mu_diff dist   |
+         value   |
+   u_diff dist   |
+         value   |
+  mu_disc dist   |
+         value   |"
+en-ja_JP,14,ValueError,"Expected parameter concentration (Tensor of shape ()) of distribution Gamma(concentration: nan, rate: nan) to satisfy the constraint GreaterThan(lower_bound=0.0), but found invalid values:
+nan
+ Trace Shapes:    
+  Param Sites:    
+   loc_mu_diff    
+ scale_mu_diff    
+   loc_mu_disc    
+ scale_mu_disc    
+  loc_mu_theta    
+scale_mu_theta    
+    alpha_diff    
+     beta_diff    
+    alpha_disc    
+     beta_disc    
+     alpha_obs    
+      beta_obs    
+   alpha_theta    
+    beta_theta    
+   loc_ability  12
+ scale_ability  12
+      loc_diff 153
+    scale_diff 153
+      loc_disc 153
+    scale_disc 153
+ Sample Sites:    
+  mu_diff dist   |
+         value   |
+   u_diff dist   |
+         value   |
+  mu_disc dist   |
+         value   |"
+en-zh_CN,0,ValueError,"Expected parameter concentration (Tensor of shape ()) of distribution Gamma(concentration: nan, rate: nan) to satisfy the constraint GreaterThan(lower_bound=0.0), but found invalid values:
+nan
+ Trace Shapes:    
+  Param Sites:    
+   loc_mu_diff    
+ scale_mu_diff    
+   loc_mu_disc    
+ scale_mu_disc    
+  loc_mu_theta    
+scale_mu_theta    
+    alpha_diff    
+     beta_diff    
+    alpha_disc    
+     beta_disc    
+     alpha_obs    
+      beta_obs    
+   alpha_theta    
+    beta_theta    
+   loc_ability  12
+ scale_ability  12
+      loc_diff 162
+    scale_diff 162
+      loc_disc 162
+    scale_disc 162
+ Sample Sites:    
+  mu_diff dist   |
+         value   |"
