@@ -1,0 +1,134 @@
+{
+  "status": "completed",
+  "signature": "ff01288d82a31ae229fde2627ce793a10238fad4c469e9c120cf7db5a410ae27",
+  "protocol": {
+    "languages": [
+      "eng_Latn---arz_Arab",
+      "eng_Latn---rus_Cyrl",
+      "eng_Latn---jpn_Jpan",
+      "eng_Latn---ukr_Cyrl",
+      "eng_Latn---ind_Latn",
+      "eng_Latn---tha_Thai",
+      "zho_Hans---jpn_Jpan"
+    ],
+    "budgets": [
+      10,
+      25,
+      50,
+      100
+    ],
+    "splits": 20,
+    "trials": 100,
+    "seed": 20261110,
+    "bootstrap_replicates": 5000,
+    "targets_selected_using": "calibration documents only",
+    "methods": [
+      "Random",
+      "Difficulty-stratified",
+      "Hard-only",
+      "All-dev variance",
+      "Upper-dev variance",
+      "Source-length-stratified",
+      "Dev-feature-mean-balance",
+      "Dev-cluster-proportional"
+    ],
+    "n_target_systems": 6,
+    "n_development_systems": 6,
+    "n_clusters": 5,
+    "source_matrix_manifest_sha256": "35455135d8f4e18c845dcf77698d98dc87e254291872ae2ffe11574cd2efea9e",
+    "code_sha256": {
+      "run_wmt26_quality_calibrated.py": "a7d3a82b830e2349583e107b423a9075002cf3de4f5836ce821742f5aff0cae7",
+      "run_wmt26_external.py": "0c015a4f89c24d50cc186912b04b0f6ef5555d5fb3f645ce4c40d99d6d14167e",
+      "run_quality_shift_pilot.py": "8c3d925b2eb58f0ac638ac92d005252dc3cc4ba485c7bfed81c1ccea75183695",
+      "run_quality_shift_multilingual.py": "c5ae77b108c9f9976bc6e787f809a96edfe09c564c1dcf76bfd516afe2d17df5"
+    },
+    "input_summary": {
+      "eng_Latn---arz_Arab": {
+        "n_items": 384,
+        "n_documents": 80,
+        "min_evaluation_items": 250,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "matrix_sha256": "3b1e0a5fd12dac2b3bfcb0630e7c7ce092a47521bd8a8ad39fb754cc917f309d"
+      },
+      "eng_Latn---rus_Cyrl": {
+        "n_items": 260,
+        "n_documents": 83,
+        "min_evaluation_items": 130,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "matrix_sha256": "0dcf5568103701e8e662958a58bff4d09ad2a09c12c112887da4ce2df7cff609"
+      },
+      "eng_Latn---jpn_Jpan": {
+        "n_items": 320,
+        "n_documents": 87,
+        "min_evaluation_items": 193,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "matrix_sha256": "0ca126e0dc52a101120d79999e36d1be2951589607cd4993ca72989c7c466abe"
+      },
+      "eng_Latn---ukr_Cyrl": {
+        "n_items": 156,
+        "n_documents": 53,
+        "min_evaluation_items": 87,
+        "supported_budgets": [
+          10,
+          25,
+          50
+        ],
+        "matrix_sha256": "66a3a4dfcb311e56c2e19ed5ae4d2d7209199b74c961ec2a42f2a7679fd8d09a"
+      },
+      "eng_Latn---ind_Latn": {
+        "n_items": 543,
+        "n_documents": 144,
+        "min_evaluation_items": 322,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "matrix_sha256": "d9bb31cf910ffc72c234580e10be28cba45cf6b26faac324d83bab4561d6262e"
+      },
+      "eng_Latn---tha_Thai": {
+        "n_items": 691,
+        "n_documents": 198,
+        "min_evaluation_items": 475,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "matrix_sha256": "3ffb37acb290005f47cdb14914a646c06780d97b8f66f2f9c87b9a36cc6d2549"
+      },
+      "zho_Hans---jpn_Jpan": {
+        "n_items": 541,
+        "n_documents": 190,
+        "min_evaluation_items": 371,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "matrix_sha256": "b08a6773ccaac137bddde7a4ef7f7f594bca76276676a0bca6e47b61d23697ce"
+      }
+    }
+  },
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1"
+}

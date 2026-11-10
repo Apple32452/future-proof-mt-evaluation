@@ -1,0 +1,12 @@
+{
+  "status": "exploratory follow-up designed after inspecting WMT26 coverage and pilot quality-gap checks",
+  "primary": "Macro pairwise ranking accuracy at 25 additional evaluation labels, four WMT25-overlapping directions",
+  "new_methods": [
+    "Dev-feature-mean-balance",
+    "Dev-cluster-proportional"
+  ],
+  "roles": "Six target and six development models assigned using calibration document mean cESA; exclude the middle six",
+  "nonleakage": "Evaluation target judgments absent from role and item selection functions",
+  "calibration_cost": "Full 18-system calibration judgments assumed available and not included in incremental evaluation-label budgets",
+  "limitations": "Complete-case selection, dynamic cESA missingness, retrospective model identity adaptation; no cross-year numeric comparisons"
+}
