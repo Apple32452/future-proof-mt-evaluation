@@ -1,0 +1,36 @@
+{
+  "synthetic_only": false,
+  "n_items": 190,
+  "n_systems": 18,
+  "n_documents": 52,
+  "splits": 20,
+  "trials_stochastic": 100,
+  "trials_deterministic": 1,
+  "seed": 20261106,
+  "budgets": [
+    10,
+    25,
+    50
+  ],
+  "methods": [
+    "Random",
+    "Difficulty-stratified",
+    "Hard-only",
+    "All-dev variance",
+    "Upper-dev variance",
+    "Source-length-stratified"
+  ],
+  "calibration_document_fraction": 0.25,
+  "target_systems": 6,
+  "dev_systems": 6,
+  "upper_dev_count": 3,
+  "python": "3.13.5",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "status": "item-level input supplied and pilot executed",
+  "caution": "Repeated overlapping splits are not independent language-level replications.",
+  "language_pair": "en-et_EE",
+  "input_sha256": "0568141ff2cf81b3bfbf20839456c859090298b04373ec12707270198329d7ed",
+  "scipy": "1.18.1",
+  "pilot_script_sha256": "8c3d925b2eb58f0ac638ac92d005252dc3cc4ba485c7bfed81c1ccea75183695"
+}

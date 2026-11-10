@@ -64,3 +64,10 @@ The saved result directory contains aggregate and split-level
 results, quality-gap audits, and the run configuration.
 
 Large trial-level outputs are not committed by default.
+
+## Multilingual extension
+
+The fixed pilot can now be run across the 14-language WMT25 roster. The 13
+non-pilot directions form the primary new-language summary; Czech-German is
+retained as an exact reproduction check. See [MULTILINGUAL.md](MULTILINGUAL.md)
+for the protocol, budget-coverage rule, independent output audit, and commands.

@@ -1,0 +1,36 @@
+{
+  "created_before_multilingual_execution_utc": "2026-11-10T19:26:01.733737+00:00",
+  "primary_metric": "pairwise_accuracy",
+  "primary_budget": 25,
+  "primary_cohort": [
+    "en-cs_CZ",
+    "cs-uk_UA",
+    "en-sr_Cyrl_RS",
+    "en-is_IS",
+    "en-ru_RU",
+    "en-ar_EG",
+    "en-uk_UA",
+    "en-zh_CN",
+    "en-et_EE",
+    "en-bho_IN",
+    "en-ja_JP",
+    "en-mas_KE",
+    "en-it_IT"
+  ],
+  "supplementary_cohorts": [
+    "all_languages",
+    "pilot_only"
+  ],
+  "aggregation": "trials within splits, splits within languages, equal language weights",
+  "do_not_filter": "retain every scheduled split regardless of realized quality gap or method performance",
+  "budget_eligibility": "before outcomes, exclude an entire language-budget combination if any scheduled split has too few evaluation items; do not resample splits or lower budgets silently",
+  "inference": "paired language-mean differences; bootstrap intervals are exploratory, without p-values or multiplicity-adjusted claims",
+  "limitations": [
+    "shared source documents and system families across language directions",
+    "not a genuinely newer-model or chronological evaluation",
+    "target calibration judgments define groups; target evaluation scores are hidden from selectors",
+    "changing development groups changes quality, identity and family composition",
+    "13 non-pilot directions were used in earlier research; this is not a new independent dataset",
+    "gap greater than one is a sensitivity threshold, not a significance test"
+  ]
+}

@@ -1,0 +1,1081 @@
+split,regime,method,budget,n_trials,pairwise_accuracy_n_finite,pairwise_accuracy_gap1_n_finite,spearman_n_finite,kendall_tau_b_n_finite,top1_accuracy_n_finite,mae_n_finite,bias_n_finite
+0,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+0,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+0,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+0,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+0,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+0,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+0,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+0,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+0,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+0,Lower-six,Random,10,100,100,100,100,100,100,100,100
+0,Lower-six,Random,25,100,100,100,100,100,100,100,100
+0,Lower-six,Random,50,100,100,100,100,100,100,100,100
+0,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+0,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+0,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+0,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+0,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+0,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+0,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+0,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+0,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+0,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+0,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+0,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+0,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+0,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+0,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+0,Random-six,Random,10,100,100,100,100,100,100,100,100
+0,Random-six,Random,25,100,100,100,100,100,100,100,100
+0,Random-six,Random,50,100,100,100,100,100,100,100,100
+0,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+0,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+0,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+0,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+0,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+0,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+0,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+0,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+0,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+0,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+0,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+0,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+0,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+0,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+0,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+0,Upper-six,Random,10,100,100,100,100,100,100,100,100
+0,Upper-six,Random,25,100,100,100,100,100,100,100,100
+0,Upper-six,Random,50,100,100,100,100,100,100,100,100
+0,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+0,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+0,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+0,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+0,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+0,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+1,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+1,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+1,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+1,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+1,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+1,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+1,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+1,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+1,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+1,Lower-six,Random,10,100,100,100,100,100,100,100,100
+1,Lower-six,Random,25,100,100,100,100,100,100,100,100
+1,Lower-six,Random,50,100,100,100,100,100,100,100,100
+1,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+1,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+1,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+1,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+1,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+1,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+1,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+1,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+1,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+1,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+1,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+1,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+1,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+1,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+1,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+1,Random-six,Random,10,100,100,100,100,100,100,100,100
+1,Random-six,Random,25,100,100,100,100,100,100,100,100
+1,Random-six,Random,50,100,100,100,100,100,100,100,100
+1,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+1,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+1,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+1,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+1,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+1,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+1,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+1,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+1,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+1,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+1,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+1,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+1,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+1,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+1,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+1,Upper-six,Random,10,100,100,100,100,100,100,100,100
+1,Upper-six,Random,25,100,100,100,100,100,100,100,100
+1,Upper-six,Random,50,100,100,100,100,100,100,100,100
+1,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+1,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+1,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+1,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+1,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+1,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+2,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+2,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+2,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+2,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+2,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+2,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+2,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+2,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+2,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+2,Lower-six,Random,10,100,100,100,100,100,100,100,100
+2,Lower-six,Random,25,100,100,100,100,100,100,100,100
+2,Lower-six,Random,50,100,100,100,100,100,100,100,100
+2,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+2,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+2,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+2,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+2,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+2,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+2,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+2,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+2,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+2,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+2,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+2,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+2,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+2,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+2,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+2,Random-six,Random,10,100,100,100,100,100,100,100,100
+2,Random-six,Random,25,100,100,100,100,100,100,100,100
+2,Random-six,Random,50,100,100,100,100,100,100,100,100
+2,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+2,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+2,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+2,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+2,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+2,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+2,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+2,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+2,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+2,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+2,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+2,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+2,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+2,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+2,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+2,Upper-six,Random,10,100,100,100,100,100,100,100,100
+2,Upper-six,Random,25,100,100,100,100,100,100,100,100
+2,Upper-six,Random,50,100,100,100,100,100,100,100,100
+2,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+2,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+2,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+2,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+2,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+2,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+3,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+3,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+3,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+3,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+3,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+3,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+3,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+3,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+3,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+3,Lower-six,Random,10,100,100,100,100,100,100,100,100
+3,Lower-six,Random,25,100,100,100,100,100,100,100,100
+3,Lower-six,Random,50,100,100,100,100,100,100,100,100
+3,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+3,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+3,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+3,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+3,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+3,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+3,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+3,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+3,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+3,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+3,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+3,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+3,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+3,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+3,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+3,Random-six,Random,10,100,100,100,100,100,100,100,100
+3,Random-six,Random,25,100,100,100,100,100,100,100,100
+3,Random-six,Random,50,100,100,100,100,100,100,100,100
+3,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+3,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+3,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+3,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+3,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+3,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+3,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+3,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+3,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+3,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+3,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+3,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+3,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+3,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+3,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+3,Upper-six,Random,10,100,100,100,100,100,100,100,100
+3,Upper-six,Random,25,100,100,100,100,100,100,100,100
+3,Upper-six,Random,50,100,100,100,100,100,100,100,100
+3,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+3,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+3,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+3,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+3,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+3,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+4,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+4,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+4,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+4,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+4,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+4,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+4,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+4,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+4,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+4,Lower-six,Random,10,100,100,100,100,100,100,100,100
+4,Lower-six,Random,25,100,100,100,100,100,100,100,100
+4,Lower-six,Random,50,100,100,100,100,100,100,100,100
+4,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+4,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+4,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+4,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+4,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+4,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+4,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+4,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+4,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+4,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+4,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+4,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+4,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+4,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+4,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+4,Random-six,Random,10,100,100,100,100,100,100,100,100
+4,Random-six,Random,25,100,100,100,100,100,100,100,100
+4,Random-six,Random,50,100,100,100,100,100,100,100,100
+4,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+4,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+4,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+4,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+4,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+4,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+4,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+4,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+4,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+4,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+4,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+4,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+4,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+4,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+4,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+4,Upper-six,Random,10,100,100,100,100,100,100,100,100
+4,Upper-six,Random,25,100,100,100,100,100,100,100,100
+4,Upper-six,Random,50,100,100,100,100,100,100,100,100
+4,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+4,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+4,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+4,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+4,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+4,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+5,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+5,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+5,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+5,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+5,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+5,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+5,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+5,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+5,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+5,Lower-six,Random,10,100,100,100,100,100,100,100,100
+5,Lower-six,Random,25,100,100,100,100,100,100,100,100
+5,Lower-six,Random,50,100,100,100,100,100,100,100,100
+5,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+5,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+5,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+5,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+5,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+5,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+5,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+5,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+5,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+5,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+5,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+5,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+5,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+5,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+5,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+5,Random-six,Random,10,100,100,100,100,100,100,100,100
+5,Random-six,Random,25,100,100,100,100,100,100,100,100
+5,Random-six,Random,50,100,100,100,100,100,100,100,100
+5,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+5,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+5,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+5,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+5,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+5,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+5,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+5,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+5,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+5,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+5,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+5,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+5,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+5,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+5,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+5,Upper-six,Random,10,100,100,100,100,100,100,100,100
+5,Upper-six,Random,25,100,100,100,100,100,100,100,100
+5,Upper-six,Random,50,100,100,100,100,100,100,100,100
+5,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+5,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+5,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+5,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+5,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+5,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+6,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+6,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+6,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+6,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+6,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+6,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+6,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+6,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+6,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+6,Lower-six,Random,10,100,100,100,100,100,100,100,100
+6,Lower-six,Random,25,100,100,100,100,100,100,100,100
+6,Lower-six,Random,50,100,100,100,100,100,100,100,100
+6,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+6,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+6,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+6,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+6,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+6,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+6,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+6,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+6,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+6,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+6,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+6,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+6,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+6,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+6,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+6,Random-six,Random,10,100,100,100,100,100,100,100,100
+6,Random-six,Random,25,100,100,100,100,100,100,100,100
+6,Random-six,Random,50,100,100,100,100,100,100,100,100
+6,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+6,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+6,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+6,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+6,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+6,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+6,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+6,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+6,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+6,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+6,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+6,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+6,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+6,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+6,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+6,Upper-six,Random,10,100,100,100,100,100,100,100,100
+6,Upper-six,Random,25,100,100,100,100,100,100,100,100
+6,Upper-six,Random,50,100,100,100,100,100,100,100,100
+6,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+6,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+6,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+6,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+6,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+6,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+7,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+7,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+7,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+7,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+7,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+7,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+7,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+7,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+7,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+7,Lower-six,Random,10,100,100,100,100,100,100,100,100
+7,Lower-six,Random,25,100,100,100,100,100,100,100,100
+7,Lower-six,Random,50,100,100,100,100,100,100,100,100
+7,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+7,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+7,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+7,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+7,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+7,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+7,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+7,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+7,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+7,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+7,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+7,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+7,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+7,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+7,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+7,Random-six,Random,10,100,100,100,100,100,100,100,100
+7,Random-six,Random,25,100,100,100,100,100,100,100,100
+7,Random-six,Random,50,100,100,100,100,100,100,100,100
+7,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+7,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+7,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+7,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+7,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+7,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+7,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+7,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+7,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+7,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+7,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+7,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+7,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+7,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+7,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+7,Upper-six,Random,10,100,100,100,100,100,100,100,100
+7,Upper-six,Random,25,100,100,100,100,100,100,100,100
+7,Upper-six,Random,50,100,100,100,100,100,100,100,100
+7,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+7,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+7,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+7,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+7,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+7,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+8,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+8,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+8,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+8,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+8,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+8,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+8,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+8,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+8,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+8,Lower-six,Random,10,100,100,100,100,100,100,100,100
+8,Lower-six,Random,25,100,100,100,100,100,100,100,100
+8,Lower-six,Random,50,100,100,100,100,100,100,100,100
+8,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+8,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+8,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+8,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+8,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+8,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+8,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+8,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+8,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+8,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+8,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+8,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+8,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+8,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+8,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+8,Random-six,Random,10,100,100,100,100,100,100,100,100
+8,Random-six,Random,25,100,100,100,100,100,100,100,100
+8,Random-six,Random,50,100,100,100,100,100,100,100,100
+8,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+8,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+8,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+8,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+8,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+8,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+8,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+8,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+8,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+8,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+8,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+8,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+8,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+8,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+8,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+8,Upper-six,Random,10,100,100,100,100,100,100,100,100
+8,Upper-six,Random,25,100,100,100,100,100,100,100,100
+8,Upper-six,Random,50,100,100,100,100,100,100,100,100
+8,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+8,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+8,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+8,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+8,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+8,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+9,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+9,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+9,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+9,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+9,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+9,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+9,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+9,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+9,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+9,Lower-six,Random,10,100,100,100,100,100,100,100,100
+9,Lower-six,Random,25,100,100,100,100,100,100,100,100
+9,Lower-six,Random,50,100,100,100,100,100,100,100,100
+9,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+9,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+9,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+9,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+9,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+9,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+9,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+9,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+9,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+9,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+9,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+9,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+9,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+9,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+9,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+9,Random-six,Random,10,100,100,100,100,100,100,100,100
+9,Random-six,Random,25,100,100,100,100,100,100,100,100
+9,Random-six,Random,50,100,100,100,100,100,100,100,100
+9,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+9,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+9,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+9,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+9,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+9,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+9,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+9,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+9,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+9,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+9,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+9,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+9,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+9,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+9,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+9,Upper-six,Random,10,100,100,100,100,100,100,100,100
+9,Upper-six,Random,25,100,100,100,100,100,100,100,100
+9,Upper-six,Random,50,100,100,100,100,100,100,100,100
+9,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+9,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+9,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+9,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+9,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+9,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+10,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+10,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+10,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+10,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+10,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+10,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+10,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+10,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+10,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+10,Lower-six,Random,10,100,100,100,100,100,100,100,100
+10,Lower-six,Random,25,100,100,100,100,100,100,100,100
+10,Lower-six,Random,50,100,100,100,100,100,100,100,100
+10,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+10,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+10,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+10,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+10,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+10,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+10,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+10,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+10,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+10,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+10,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+10,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+10,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+10,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+10,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+10,Random-six,Random,10,100,100,100,100,100,100,100,100
+10,Random-six,Random,25,100,100,100,100,100,100,100,100
+10,Random-six,Random,50,100,100,100,100,100,100,100,100
+10,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+10,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+10,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+10,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+10,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+10,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+10,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+10,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+10,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+10,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+10,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+10,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+10,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+10,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+10,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+10,Upper-six,Random,10,100,100,100,100,100,100,100,100
+10,Upper-six,Random,25,100,100,100,100,100,100,100,100
+10,Upper-six,Random,50,100,100,100,100,100,100,100,100
+10,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+10,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+10,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+10,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+10,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+10,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+11,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+11,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+11,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+11,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+11,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+11,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+11,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+11,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+11,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+11,Lower-six,Random,10,100,100,100,100,100,100,100,100
+11,Lower-six,Random,25,100,100,100,100,100,100,100,100
+11,Lower-six,Random,50,100,100,100,100,100,100,100,100
+11,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+11,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+11,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+11,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+11,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+11,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+11,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+11,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+11,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+11,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+11,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+11,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+11,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+11,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+11,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+11,Random-six,Random,10,100,100,100,100,100,100,100,100
+11,Random-six,Random,25,100,100,100,100,100,100,100,100
+11,Random-six,Random,50,100,100,100,100,100,100,100,100
+11,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+11,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+11,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+11,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+11,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+11,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+11,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+11,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+11,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+11,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+11,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+11,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+11,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+11,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+11,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+11,Upper-six,Random,10,100,100,100,100,100,100,100,100
+11,Upper-six,Random,25,100,100,100,100,100,100,100,100
+11,Upper-six,Random,50,100,100,100,100,100,100,100,100
+11,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+11,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+11,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+11,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+11,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+11,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+12,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+12,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+12,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+12,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+12,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+12,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+12,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+12,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+12,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+12,Lower-six,Random,10,100,100,100,100,100,100,100,100
+12,Lower-six,Random,25,100,100,100,100,100,100,100,100
+12,Lower-six,Random,50,100,100,100,100,100,100,100,100
+12,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+12,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+12,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+12,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+12,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+12,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+12,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+12,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+12,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+12,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+12,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+12,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+12,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+12,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+12,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+12,Random-six,Random,10,100,100,100,100,100,100,100,100
+12,Random-six,Random,25,100,100,100,100,100,100,100,100
+12,Random-six,Random,50,100,100,100,100,100,100,100,100
+12,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+12,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+12,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+12,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+12,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+12,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+12,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+12,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+12,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+12,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+12,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+12,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+12,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+12,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+12,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+12,Upper-six,Random,10,100,100,100,100,100,100,100,100
+12,Upper-six,Random,25,100,100,100,100,100,100,100,100
+12,Upper-six,Random,50,100,100,100,100,100,100,100,100
+12,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+12,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+12,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+12,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+12,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+12,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+13,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+13,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+13,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+13,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+13,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+13,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+13,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+13,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+13,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+13,Lower-six,Random,10,100,100,100,100,100,100,100,100
+13,Lower-six,Random,25,100,100,100,100,100,100,100,100
+13,Lower-six,Random,50,100,100,100,100,100,100,100,100
+13,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+13,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+13,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+13,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+13,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+13,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+13,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+13,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+13,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+13,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+13,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+13,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+13,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+13,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+13,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+13,Random-six,Random,10,100,100,100,100,100,100,100,100
+13,Random-six,Random,25,100,100,100,100,100,100,100,100
+13,Random-six,Random,50,100,100,100,100,100,100,100,100
+13,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+13,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+13,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+13,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+13,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+13,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+13,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+13,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+13,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+13,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+13,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+13,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+13,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+13,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+13,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+13,Upper-six,Random,10,100,100,100,100,100,100,100,100
+13,Upper-six,Random,25,100,100,100,100,100,100,100,100
+13,Upper-six,Random,50,100,100,100,100,100,100,100,100
+13,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+13,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+13,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+13,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+13,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+13,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+14,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+14,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+14,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+14,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+14,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+14,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+14,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+14,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+14,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+14,Lower-six,Random,10,100,100,100,100,100,100,100,100
+14,Lower-six,Random,25,100,100,100,100,100,100,100,100
+14,Lower-six,Random,50,100,100,100,100,100,100,100,100
+14,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+14,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+14,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+14,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+14,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+14,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+14,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+14,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+14,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+14,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+14,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+14,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+14,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+14,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+14,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+14,Random-six,Random,10,100,100,100,100,100,100,100,100
+14,Random-six,Random,25,100,100,100,100,100,100,100,100
+14,Random-six,Random,50,100,100,100,100,100,100,100,100
+14,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+14,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+14,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+14,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+14,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+14,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+14,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+14,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+14,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+14,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+14,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+14,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+14,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+14,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+14,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+14,Upper-six,Random,10,100,100,100,100,100,100,100,100
+14,Upper-six,Random,25,100,100,100,100,100,100,100,100
+14,Upper-six,Random,50,100,100,100,100,100,100,100,100
+14,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+14,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+14,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+14,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+14,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+14,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+15,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+15,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+15,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+15,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+15,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+15,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+15,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+15,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+15,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+15,Lower-six,Random,10,100,100,100,100,100,100,100,100
+15,Lower-six,Random,25,100,100,100,100,100,100,100,100
+15,Lower-six,Random,50,100,100,100,100,100,100,100,100
+15,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+15,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+15,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+15,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+15,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+15,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+15,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+15,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+15,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+15,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+15,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+15,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+15,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+15,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+15,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+15,Random-six,Random,10,100,100,100,100,100,100,100,100
+15,Random-six,Random,25,100,100,100,100,100,100,100,100
+15,Random-six,Random,50,100,100,100,100,100,100,100,100
+15,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+15,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+15,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+15,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+15,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+15,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+15,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+15,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+15,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+15,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+15,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+15,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+15,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+15,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+15,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+15,Upper-six,Random,10,100,100,100,100,100,100,100,100
+15,Upper-six,Random,25,100,100,100,100,100,100,100,100
+15,Upper-six,Random,50,100,100,100,100,100,100,100,100
+15,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+15,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+15,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+15,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+15,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+15,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+16,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+16,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+16,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+16,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+16,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+16,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+16,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+16,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+16,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+16,Lower-six,Random,10,100,100,100,100,100,100,100,100
+16,Lower-six,Random,25,100,100,100,100,100,100,100,100
+16,Lower-six,Random,50,100,100,100,100,100,100,100,100
+16,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+16,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+16,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+16,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+16,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+16,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+16,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+16,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+16,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+16,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+16,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+16,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+16,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+16,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+16,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+16,Random-six,Random,10,100,100,100,100,100,100,100,100
+16,Random-six,Random,25,100,100,100,100,100,100,100,100
+16,Random-six,Random,50,100,100,100,100,100,100,100,100
+16,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+16,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+16,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+16,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+16,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+16,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+16,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+16,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+16,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+16,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+16,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+16,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+16,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+16,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+16,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+16,Upper-six,Random,10,100,100,100,100,100,100,100,100
+16,Upper-six,Random,25,100,100,100,100,100,100,100,100
+16,Upper-six,Random,50,100,100,100,100,100,100,100,100
+16,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+16,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+16,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+16,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+16,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+16,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+17,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+17,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+17,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+17,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+17,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+17,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+17,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+17,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+17,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+17,Lower-six,Random,10,100,100,100,100,100,100,100,100
+17,Lower-six,Random,25,100,100,100,100,100,100,100,100
+17,Lower-six,Random,50,100,100,100,100,100,100,100,100
+17,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+17,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+17,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+17,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+17,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+17,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+17,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+17,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+17,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+17,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+17,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+17,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+17,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+17,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+17,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+17,Random-six,Random,10,100,100,100,100,100,100,100,100
+17,Random-six,Random,25,100,100,100,100,100,100,100,100
+17,Random-six,Random,50,100,100,100,100,100,100,100,100
+17,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+17,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+17,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+17,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+17,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+17,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+17,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+17,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+17,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+17,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+17,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+17,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+17,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+17,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+17,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+17,Upper-six,Random,10,100,100,100,100,100,100,100,100
+17,Upper-six,Random,25,100,100,100,100,100,100,100,100
+17,Upper-six,Random,50,100,100,100,100,100,100,100,100
+17,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+17,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+17,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+17,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+17,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+17,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+18,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+18,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+18,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+18,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+18,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+18,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+18,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+18,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+18,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+18,Lower-six,Random,10,100,100,100,100,100,100,100,100
+18,Lower-six,Random,25,100,100,100,100,100,100,100,100
+18,Lower-six,Random,50,100,100,100,100,100,100,100,100
+18,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+18,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+18,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+18,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+18,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+18,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+18,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+18,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+18,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+18,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+18,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+18,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+18,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+18,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+18,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+18,Random-six,Random,10,100,100,100,100,100,100,100,100
+18,Random-six,Random,25,100,100,100,100,100,100,100,100
+18,Random-six,Random,50,100,100,100,100,100,100,100,100
+18,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+18,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+18,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+18,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+18,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+18,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+18,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+18,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+18,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+18,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+18,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+18,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+18,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+18,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+18,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+18,Upper-six,Random,10,100,100,100,100,100,100,100,100
+18,Upper-six,Random,25,100,100,100,100,100,100,100,100
+18,Upper-six,Random,50,100,100,100,100,100,100,100,100
+18,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+18,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+18,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+18,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+18,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+18,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+19,Lower-six,All-dev variance,10,1,1,1,1,1,1,1,1
+19,Lower-six,All-dev variance,25,1,1,1,1,1,1,1,1
+19,Lower-six,All-dev variance,50,1,1,1,1,1,1,1,1
+19,Lower-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+19,Lower-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+19,Lower-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+19,Lower-six,Hard-only,10,1,1,1,1,1,1,1,1
+19,Lower-six,Hard-only,25,1,1,1,1,1,1,1,1
+19,Lower-six,Hard-only,50,1,1,1,1,1,1,1,1
+19,Lower-six,Random,10,100,100,100,100,100,100,100,100
+19,Lower-six,Random,25,100,100,100,100,100,100,100,100
+19,Lower-six,Random,50,100,100,100,100,100,100,100,100
+19,Lower-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+19,Lower-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+19,Lower-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+19,Lower-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+19,Lower-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+19,Lower-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+19,Random-six,All-dev variance,10,1,1,1,1,1,1,1,1
+19,Random-six,All-dev variance,25,1,1,1,1,1,1,1,1
+19,Random-six,All-dev variance,50,1,1,1,1,1,1,1,1
+19,Random-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+19,Random-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+19,Random-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+19,Random-six,Hard-only,10,1,1,1,1,1,1,1,1
+19,Random-six,Hard-only,25,1,1,1,1,1,1,1,1
+19,Random-six,Hard-only,50,1,1,1,1,1,1,1,1
+19,Random-six,Random,10,100,100,100,100,100,100,100,100
+19,Random-six,Random,25,100,100,100,100,100,100,100,100
+19,Random-six,Random,50,100,100,100,100,100,100,100,100
+19,Random-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+19,Random-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+19,Random-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+19,Random-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+19,Random-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+19,Random-six,Upper-dev variance,50,1,1,1,1,1,1,1,1
+19,Upper-six,All-dev variance,10,1,1,1,1,1,1,1,1
+19,Upper-six,All-dev variance,25,1,1,1,1,1,1,1,1
+19,Upper-six,All-dev variance,50,1,1,1,1,1,1,1,1
+19,Upper-six,Difficulty-stratified,10,100,100,100,100,100,100,100,100
+19,Upper-six,Difficulty-stratified,25,100,100,100,100,100,100,100,100
+19,Upper-six,Difficulty-stratified,50,100,100,100,100,100,100,100,100
+19,Upper-six,Hard-only,10,1,1,1,1,1,1,1,1
+19,Upper-six,Hard-only,25,1,1,1,1,1,1,1,1
+19,Upper-six,Hard-only,50,1,1,1,1,1,1,1,1
+19,Upper-six,Random,10,100,100,100,100,100,100,100,100
+19,Upper-six,Random,25,100,100,100,100,100,100,100,100
+19,Upper-six,Random,50,100,100,100,100,100,100,100,100
+19,Upper-six,Source-length-stratified,10,100,100,100,100,100,100,100,100
+19,Upper-six,Source-length-stratified,25,100,100,100,100,100,100,100,100
+19,Upper-six,Source-length-stratified,50,100,100,100,100,100,100,100,100
+19,Upper-six,Upper-dev variance,10,1,1,1,1,1,1,1,1
+19,Upper-six,Upper-dev variance,25,1,1,1,1,1,1,1,1
+19,Upper-six,Upper-dev variance,50,1,1,1,1,1,1,1,1

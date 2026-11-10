@@ -1,0 +1,16 @@
+{
+  "status": "completed_and_audited",
+  "signature": "3ebc23efe2dbac84f97c5b6e1fb0fa4d3c72346dc66f8a3acec62d76c7a01370",
+  "language_pair": "en-mas_KE",
+  "completed_utc": "2026-11-10T20:26:09.963891+00:00",
+  "output_sha256": {
+    "summary.csv": "7cdbe3cf4b06977f5da1faf98b8781b3fc41e967d825ac07d0b78a859be527bb",
+    "trials.csv": "f481b9ef45e96584150ce474ec4625300d068cb6907c6cde67f9a9f2c9b98514",
+    "audit_report.json": "d149f993fb00ae134fca316d9fa021fe1ef74a92cc95287bd7d3acfbb21d723b",
+    "run_config.json": "cdbc361551387938d460b64518bba5ce448d684a396c70f2e8b9d376f767e7d0",
+    "split_summary.csv": "c07201b0fa9cd6dafafb043958921eb7a9a3194b9997f6958f401b741e2b9e99",
+    "split_manifest.json": "f2d915299f61bf984ec164399f848e4eff95c592786a73770ce4cad4c502d2da",
+    "quality_gap_audit.csv": "b3d8732435b6f93f317a3db9fd3a89e0126a3ccf8039301eae4ee5c5d3adddfb",
+    "metric_valid_counts.csv": "0fa4cb1b7b397128913b6f8a0e1ec9c281e9731ef1edcaef89688dcfa4599db1"
+  }
+}

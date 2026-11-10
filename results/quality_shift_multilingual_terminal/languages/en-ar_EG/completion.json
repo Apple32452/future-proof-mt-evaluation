@@ -1,0 +1,16 @@
+{
+  "status": "completed_and_audited",
+  "signature": "3ebc23efe2dbac84f97c5b6e1fb0fa4d3c72346dc66f8a3acec62d76c7a01370",
+  "language_pair": "en-ar_EG",
+  "completed_utc": "2026-11-10T20:25:36.852000+00:00",
+  "output_sha256": {
+    "summary.csv": "0fd7142d1e9843d9694cf49865d630e83f23b64b6f181fb7dc53d8eab75c7fb2",
+    "trials.csv": "dfd7f353aeea45e73f51053d0e2197d7b5e4bf9941eb69f07ec44ff74e9227a7",
+    "audit_report.json": "c4a30e6cab1445430c5708a3b0646f4632a7faea59a63a427eaf456cf3dcaf19",
+    "run_config.json": "2353359803028a55edecc0a68a31cdd958fb39c17bd74488a94add5c13c5e930",
+    "split_summary.csv": "21e4aa1f90b6e8c11894e62b256b67afa7e9c16db4e4af35afb67c52ab570a06",
+    "split_manifest.json": "45e1f9c10eae84e36298e74c65d3b56174eeab3b5a7fb7a2faf8b19a9457d9f3",
+    "quality_gap_audit.csv": "11b38ff463f8e687eff56f5e6fb65ff8f2ac10041e79e18e967a2d37889c1b4b",
+    "metric_valid_counts.csv": "9f6acee7bb3275be77258edccdeaf45d06d174f1554dfbade19edc53f46537c5"
+  }
+}

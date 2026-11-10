@@ -1,0 +1,57 @@
+language_pair,budget,eligible,min_evaluation_items,reason
+cs-de_DE,10,True,162,all seeded splits supported
+cs-de_DE,25,True,162,all seeded splits supported
+cs-de_DE,50,True,162,all seeded splits supported
+cs-de_DE,100,True,162,all seeded splits supported
+en-cs_CZ,10,True,107,all seeded splits supported
+en-cs_CZ,25,True,107,all seeded splits supported
+en-cs_CZ,50,True,107,all seeded splits supported
+en-cs_CZ,100,True,107,all seeded splits supported
+cs-uk_UA,10,True,160,all seeded splits supported
+cs-uk_UA,25,True,160,all seeded splits supported
+cs-uk_UA,50,True,160,all seeded splits supported
+cs-uk_UA,100,True,160,all seeded splits supported
+en-sr_Cyrl_RS,10,True,102,all seeded splits supported
+en-sr_Cyrl_RS,25,True,102,all seeded splits supported
+en-sr_Cyrl_RS,50,True,102,all seeded splits supported
+en-sr_Cyrl_RS,100,True,102,all seeded splits supported
+en-is_IS,10,True,90,all seeded splits supported
+en-is_IS,25,True,90,all seeded splits supported
+en-is_IS,50,True,90,all seeded splits supported
+en-is_IS,100,False,90,at least one seeded split has insufficient evaluation items; whole language-budget excluded
+en-ru_RU,10,True,94,all seeded splits supported
+en-ru_RU,25,True,94,all seeded splits supported
+en-ru_RU,50,True,94,all seeded splits supported
+en-ru_RU,100,False,94,at least one seeded split has insufficient evaluation items; whole language-budget excluded
+en-ar_EG,10,True,106,all seeded splits supported
+en-ar_EG,25,True,106,all seeded splits supported
+en-ar_EG,50,True,106,all seeded splits supported
+en-ar_EG,100,True,106,all seeded splits supported
+en-uk_UA,10,True,94,all seeded splits supported
+en-uk_UA,25,True,94,all seeded splits supported
+en-uk_UA,50,True,94,all seeded splits supported
+en-uk_UA,100,False,94,at least one seeded split has insufficient evaluation items; whole language-budget excluded
+en-zh_CN,10,True,101,all seeded splits supported
+en-zh_CN,25,True,101,all seeded splits supported
+en-zh_CN,50,True,101,all seeded splits supported
+en-zh_CN,100,True,101,all seeded splits supported
+en-et_EE,10,True,91,all seeded splits supported
+en-et_EE,25,True,91,all seeded splits supported
+en-et_EE,50,True,91,all seeded splits supported
+en-et_EE,100,False,91,at least one seeded split has insufficient evaluation items; whole language-budget excluded
+en-bho_IN,10,True,96,all seeded splits supported
+en-bho_IN,25,True,96,all seeded splits supported
+en-bho_IN,50,True,96,all seeded splits supported
+en-bho_IN,100,False,96,at least one seeded split has insufficient evaluation items; whole language-budget excluded
+en-ja_JP,10,True,100,all seeded splits supported
+en-ja_JP,25,True,100,all seeded splits supported
+en-ja_JP,50,True,100,all seeded splits supported
+en-ja_JP,100,True,100,all seeded splits supported
+en-mas_KE,10,True,96,all seeded splits supported
+en-mas_KE,25,True,96,all seeded splits supported
+en-mas_KE,50,True,96,all seeded splits supported
+en-mas_KE,100,False,96,at least one seeded split has insufficient evaluation items; whole language-budget excluded
+en-it_IT,10,True,98,all seeded splits supported
+en-it_IT,25,True,98,all seeded splits supported
+en-it_IT,50,True,98,all seeded splits supported
+en-it_IT,100,False,98,at least one seeded split has insufficient evaluation items; whole language-budget excluded
