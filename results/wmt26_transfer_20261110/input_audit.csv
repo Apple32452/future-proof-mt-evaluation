@@ -1,0 +1,8 @@
+language_pair,n_items,n_documents,min_evaluation_items,max_evaluation_items,supported_budgets,matrix_sha256
+eng_Latn---arz_Arab,384,80,242,339,"[10, 25, 50, 100]",3b1e0a5fd12dac2b3bfcb0630e7c7ce092a47521bd8a8ad39fb754cc917f309d
+eng_Latn---rus_Cyrl,260,83,158,228,"[10, 25, 50, 100]",0dcf5568103701e8e662958a58bff4d09ad2a09c12c112887da4ce2df7cff609
+eng_Latn---jpn_Jpan,320,87,175,272,"[10, 25, 50, 100]",0ca126e0dc52a101120d79999e36d1be2951589607cd4993ca72989c7c466abe
+eng_Latn---ukr_Cyrl,156,53,86,138,"[10, 25, 50]",66a3a4dfcb311e56c2e19ed5ae4d2d7209199b74c961ec2a42f2a7679fd8d09a
+eng_Latn---ind_Latn,543,144,328,460,"[10, 25, 50, 100]",d9bb31cf910ffc72c234580e10be28cba45cf6b26faac324d83bab4561d6262e
+eng_Latn---tha_Thai,691,198,442,606,"[10, 25, 50, 100]",3ffb37acb290005f47cdb14914a646c06780d97b8f66f2f9c87b9a36cc6d2549
+zho_Hans---jpn_Jpan,541,190,379,448,"[10, 25, 50, 100]",b08a6773ccaac137bddde7a4ef7f7f594bca76276676a0bca6e47b61d23697ce

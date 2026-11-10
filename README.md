@@ -15,6 +15,11 @@ six pilot selectors and uses the 13 non-pilot language directions as the primary
 new-language comparison. The original score-estimation study below remains
 separate; this extension does not claim to evaluate newly released models.
 
+The independent [WMT26 newer-model external test](experiments/quality_shift/WMT26_EXTERNAL.md)
+uses finalized WMT26 contrastive human judgments, freezes six named 2026 target
+systems, and evaluates the same selection rules on a separately audited
+complete-case panel. It does not equate WMT25 and WMT26 human score scales.
+
 ---
 
 ## Overview

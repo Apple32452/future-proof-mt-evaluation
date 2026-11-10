@@ -13,3 +13,4 @@ results/raw/
 results/quality_shift_reproduction_*/
 results/quality_shift_multilingual_*/languages/*/trials.csv
 results/quality_shift_multilingual_*/languages/.*
+results/wmt26_transfer_*/languages/*/trials.csv

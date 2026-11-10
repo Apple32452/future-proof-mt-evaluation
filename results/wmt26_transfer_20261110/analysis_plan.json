@@ -1,0 +1,7 @@
+{
+  "primary": "Four directions overlapping WMT25, 25-item pairwise accuracy",
+  "supplementary": "Three additional WMT26 directions, other supported budgets, MAE and bias",
+  "selection": "Targets fixed by identity; development models selected by availability masks only; calibration and evaluation split by document",
+  "quality_gap": "Descriptive only; never filter by realized target advantage",
+  "interpretation": "WMT26 newer-model external validation on a selected human-scored core, not chronological same-item score transfer or a causal quality-shift study"
+}

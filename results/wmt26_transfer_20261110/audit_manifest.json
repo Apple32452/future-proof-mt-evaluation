@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "languages": 7,
+  "total_checked_trials": 490860,
+  "total_independent_metric_vectors": 9720,
+  "language_reports": {
+    "eng_Latn---arz_Arab": {
+      "sha256": "53848df9972c4c33e0f338be5d247cb33bb7e90c4bda97f0043dcb3ef47e1265",
+      "status": "passed",
+      "checked_trials": 72720,
+      "independent_trial_zero_metric_vectors": 1440,
+      "checked_split_summary_rows": 1440,
+      "checked_gap_rows": 60,
+      "methodology": "All selectors replayed; every trial-zero vector recomputed with independent scalar SciPy metric oracle"
+    },
+    "eng_Latn---rus_Cyrl": {
+      "sha256": "53848df9972c4c33e0f338be5d247cb33bb7e90c4bda97f0043dcb3ef47e1265",
+      "status": "passed",
+      "checked_trials": 72720,
+      "independent_trial_zero_metric_vectors": 1440,
+      "checked_split_summary_rows": 1440,
+      "checked_gap_rows": 60,
+      "methodology": "All selectors replayed; every trial-zero vector recomputed with independent scalar SciPy metric oracle"
+    },
+    "eng_Latn---jpn_Jpan": {
+      "sha256": "53848df9972c4c33e0f338be5d247cb33bb7e90c4bda97f0043dcb3ef47e1265",
+      "status": "passed",
+      "checked_trials": 72720,
+      "independent_trial_zero_metric_vectors": 1440,
+      "checked_split_summary_rows": 1440,
+      "checked_gap_rows": 60,
+      "methodology": "All selectors replayed; every trial-zero vector recomputed with independent scalar SciPy metric oracle"
+    },
+    "eng_Latn---ukr_Cyrl": {
+      "sha256": "5db34a9abe84cd3a456eca78abdcce777e2e43c5ee07cf2ad375d4df02e9001a",
+      "status": "passed",
+      "checked_trials": 54540,
+      "independent_trial_zero_metric_vectors": 1080,
+      "checked_split_summary_rows": 1080,
+      "checked_gap_rows": 60,
+      "methodology": "All selectors replayed; every trial-zero vector recomputed with independent scalar SciPy metric oracle"
+    },
+    "eng_Latn---ind_Latn": {
+      "sha256": "53848df9972c4c33e0f338be5d247cb33bb7e90c4bda97f0043dcb3ef47e1265",
+      "status": "passed",
+      "checked_trials": 72720,
+      "independent_trial_zero_metric_vectors": 1440,
+      "checked_split_summary_rows": 1440,
+      "checked_gap_rows": 60,
+      "methodology": "All selectors replayed; every trial-zero vector recomputed with independent scalar SciPy metric oracle"
+    },
+    "eng_Latn---tha_Thai": {
+      "sha256": "53848df9972c4c33e0f338be5d247cb33bb7e90c4bda97f0043dcb3ef47e1265",
+      "status": "passed",
+      "checked_trials": 72720,
+      "independent_trial_zero_metric_vectors": 1440,
+      "checked_split_summary_rows": 1440,
+      "checked_gap_rows": 60,
+      "methodology": "All selectors replayed; every trial-zero vector recomputed with independent scalar SciPy metric oracle"
+    },
+    "zho_Hans---jpn_Jpan": {
+      "sha256": "53848df9972c4c33e0f338be5d247cb33bb7e90c4bda97f0043dcb3ef47e1265",
+      "status": "passed",
+      "checked_trials": 72720,
+      "independent_trial_zero_metric_vectors": 1440,
+      "checked_split_summary_rows": 1440,
+      "checked_gap_rows": 60,
+      "methodology": "All selectors replayed; every trial-zero vector recomputed with independent scalar SciPy metric oracle"
+    }
+  }
+}

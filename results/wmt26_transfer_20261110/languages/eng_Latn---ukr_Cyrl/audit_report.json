@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "checked_trials": 54540,
+  "independent_trial_zero_metric_vectors": 1080,
+  "checked_split_summary_rows": 1080,
+  "checked_gap_rows": 60,
+  "methodology": "All selectors replayed; every trial-zero vector recomputed with independent scalar SciPy metric oracle"
+}

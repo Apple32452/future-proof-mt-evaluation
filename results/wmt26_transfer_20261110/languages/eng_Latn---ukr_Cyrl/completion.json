@@ -1,0 +1,10 @@
+{
+  "signature": "411bc5288e5defc9d5193c3448389b0875505d91f67d491ed75056c699e6a68c",
+  "files": {
+    "trials.csv": "aa69fce056eeec6c288d31993709953d5c4cdec9cd0716efd93d7f23a41c695f",
+    "split_summary.csv": "0905ee1ade29ce75b9bf183ea719032effc4677556f6aa927f9a6dfc648598ae",
+    "summary.csv": "f261375a4038f6bf0fca17deaa2d6551dcee606ce740b2691386d6e6b1581ec0",
+    "quality_gap_audit.csv": "f45109c02f02861aa38170e3f50f6fd0de4020cf344851892fe3afb3f6a9434d",
+    "split_manifest.json": "0c6c5e3204b133d5fd48ab09d7935023ae33aa1637dd503b00f7e790819d1fba"
+  }
+}
