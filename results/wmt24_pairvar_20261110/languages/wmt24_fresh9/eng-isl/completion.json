@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "language_pair": "eng-isl",
+  "splits": 20,
+  "trial_rows": 40080,
+  "budgets": [
+    10,
+    25,
+    50,
+    100
+  ],
+  "artifact_sha256": {
+    "trials.csv": "dc6590e245fc63080a0082499b3b079c8fb03f561c6459949a14495eb3ac40bb",
+    "summary.csv": "e8d9a9fd1cccc294f6890b750b1a2d959d91efeb923821931e871981fd4a1ec0",
+    "split_summary.csv": "7a0dcb65aa3773e678eec4fb0c21fbbefcc128b2f4f6a03cb709036edf4f8e67",
+    "quality_gap_audit.csv": "dc22459bffb70d022e8dca16f04327dce783aed6a0bfd0e3aa22ab4a4dc567fb",
+    "split_manifest.json": "7942c770667c70d54e38e5b589f071b89065255e82f5a83a4fd2746f16f43fd7"
+  }
+}

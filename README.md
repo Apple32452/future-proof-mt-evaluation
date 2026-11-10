@@ -35,6 +35,15 @@ protocol treats 12 additional WMT26 directions as a method-outcome holdout,
 and the previous seven as exploratory checks. All reported annotation budgets
 exclude calibration and development-system judgments.
 
+The [calibration-driven pairwise-variance follow-up](experiments/quality_shift/WMT24_PAIRVAR_PROTOCOL.md)
+tests Neyman allocation based on target-pair difference variance learned on
+separate calibration documents. Its [independently audited results](results/wmt24_pairvar_20261110/RESULTS.md)
+cover **nine fresh WMT24 ESA directions** and seven exploratory WMT26 cESA
+directions. At the primary 25-item budget, the WMT24 ranking accuracy was
+**76.79% versus 76.88% for random**; the prespecified +2-point success
+threshold was **not met**. Score-error improvements do not offset this
+ranking result or the considerable uncounted calibration-label cost.
+
 ---
 
 ## Overview

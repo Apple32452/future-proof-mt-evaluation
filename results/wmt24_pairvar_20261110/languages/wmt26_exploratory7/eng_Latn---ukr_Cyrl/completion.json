@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "language_pair": "eng_Latn---ukr_Cyrl",
+  "splits": 20,
+  "trial_rows": 30060,
+  "budgets": [
+    10,
+    25,
+    50
+  ],
+  "artifact_sha256": {
+    "trials.csv": "faf288abbd599e1397cb886082460ef88f7f59803b571304c029c4a0b3dc473a",
+    "summary.csv": "a3f56e5d0287109bea8dbda688712cfb01068b7274a21554c02b3e5c5ff2d7cb",
+    "split_summary.csv": "af87a3630e0fa7c3e81a4886405fd63aed0ec71ddc0476c88afb375d2ce94405",
+    "quality_gap_audit.csv": "d3b45e4debc9b4da2302eb91cc5a5040a329fbc025a916da09fbb9e30cf45fcf",
+    "split_manifest.json": "b3d00771a382bf84da65baf7ff0c290636e68e9028cb6c832695d449aae6f1bc"
+  }
+}

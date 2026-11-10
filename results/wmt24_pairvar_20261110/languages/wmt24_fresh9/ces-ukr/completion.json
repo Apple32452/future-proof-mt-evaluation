@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "language_pair": "ces-ukr",
+  "splits": 20,
+  "trial_rows": 40080,
+  "budgets": [
+    10,
+    25,
+    50,
+    100
+  ],
+  "artifact_sha256": {
+    "trials.csv": "9d0158b4b99dcd8fe4f8a8184f620bba0ac2fe2ed8f4802147eef9a511b37692",
+    "summary.csv": "e95e4b3f64a92c76f44fa088b49d7ac4c5b98cfa127e6ef873095a499af5464e",
+    "split_summary.csv": "da66d99c3b6c22f3a070703ddef6d2b7214bb974279f55b4f37bbfbcfa976542",
+    "quality_gap_audit.csv": "a3b915848e25b5080a7fb8d22ab86ce3c6425d4678f26e27260e52fa62853dfc",
+    "split_manifest.json": "04f5f7666c6ef5bdfea9203a15c1e09011a96aa7659f8de307c82d9fb97e129c"
+  }
+}

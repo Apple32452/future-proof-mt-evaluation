@@ -8,6 +8,13 @@ reliably rank stronger unseen MT systems?
 This is a new class-project extension of the earlier
 difficulty-stratified evaluation study.
 
+For the later **calibration-driven pairwise-variance** sampling experiment,
+see its [frozen protocol](WMT24_PAIRVAR_PROTOCOL.md) and
+[WMT24/WMT26 audited results](../../results/wmt24_pairvar_20261110/RESULTS.md).
+The primary WMT24 fresh-data test did not improve ranking accuracy over
+random; the WMT26 check remained exploratory and all human-label
+calibration costs are reported separately.
+
 ## Dataset
 
 - WMT25 Czech-German human evaluation
