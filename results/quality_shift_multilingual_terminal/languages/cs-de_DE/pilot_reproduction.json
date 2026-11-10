@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "comparisons": {
+    "summary.csv": {
+      "rows": 72,
+      "max_numeric_difference": 0.0
+    },
+    "split_summary.csv": {
+      "rows": 1440,
+      "max_numeric_difference": 0.0
+    },
+    "quality_gap_audit.csv": {
+      "rows": 60,
+      "max_numeric_difference": 0.0
+    }
+  },
+  "split_manifest_exact_match": true,
+  "reference_directory": "results/quality_shift_cs_de_pilot"
+}

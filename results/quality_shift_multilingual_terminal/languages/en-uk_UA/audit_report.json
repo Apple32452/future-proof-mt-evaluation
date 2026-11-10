@@ -1,0 +1,113 @@
+{
+  "audit_version": 1,
+  "status": "passed",
+  "checks": [
+    {
+      "name": "required_files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "input_schema_and_document_grouping",
+      "passed": true,
+      "detail": "199 items, 52 documents, 18 systems."
+    },
+    {
+      "name": "run_configuration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "seeded_manifest_ids_documents_and_systems",
+      "passed": true,
+      "detail": "Independently reconstructed all 20 partitions and quality groups."
+    },
+    {
+      "name": "quality_gap_recomputation",
+      "passed": true,
+      "detail": "Verified 60 keyed rows."
+    },
+    {
+      "name": "trial_counts_keys_and_metric_domains",
+      "passed": true,
+      "detail": "54540 trial rows."
+    },
+    {
+      "name": "all_selection_ids_and_budgets",
+      "passed": true,
+      "detail": "Checked 54540 saved selections."
+    },
+    {
+      "name": "shared_random_and_source_controls",
+      "passed": true,
+      "detail": "Compared 12000 controls across all three regimes."
+    },
+    {
+      "name": "independent_trial0_metrics",
+      "passed": true,
+      "detail": "Recomputed 1080 trial rows."
+    },
+    {
+      "name": "split_summary_reaggregation",
+      "passed": true,
+      "detail": "Verified 1080 keyed rows."
+    },
+    {
+      "name": "equal_split_summary_reaggregation",
+      "passed": true,
+      "detail": "Verified 54 keyed rows."
+    }
+  ],
+  "scope": {
+    "matrix": "Caller-supplied item-level dataframe; raw-file provenance is the caller's responsibility.",
+    "selections": "Every trial: metadata, unique evaluation-only indices, budgets, and shared controls.",
+    "metrics": "Independent metric oracle for trial 0 of every split/regime/method/budget; all trials reaggregated.",
+    "rank_oracles": "SciPy Spearman/Kendall; explicit EPS-aware Kendall counts only for numerical near ties.",
+    "selector_reimplementation": false,
+    "statistical_scope": "Within-language consistency audit, not a significance test or proof of generalization."
+  },
+  "numeric_tolerance": {
+    "atol": 1e-10,
+    "rtol": 1e-10,
+    "pair_tie_epsilon": 1e-12
+  },
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1"
+  },
+  "selection_rows_checked": 54540,
+  "metric_rows_recomputed": 1080,
+  "metric_rows_with_numerical_near_ties": 0,
+  "lower_upper_development_overlap_by_split": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "metric_valid_counts_file": "metric_valid_counts.csv",
+  "observed_counts": {
+    "trial_rows": 54540,
+    "split_summary_rows": 1080,
+    "summary_rows": 54,
+    "quality_gap_rows": 60,
+    "manifest_splits": 20
+  }
+}

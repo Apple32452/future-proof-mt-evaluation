@@ -6,6 +6,15 @@
 **Institution:** Johns Hopkins University  
 **Status:** Research project / paper in preparation
 
+## New class-project extension: stronger-system ranking
+
+The [quality-shift experiment](experiments/quality_shift/README.md) asks whether
+items selected using weaker systems can rank stronger held-out systems. Its
+[multilingual extension](experiments/quality_shift/MULTILINGUAL.md) preserves the
+six pilot selectors and uses the 13 non-pilot language directions as the primary
+new-language comparison. The original score-estimation study below remains
+separate; this extension does not claim to evaluate newly released models.
+
 ---
 
 ## Overview

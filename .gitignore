@@ -8,3 +8,8 @@ data/
 *.jsonl
 *.parquet
 results/raw/
+
+# Regenerable quality-shift trial logs and local reproduction checks.
+results/quality_shift_reproduction_*/
+results/quality_shift_multilingual_*/languages/*/trials.csv
+results/quality_shift_multilingual_*/languages/.*
