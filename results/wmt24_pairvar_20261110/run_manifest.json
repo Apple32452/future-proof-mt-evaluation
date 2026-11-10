@@ -1,0 +1,511 @@
+{
+  "signature": "c755eef94a8da0f81bc15686974d45120ce247406e3039ed4cb4840fa3d7fb9c",
+  "config": {
+    "protocol_status": "frozen_before_WMT24_outcomes",
+    "seed": 20261112,
+    "splits": 20,
+    "trials": 100,
+    "budgets": [
+      10,
+      25,
+      50,
+      100
+    ],
+    "bootstrap_replicates": 5000,
+    "methods": [
+      "Random",
+      "Difficulty-stratified",
+      "Dev-cluster-proportional",
+      "Hard-only",
+      "Cal-pairvar-proportional",
+      "Cal-pairvar-Neyman"
+    ],
+    "selected_cohorts": [
+      "wmt24_fresh9",
+      "wmt26_exploratory7"
+    ],
+    "cohorts": {
+      "wmt24_fresh9": [
+        "ces-ukr",
+        "eng-ces",
+        "eng-hin",
+        "eng-isl",
+        "eng-jpn",
+        "eng-rus",
+        "eng-spa",
+        "eng-ukr",
+        "eng-zho"
+      ],
+      "wmt26_exploratory7": [
+        "eng_Latn---arz_Arab",
+        "eng_Latn---rus_Cyrl",
+        "eng_Latn---jpn_Jpan",
+        "eng_Latn---ukr_Cyrl",
+        "eng_Latn---ind_Latn",
+        "eng_Latn---tha_Thai",
+        "zho_Hans---jpn_Jpan"
+      ]
+    },
+    "source_matrix_manifest_sha256": {
+      "wmt24_fresh9": "830cb041f73b6c6072ad59496dc93aa4cbb2b30e0486031b231ac5f5cce752f2",
+      "wmt26_exploratory7": "35455135d8f4e18c845dcf77698d98dc87e254291872ae2ffe11574cd2efea9e"
+    },
+    "code_sha256": {
+      "WMT24_PAIRVAR_PROTOCOL.md": "0c4ccf982e67fb5003554ddbab62bcf79a994fc1372c0feae987f0d6be77893e",
+      "build_wmt24_esa_matrices.py": "a7e9cf08274d1d9bd69b25332fadb47b1a0b1e8dd49f42a644d69e2b5d2ac28e",
+      "pairvar_sampling.py": "be85fc8ecd9a55eb2c2f7d7821f9b55bb00f3e98e684ef96afc0138681a9ea9b",
+      "run_wmt24_pairvar.py": "403b38eb5ad49ace746d481440138938420a69b5256f143184c0aae58aff2256",
+      "run_wmt26_quality_calibrated.py": "a7d3a82b830e2349583e107b423a9075002cf3de4f5836ce821742f5aff0cae7",
+      "run_wmt26_external.py": "0c015a4f89c24d50cc186912b04b0f6ef5555d5fb3f645ce4c40d99d6d14167e",
+      "run_quality_shift_pilot.py": "8c3d925b2eb58f0ac638ac92d005252dc3cc4ba485c7bfed81c1ccea75183695",
+      "run_quality_shift_multilingual.py": "c5ae77b108c9f9976bc6e787f809a96edfe09c564c1dcf76bfd516afe2d17df5"
+    },
+    "input_summary": {
+      "wmt24_fresh9/ces-ukr": {
+        "matrix_sha256": "5b30827ea61ffa4542185596a9b9cf543940448af22b2aad3a68552b94215122",
+        "n_items": 991,
+        "n_documents": 151,
+        "min_evaluation_items": 721,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "model_names": [
+          "Aya23",
+          "CUNI-Transformer",
+          "Claude-3.5",
+          "CommandR-plus",
+          "GPT-4",
+          "Gemini-1.5-Pro",
+          "IKUN",
+          "IKUN-C",
+          "IOL-Research",
+          "ONLINE-W"
+        ]
+      },
+      "wmt24_fresh9/eng-ces": {
+        "matrix_sha256": "fc93325eae160093fc5f5f8344a0e8a2b89c3d5729c4f17a24a6d90c10eef9b0",
+        "n_items": 437,
+        "n_documents": 115,
+        "min_evaluation_items": 278,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "model_names": [
+          "Aya23",
+          "CUNI-GA",
+          "CommandR-plus",
+          "IOL-Research",
+          "SCIR-MT",
+          "Unbabel-Tower70B",
+          "CUNI-DocTransformer",
+          "IKUN-C",
+          "Llama3-70B",
+          "Claude-3.5"
+        ]
+      },
+      "wmt24_fresh9/eng-hin": {
+        "matrix_sha256": "40695ad41474642a2a48b3814d7db9802e37c2166337ee97d78fc0a939cf66d5",
+        "n_items": 452,
+        "n_documents": 125,
+        "min_evaluation_items": 297,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "model_names": [
+          "Aya23",
+          "Claude-3.5",
+          "GPT-4",
+          "Gemini-1.5-Pro",
+          "IKUN-C",
+          "IOL-Research",
+          "Llama3-70B",
+          "ONLINE-B",
+          "TranssionMT",
+          "Unbabel-Tower70B"
+        ]
+      },
+      "wmt24_fresh9/eng-isl": {
+        "matrix_sha256": "5c09d3dcde7eff7aa66f5da9b5205ecac96c347461e9124c704104c06583ae17",
+        "n_items": 285,
+        "n_documents": 85,
+        "min_evaluation_items": 185,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "model_names": [
+          "AMI",
+          "Claude-3.5",
+          "Dubformer",
+          "GPT-4",
+          "IKUN",
+          "IKUN-C",
+          "IOL-Research",
+          "Llama3-70B",
+          "ONLINE-B",
+          "Unbabel-Tower70B"
+        ]
+      },
+      "wmt24_fresh9/eng-jpn": {
+        "matrix_sha256": "314003fe70d933a1336f52c09cd7537fc0f211a0ba8c1be39e3b19667e1b8c96",
+        "n_items": 634,
+        "n_documents": 170,
+        "min_evaluation_items": 418,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "model_names": [
+          "Aya23",
+          "Claude-3.5",
+          "CommandR-plus",
+          "GPT-4",
+          "Gemini-1.5-Pro",
+          "IKUN-C",
+          "IOL-Research",
+          "Llama3-70B",
+          "NTTSU",
+          "ONLINE-B"
+        ]
+      },
+      "wmt24_fresh9/eng-rus": {
+        "matrix_sha256": "19a7d880bac03db23322ef7de60b6b13e4af78d706223c80da4baf7f1f1e8627",
+        "n_items": 285,
+        "n_documents": 85,
+        "min_evaluation_items": 185,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "model_names": [
+          "Aya23",
+          "Claude-3.5",
+          "CommandR-plus",
+          "Dubformer",
+          "GPT-4",
+          "Gemini-1.5-Pro",
+          "IKUN",
+          "IKUN-C",
+          "IOL-Research",
+          "Llama3-70B"
+        ]
+      },
+      "wmt24_fresh9/eng-spa": {
+        "matrix_sha256": "8c5886dda5bf8facc871103c1b4e5171cde7252cfb7aecd469527913b5d676c7",
+        "n_items": 285,
+        "n_documents": 85,
+        "min_evaluation_items": 185,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "model_names": [
+          "Claude-3.5",
+          "CommandR-plus",
+          "Dubformer",
+          "GPT-4",
+          "Gemini-1.5-Pro",
+          "IKUN",
+          "IKUN-C",
+          "IOL-Research",
+          "Llama3-70B",
+          "MSLC"
+        ]
+      },
+      "wmt24_fresh9/eng-ukr": {
+        "matrix_sha256": "3a9209cab226b13903b3728f0a4bc21148685dd66f51c7e950485f68bc164645",
+        "n_items": 285,
+        "n_documents": 85,
+        "min_evaluation_items": 185,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "model_names": [
+          "Claude-3.5",
+          "CommandR-plus",
+          "Dubformer",
+          "GPT-4",
+          "Gemini-1.5-Pro",
+          "IKUN",
+          "IKUN-C",
+          "IOL-Research",
+          "ONLINE-W",
+          "Unbabel-Tower70B"
+        ]
+      },
+      "wmt24_fresh9/eng-zho": {
+        "matrix_sha256": "cefaca6516d32c3b8015c308f2b1ca9cb8e3c4594dd918a2a9c7797ba12501a1",
+        "n_items": 634,
+        "n_documents": 170,
+        "min_evaluation_items": 418,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "model_names": [
+          "Aya23",
+          "Claude-3.5",
+          "CommandR-plus",
+          "GPT-4",
+          "Gemini-1.5-Pro",
+          "HW-TSC",
+          "IKUN",
+          "IKUN-C",
+          "IOL-Research",
+          "Llama3-70B"
+        ]
+      },
+      "wmt26_exploratory7/eng_Latn---arz_Arab": {
+        "matrix_sha256": "3b1e0a5fd12dac2b3bfcb0630e7c7ce092a47521bd8a8ad39fb754cc917f309d",
+        "n_items": 384,
+        "n_documents": 80,
+        "min_evaluation_items": 230,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "model_names": [
+          "GPT 5.5",
+          "Gemini 3.1 Pro",
+          "DeepSeek V4 Pro",
+          "Gemma 4 - 31B",
+          "Mistral Medium 3.5",
+          "Qwen 3.6 - 27b",
+          "Qingqiu-MT-9B",
+          "SRPOL",
+          "SalamandraTA",
+          "Gemma 4 - 4B",
+          "Tiny Aya Global",
+          "Command A+",
+          "VoxNexus_V1",
+          "Cohere CAT+",
+          "Wayfinder",
+          "GLM 4 - 9B",
+          "GPT OSS 120B",
+          "HW-TSC"
+        ]
+      },
+      "wmt26_exploratory7/eng_Latn---rus_Cyrl": {
+        "matrix_sha256": "0dcf5568103701e8e662958a58bff4d09ad2a09c12c112887da4ce2df7cff609",
+        "n_items": 260,
+        "n_documents": 83,
+        "min_evaluation_items": 149,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "model_names": [
+          "GPT 5.5",
+          "Gemini 3.1 Pro",
+          "DeepSeek V4 Pro",
+          "Gemma 4 - 31B",
+          "Mistral Medium 3.5",
+          "Qwen 3.6 - 27b",
+          "Dubformer",
+          "Lumen",
+          "TRIVE",
+          "UvA-MT",
+          "VoxNexus_V1",
+          "Wayfinder",
+          "Yandex",
+          "Command A+",
+          "MakotoAI",
+          "Qingqiu-MT-9B",
+          "Yandex-8B",
+          "Cohere CAT+"
+        ]
+      },
+      "wmt26_exploratory7/eng_Latn---jpn_Jpan": {
+        "matrix_sha256": "0ca126e0dc52a101120d79999e36d1be2951589607cd4993ca72989c7c466abe",
+        "n_items": 320,
+        "n_documents": 87,
+        "min_evaluation_items": 210,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "model_names": [
+          "GPT 5.5",
+          "Gemini 3.1 Pro",
+          "DeepSeek V4 Pro",
+          "Gemma 4 - 31B",
+          "Mistral Medium 3.5",
+          "Qwen 3.6 - 27b",
+          "Lumen",
+          "Wayfinder",
+          "SCIR-TG-MT",
+          "TRIVE",
+          "Dubformer",
+          "RFMT",
+          "GLM 4 - 9B",
+          "HW-TSC",
+          "SalamandraTA",
+          "Command A+",
+          "Gemma 4 - 4B",
+          "GPT OSS 120B"
+        ]
+      },
+      "wmt26_exploratory7/eng_Latn---ukr_Cyrl": {
+        "matrix_sha256": "66a3a4dfcb311e56c2e19ed5ae4d2d7209199b74c961ec2a42f2a7679fd8d09a",
+        "n_items": 156,
+        "n_documents": 53,
+        "min_evaluation_items": 77,
+        "supported_budgets": [
+          10,
+          25,
+          50
+        ],
+        "model_names": [
+          "GPT 5.5",
+          "Gemini 3.1 Pro",
+          "DeepSeek V4 Pro",
+          "Gemma 4 - 31B",
+          "Mistral Medium 3.5",
+          "Qwen 3.6 - 27b",
+          "Command A+",
+          "Lumen",
+          "MakotoAI",
+          "GoogleTranslate",
+          "UvA-MT",
+          "Cohere CAT+",
+          "SRPOL",
+          "Tiny Aya Global",
+          "TRIVE",
+          "Wayfinder",
+          "HW-TSC",
+          "SalamandraTA"
+        ]
+      },
+      "wmt26_exploratory7/eng_Latn---ind_Latn": {
+        "matrix_sha256": "d9bb31cf910ffc72c234580e10be28cba45cf6b26faac324d83bab4561d6262e",
+        "n_items": 543,
+        "n_documents": 144,
+        "min_evaluation_items": 370,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "model_names": [
+          "GPT 5.5",
+          "Gemini 3.1 Pro",
+          "DeepSeek V4 Pro",
+          "Gemma 4 - 31B",
+          "Mistral Medium 3.5",
+          "Qwen 3.6 - 27b",
+          "Lumen",
+          "TRIVE",
+          "HW-TSC",
+          "Tower 9B",
+          "UvA-MT",
+          "Ministral 3 - 14B",
+          "GPT OSS 120B",
+          "MakotoAI",
+          "SRPOL",
+          "Cohere CAT+",
+          "VoxNexus_V1",
+          "GPT OSS 20B"
+        ]
+      },
+      "wmt26_exploratory7/eng_Latn---tha_Thai": {
+        "matrix_sha256": "3ffb37acb290005f47cdb14914a646c06780d97b8f66f2f9c87b9a36cc6d2549",
+        "n_items": 691,
+        "n_documents": 198,
+        "min_evaluation_items": 424,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "model_names": [
+          "GPT 5.5",
+          "Gemini 3.1 Pro",
+          "DeepSeek V4 Pro",
+          "Gemma 4 - 31B",
+          "Mistral Medium 3.5",
+          "Qwen 3.6 - 27b",
+          "GLM 4 - 9B",
+          "GPT OSS 120B",
+          "GPT OSS 20B",
+          "Gemma 4 - 4B",
+          "GoogleTranslate",
+          "HW-TSC",
+          "Lumen",
+          "MakotoAI",
+          "Ministral 3 - 14B",
+          "SCIR-TG-MT",
+          "SRPOL",
+          "TRIVE"
+        ]
+      },
+      "wmt26_exploratory7/zho_Hans---jpn_Jpan": {
+        "matrix_sha256": "b08a6773ccaac137bddde7a4ef7f7f594bca76276676a0bca6e47b61d23697ce",
+        "n_items": 541,
+        "n_documents": 190,
+        "min_evaluation_items": 379,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "model_names": [
+          "GPT 5.5",
+          "Gemini 3.1 Pro",
+          "DeepSeek V4 Pro",
+          "Gemma 4 - 31B",
+          "Mistral Medium 3.5",
+          "Qwen 3.6 - 27b",
+          "Cohere CAT+",
+          "Command A+",
+          "Dubformer",
+          "GLM 4 - 9B",
+          "GPT OSS 120B",
+          "GPT OSS 20B",
+          "Gemma 4 - 4B",
+          "GoogleTranslate",
+          "HW-TSC",
+          "Lumen",
+          "MakotoAI",
+          "Ministral 3 - 14B"
+        ]
+      }
+    },
+    "incremental_target_cost": "4 times budget; excludes role/variance calibration and full development scores"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1"
+  }
+}

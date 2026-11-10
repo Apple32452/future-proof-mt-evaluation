@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "language_pair": "eng_Latn---arz_Arab",
+  "splits": 20,
+  "trial_rows": 40080,
+  "budgets": [
+    10,
+    25,
+    50,
+    100
+  ],
+  "artifact_sha256": {
+    "trials.csv": "c18d80f89b1d2a270584ace6c9f59ee8d200f72abf7a6fdcf7973654d517a2bf",
+    "summary.csv": "63f52dbd44c16298e5da4180222f2ffd0eeb5a25916556913a597f7749472f4b",
+    "split_summary.csv": "3b2b2b832d14906fbe50bc3ba617db9360c4a6c1f85bf4c7d6e7185a6ca07b6e",
+    "quality_gap_audit.csv": "567c9dfcf4eb73b01f60ae681cc2b675487a783d1ca2ca882efee02a25e6febf",
+    "split_manifest.json": "a2abead22d37b81bf4a296df4fd18d997468b8c75466879c46a80ce55348e0ae"
+  }
+}

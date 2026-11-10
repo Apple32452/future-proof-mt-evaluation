@@ -18,3 +18,7 @@ results/wmt26_quality_calibrated_*/languages/*/trials.csv
 results/wmt26_quality_calibrated_*/languages/*/split_manifest.json
 results/wmt26_rank_hybrid_*/languages/*/trials.csv
 results/wmt26_rank_hybrid_*/languages/*/split_manifest.json
+
+# Regenerable pairwise-variance sampling traces and document-ID manifests.
+results/wmt24_pairvar_*/languages/*/*/trials.csv
+results/wmt24_pairvar_*/languages/*/*/split_manifest.json

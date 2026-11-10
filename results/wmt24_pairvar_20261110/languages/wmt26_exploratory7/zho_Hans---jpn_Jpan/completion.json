@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "language_pair": "zho_Hans---jpn_Jpan",
+  "splits": 20,
+  "trial_rows": 40080,
+  "budgets": [
+    10,
+    25,
+    50,
+    100
+  ],
+  "artifact_sha256": {
+    "trials.csv": "3931606093d7dcdc875c087dadb9c2f359c13bbdbaa0e698cbc5a9ce8710ed04",
+    "summary.csv": "ad130b7a507d704ea79a01c26dfe5b26e0ad6f315f7a0482fd7bdbb2b41fe0c3",
+    "split_summary.csv": "02888440bb1cf19fe3a958acd50c6f18dd6014b967e3ab94d62de61e75d4a4b2",
+    "quality_gap_audit.csv": "ccd8b213e1c706b283c0858ccab66da50111c97d5a9cbe08e4d1cc7b6b9b0170",
+    "split_manifest.json": "df908bb2be430f14eb5f2f0ee0f41869bb55ea0ab9f0a20801b1559c7354ee32"
+  }
+}

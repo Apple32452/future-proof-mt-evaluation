@@ -1,0 +1,122 @@
+{
+  "status": "passed",
+  "n_languages": 16,
+  "replayed_selections": 631260,
+  "independent_trial0_metric_vectors": 7560,
+  "verified_macro_cells": 48,
+  "verified_paired_comparisons": 336,
+  "reports_by_language": {
+    "wmt24_fresh9/ces-ukr": {
+      "status": "passed",
+      "checked_selections": 40080,
+      "independent_metric_vectors": 480,
+      "verified_document_splits": 20,
+      "checked_split_summaries": 480
+    },
+    "wmt24_fresh9/eng-ces": {
+      "status": "passed",
+      "checked_selections": 40080,
+      "independent_metric_vectors": 480,
+      "verified_document_splits": 20,
+      "checked_split_summaries": 480
+    },
+    "wmt24_fresh9/eng-hin": {
+      "status": "passed",
+      "checked_selections": 40080,
+      "independent_metric_vectors": 480,
+      "verified_document_splits": 20,
+      "checked_split_summaries": 480
+    },
+    "wmt24_fresh9/eng-isl": {
+      "status": "passed",
+      "checked_selections": 40080,
+      "independent_metric_vectors": 480,
+      "verified_document_splits": 20,
+      "checked_split_summaries": 480
+    },
+    "wmt24_fresh9/eng-jpn": {
+      "status": "passed",
+      "checked_selections": 40080,
+      "independent_metric_vectors": 480,
+      "verified_document_splits": 20,
+      "checked_split_summaries": 480
+    },
+    "wmt24_fresh9/eng-rus": {
+      "status": "passed",
+      "checked_selections": 40080,
+      "independent_metric_vectors": 480,
+      "verified_document_splits": 20,
+      "checked_split_summaries": 480
+    },
+    "wmt24_fresh9/eng-spa": {
+      "status": "passed",
+      "checked_selections": 40080,
+      "independent_metric_vectors": 480,
+      "verified_document_splits": 20,
+      "checked_split_summaries": 480
+    },
+    "wmt24_fresh9/eng-ukr": {
+      "status": "passed",
+      "checked_selections": 40080,
+      "independent_metric_vectors": 480,
+      "verified_document_splits": 20,
+      "checked_split_summaries": 480
+    },
+    "wmt24_fresh9/eng-zho": {
+      "status": "passed",
+      "checked_selections": 40080,
+      "independent_metric_vectors": 480,
+      "verified_document_splits": 20,
+      "checked_split_summaries": 480
+    },
+    "wmt26_exploratory7/eng_Latn---arz_Arab": {
+      "status": "passed",
+      "checked_selections": 40080,
+      "independent_metric_vectors": 480,
+      "verified_document_splits": 20,
+      "checked_split_summaries": 480
+    },
+    "wmt26_exploratory7/eng_Latn---rus_Cyrl": {
+      "status": "passed",
+      "checked_selections": 40080,
+      "independent_metric_vectors": 480,
+      "verified_document_splits": 20,
+      "checked_split_summaries": 480
+    },
+    "wmt26_exploratory7/eng_Latn---jpn_Jpan": {
+      "status": "passed",
+      "checked_selections": 40080,
+      "independent_metric_vectors": 480,
+      "verified_document_splits": 20,
+      "checked_split_summaries": 480
+    },
+    "wmt26_exploratory7/eng_Latn---ukr_Cyrl": {
+      "status": "passed",
+      "checked_selections": 30060,
+      "independent_metric_vectors": 360,
+      "verified_document_splits": 20,
+      "checked_split_summaries": 360
+    },
+    "wmt26_exploratory7/eng_Latn---ind_Latn": {
+      "status": "passed",
+      "checked_selections": 40080,
+      "independent_metric_vectors": 480,
+      "verified_document_splits": 20,
+      "checked_split_summaries": 480
+    },
+    "wmt26_exploratory7/eng_Latn---tha_Thai": {
+      "status": "passed",
+      "checked_selections": 40080,
+      "independent_metric_vectors": 480,
+      "verified_document_splits": 20,
+      "checked_split_summaries": 480
+    },
+    "wmt26_exploratory7/zho_Hans---jpn_Jpan": {
+      "status": "passed",
+      "checked_selections": 40080,
+      "independent_metric_vectors": 480,
+      "verified_document_splits": 20,
+      "checked_split_summaries": 480
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "language_pair": "eng_Latn---tha_Thai",
+  "splits": 20,
+  "trial_rows": 40080,
+  "budgets": [
+    10,
+    25,
+    50,
+    100
+  ],
+  "artifact_sha256": {
+    "trials.csv": "b9badca74b9de098917519184d89ef61b9ee556cec57267edd999e019e43db0b",
+    "summary.csv": "d9bfcb9610ae511420e13cbd07b2a2dfd00b924e69424dcde47145c8b62e05e6",
+    "split_summary.csv": "3bac55925a193814f935367c22bcd3fe7aba5f4f5bb16bb73bdf39aa7a0f454a",
+    "quality_gap_audit.csv": "2efcc0eb80ddd943225634e842c5925d432f146a8a4b7476e9658b7fb7ab387c",
+    "split_manifest.json": "ea225a63bed2a25375f43345401bf1aceff05be91e43faea27f074a0838f3e34"
+  }
+}
