@@ -65,6 +65,17 @@ results, quality-gap audits, and the run configuration.
 
 Large trial-level outputs are not committed by default.
 
+## WMT26 ranking-aware hybrid follow-up
+
+The [frozen WMT26 ranking protocol](WMT26_RANK_HYBRID_PROTOCOL.md) compares
+random, hard-only, variance, difficulty-stratified, development-cluster,
+and **rank-aware hybrid** sampling. The last method oversamples items that
+are hard or disagreement-heavy for lower-quality development systems while
+reweighting strata to avoid hard-only mean-score bias. The twelve additional
+WMT26 directions are its primary method-outcome holdout at budget 10;
+seven previously inspected directions are reported separately. Scores on
+high-quality targets are never used for item selection.
+
 ## Multilingual extension
 
 The fixed pilot can now be run across the 14-language WMT25 roster. The 13

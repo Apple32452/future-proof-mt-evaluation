@@ -27,6 +27,14 @@ multivariate mean-balanced and cluster-proportional selection baselines and
 explicitly reports the uncounted calibration-label setup cost. This is an
 exploratory, not preregistered, follow-up.
 
+The [WMT26 ranking-aware hybrid follow-up](experiments/quality_shift/WMT26_RANK_HYBRID_PROTOCOL.md)
+tests whether weighting a representative sample while oversampling
+development-derived difficult/disagreement-heavy items helps **pairwise
+rankings** without the strong score bias of hard-only selection. Its frozen
+protocol treats 12 additional WMT26 directions as a method-outcome holdout,
+and the previous seven as exploratory checks. All reported annotation budgets
+exclude calibration and development-system judgments.
+
 ---
 
 ## Overview

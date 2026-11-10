@@ -16,3 +16,5 @@ results/quality_shift_multilingual_*/languages/.*
 results/wmt26_transfer_*/languages/*/trials.csv
 results/wmt26_quality_calibrated_*/languages/*/trials.csv
 results/wmt26_quality_calibrated_*/languages/*/split_manifest.json
+results/wmt26_rank_hybrid_*/languages/*/trials.csv
+results/wmt26_rank_hybrid_*/languages/*/split_manifest.json
