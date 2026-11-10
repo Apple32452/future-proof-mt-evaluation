@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "languages": 7,
+  "total_checked_selections": 218160,
+  "independent_metric_vectors": 4320,
+  "language_reports": {
+    "eng_Latn---arz_Arab": {
+      "status": "passed",
+      "checked_selections": 32320,
+      "independent_metric_vectors": 640,
+      "checked_split_aggregates": 640,
+      "calibration_document_splits": 20,
+      "audit_report_sha256": "54349300185dce14b67ed81e680fbdb6c0a9f15f835e864c758dfc6eb4a9871a"
+    },
+    "eng_Latn---rus_Cyrl": {
+      "status": "passed",
+      "checked_selections": 32320,
+      "independent_metric_vectors": 640,
+      "checked_split_aggregates": 640,
+      "calibration_document_splits": 20,
+      "audit_report_sha256": "54349300185dce14b67ed81e680fbdb6c0a9f15f835e864c758dfc6eb4a9871a"
+    },
+    "eng_Latn---jpn_Jpan": {
+      "status": "passed",
+      "checked_selections": 32320,
+      "independent_metric_vectors": 640,
+      "checked_split_aggregates": 640,
+      "calibration_document_splits": 20,
+      "audit_report_sha256": "54349300185dce14b67ed81e680fbdb6c0a9f15f835e864c758dfc6eb4a9871a"
+    },
+    "eng_Latn---ukr_Cyrl": {
+      "status": "passed",
+      "checked_selections": 24240,
+      "independent_metric_vectors": 480,
+      "checked_split_aggregates": 480,
+      "calibration_document_splits": 20,
+      "audit_report_sha256": "ac61f1bd2a900159da4ff0297c2789efe75cc17ca2135431f685283e5ee95ab0"
+    },
+    "eng_Latn---ind_Latn": {
+      "status": "passed",
+      "checked_selections": 32320,
+      "independent_metric_vectors": 640,
+      "checked_split_aggregates": 640,
+      "calibration_document_splits": 20,
+      "audit_report_sha256": "54349300185dce14b67ed81e680fbdb6c0a9f15f835e864c758dfc6eb4a9871a"
+    },
+    "eng_Latn---tha_Thai": {
+      "status": "passed",
+      "checked_selections": 32320,
+      "independent_metric_vectors": 640,
+      "checked_split_aggregates": 640,
+      "calibration_document_splits": 20,
+      "audit_report_sha256": "54349300185dce14b67ed81e680fbdb6c0a9f15f835e864c758dfc6eb4a9871a"
+    },
+    "zho_Hans---jpn_Jpan": {
+      "status": "passed",
+      "checked_selections": 32320,
+      "independent_metric_vectors": 640,
+      "checked_split_aggregates": 640,
+      "calibration_document_splits": 20,
+      "audit_report_sha256": "54349300185dce14b67ed81e680fbdb6c0a9f15f835e864c758dfc6eb4a9871a"
+    }
+  }
+}

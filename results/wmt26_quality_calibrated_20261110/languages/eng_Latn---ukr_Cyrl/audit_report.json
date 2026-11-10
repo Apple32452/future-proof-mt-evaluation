@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "checked_selections": 24240,
+  "independent_metric_vectors": 480,
+  "checked_split_aggregates": 480,
+  "calibration_document_splits": 20
+}

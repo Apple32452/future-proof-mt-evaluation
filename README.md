@@ -20,6 +20,13 @@ uses finalized WMT26 contrastive human judgments, freezes six named 2026 target
 systems, and evaluates the same selection rules on a separately audited
 complete-case panel. It does not equate WMT25 and WMT26 human score scales.
 
+The separate [WMT26 calibration-defined stronger-target experiment](experiments/quality_shift/WMT26_QUALITY_CALIBRATED.md)
+uses calibration-only human judgments to construct stronger-target and
+weaker-development system panels on disjoint evaluation documents. It adds
+multivariate mean-balanced and cluster-proportional selection baselines and
+explicitly reports the uncounted calibration-label setup cost. This is an
+exploratory, not preregistered, follow-up.
+
 ---
 
 ## Overview
