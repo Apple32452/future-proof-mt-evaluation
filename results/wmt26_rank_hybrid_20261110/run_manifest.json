@@ -1,0 +1,289 @@
+{
+  "status": "completed",
+  "signature": "33e0e42637e78a483f1f0a8c1ddfaa9c225706286544b7f5ab26a751e57f20f3",
+  "protocol": {
+    "languages": [
+      "ces_Latn---deu_Latn",
+      "eng_Latn---bel_Cyrl",
+      "eng_Latn---ces_Latn",
+      "eng_Latn---deu_Latn",
+      "eng_Latn---ekk_Latn",
+      "eng_Latn---hye_Armn",
+      "eng_Latn---isl_Latn",
+      "eng_Latn---kaz_Cyrl",
+      "eng_Latn---lij_Latn",
+      "eng_Latn---sme_Latn",
+      "eng_Latn---zho_Hans",
+      "eng_Latn---zho_Hant_TW",
+      "eng_Latn---arz_Arab",
+      "eng_Latn---rus_Cyrl",
+      "eng_Latn---jpn_Jpan",
+      "eng_Latn---ukr_Cyrl",
+      "eng_Latn---ind_Latn",
+      "eng_Latn---tha_Thai",
+      "zho_Hans---jpn_Jpan"
+    ],
+    "holdout12": [
+      "ces_Latn---deu_Latn",
+      "eng_Latn---bel_Cyrl",
+      "eng_Latn---ces_Latn",
+      "eng_Latn---deu_Latn",
+      "eng_Latn---ekk_Latn",
+      "eng_Latn---hye_Armn",
+      "eng_Latn---isl_Latn",
+      "eng_Latn---kaz_Cyrl",
+      "eng_Latn---lij_Latn",
+      "eng_Latn---sme_Latn",
+      "eng_Latn---zho_Hans",
+      "eng_Latn---zho_Hant_TW"
+    ],
+    "previous7_exploratory": [
+      "eng_Latn---arz_Arab",
+      "eng_Latn---rus_Cyrl",
+      "eng_Latn---jpn_Jpan",
+      "eng_Latn---ukr_Cyrl",
+      "eng_Latn---ind_Latn",
+      "eng_Latn---tha_Thai",
+      "zho_Hans---jpn_Jpan"
+    ],
+    "budgets": [
+      10,
+      25,
+      50,
+      100
+    ],
+    "splits": 20,
+    "trials": 100,
+    "seed": 20261111,
+    "bootstrap_replicates": 5000,
+    "methods": [
+      "Random",
+      "Hard-only",
+      "All-dev variance",
+      "Difficulty-stratified",
+      "Dev-cluster-proportional",
+      "Rank-aware hybrid"
+    ],
+    "n_target_systems": 6,
+    "n_development_systems": 6,
+    "n_clusters": 5,
+    "source_matrix_manifest_sha256": "35455135d8f4e18c845dcf77698d98dc87e254291872ae2ffe11574cd2efea9e",
+    "code_sha256": {
+      "rank_hybrid_methods.py": "1331005e236e2259977ca20f8b8d6e056908e30c342454703f469a6b3d2a082b",
+      "run_wmt26_rank_hybrid.py": "e3d70bec83b292b6e6f18c20d487e01a54913c06b5aee0a6bad83b32707733c7",
+      "run_wmt26_quality_calibrated.py": "a7d3a82b830e2349583e107b423a9075002cf3de4f5836ce821742f5aff0cae7",
+      "run_wmt26_external.py": "0c015a4f89c24d50cc186912b04b0f6ef5555d5fb3f645ce4c40d99d6d14167e",
+      "run_quality_shift_pilot.py": "8c3d925b2eb58f0ac638ac92d005252dc3cc4ba485c7bfed81c1ccea75183695",
+      "run_quality_shift_multilingual.py": "c5ae77b108c9f9976bc6e787f809a96edfe09c564c1dcf76bfd516afe2d17df5"
+    },
+    "input_summary": {
+      "ces_Latn---deu_Latn": {
+        "n_items": 50,
+        "n_documents": 21,
+        "min_evaluation_items": 29,
+        "supported_budgets": [
+          10,
+          25
+        ],
+        "matrix_sha256": "1412cecdf345eb971c859f4ec9f637484b44d6ae73a2af6a6c55927d0b23b446"
+      },
+      "eng_Latn---bel_Cyrl": {
+        "n_items": 63,
+        "n_documents": 21,
+        "min_evaluation_items": 26,
+        "supported_budgets": [
+          10,
+          25
+        ],
+        "matrix_sha256": "1d8563a3df43ff177d9555c085fab5f8fa119b9b57bee190d2476dd7ca827720"
+      },
+      "eng_Latn---ces_Latn": {
+        "n_items": 62,
+        "n_documents": 20,
+        "min_evaluation_items": 25,
+        "supported_budgets": [
+          10,
+          25
+        ],
+        "matrix_sha256": "89466a19b18291f54e38d858def9b86c2adf51ee594ead03e9b9b083ab3a195c"
+      },
+      "eng_Latn---deu_Latn": {
+        "n_items": 63,
+        "n_documents": 21,
+        "min_evaluation_items": 26,
+        "supported_budgets": [
+          10,
+          25
+        ],
+        "matrix_sha256": "2f81d83a898069ff704c7554a60797882a5295733c72c6e19904a2e6aa9eaa3b"
+      },
+      "eng_Latn---ekk_Latn": {
+        "n_items": 72,
+        "n_documents": 22,
+        "min_evaluation_items": 27,
+        "supported_budgets": [
+          10,
+          25
+        ],
+        "matrix_sha256": "2ce2fd3ada01314e9104e31422eba47b1bcbc9441d4aae997d03aff9b8abebe7"
+      },
+      "eng_Latn---hye_Armn": {
+        "n_items": 70,
+        "n_documents": 22,
+        "min_evaluation_items": 41,
+        "supported_budgets": [
+          10,
+          25
+        ],
+        "matrix_sha256": "415a278e8a4848127ae733b40347ae4a1c3acbf3c919dcdb34613547b086bf8c"
+      },
+      "eng_Latn---isl_Latn": {
+        "n_items": 71,
+        "n_documents": 21,
+        "min_evaluation_items": 26,
+        "supported_budgets": [
+          10,
+          25
+        ],
+        "matrix_sha256": "016c28ee7be874b39dc36caf2c8c0d8293eacadfc98c3e6aa803a77bea1ebaa8"
+      },
+      "eng_Latn---kaz_Cyrl": {
+        "n_items": 84,
+        "n_documents": 21,
+        "min_evaluation_items": 28,
+        "supported_budgets": [
+          10,
+          25
+        ],
+        "matrix_sha256": "eea42831ea7ee1167e3613b90f0daa9cbf0847c4a70b53ea1680fdd6159e8064"
+      },
+      "eng_Latn---lij_Latn": {
+        "n_items": 122,
+        "n_documents": 32,
+        "min_evaluation_items": 71,
+        "supported_budgets": [
+          10,
+          25,
+          50
+        ],
+        "matrix_sha256": "c138f09d6d9e502ae28f3f1abf4a9bdee9040625b8985c7824811315786f811f"
+      },
+      "eng_Latn---sme_Latn": {
+        "n_items": 62,
+        "n_documents": 20,
+        "min_evaluation_items": 25,
+        "supported_budgets": [
+          10,
+          25
+        ],
+        "matrix_sha256": "dede1664bd11eaff4104ce2e6ab3f08ef1963a69d4c2b7d07028b407165a9866"
+      },
+      "eng_Latn---zho_Hans": {
+        "n_items": 63,
+        "n_documents": 21,
+        "min_evaluation_items": 26,
+        "supported_budgets": [
+          10,
+          25
+        ],
+        "matrix_sha256": "f48ba6e22e98bb2e65f2a2f48c25b381cd72dc1cff4f61a09aecc5cef06fece8"
+      },
+      "eng_Latn---zho_Hant_TW": {
+        "n_items": 62,
+        "n_documents": 20,
+        "min_evaluation_items": 25,
+        "supported_budgets": [
+          10,
+          25
+        ],
+        "matrix_sha256": "0358ad27b7986b05e72b53f7febadd31c2556e56c7f53e3850505354bdd2bfdf"
+      },
+      "eng_Latn---arz_Arab": {
+        "n_items": 384,
+        "n_documents": 80,
+        "min_evaluation_items": 229,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "matrix_sha256": "3b1e0a5fd12dac2b3bfcb0630e7c7ce092a47521bd8a8ad39fb754cc917f309d"
+      },
+      "eng_Latn---rus_Cyrl": {
+        "n_items": 260,
+        "n_documents": 83,
+        "min_evaluation_items": 155,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "matrix_sha256": "0dcf5568103701e8e662958a58bff4d09ad2a09c12c112887da4ce2df7cff609"
+      },
+      "eng_Latn---jpn_Jpan": {
+        "n_items": 320,
+        "n_documents": 87,
+        "min_evaluation_items": 184,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "matrix_sha256": "0ca126e0dc52a101120d79999e36d1be2951589607cd4993ca72989c7c466abe"
+      },
+      "eng_Latn---ukr_Cyrl": {
+        "n_items": 156,
+        "n_documents": 53,
+        "min_evaluation_items": 74,
+        "supported_budgets": [
+          10,
+          25,
+          50
+        ],
+        "matrix_sha256": "66a3a4dfcb311e56c2e19ed5ae4d2d7209199b74c961ec2a42f2a7679fd8d09a"
+      },
+      "eng_Latn---ind_Latn": {
+        "n_items": 543,
+        "n_documents": 144,
+        "min_evaluation_items": 370,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "matrix_sha256": "d9bb31cf910ffc72c234580e10be28cba45cf6b26faac324d83bab4561d6262e"
+      },
+      "eng_Latn---tha_Thai": {
+        "n_items": 691,
+        "n_documents": 198,
+        "min_evaluation_items": 462,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "matrix_sha256": "3ffb37acb290005f47cdb14914a646c06780d97b8f66f2f9c87b9a36cc6d2549"
+      },
+      "zho_Hans---jpn_Jpan": {
+        "n_items": 541,
+        "n_documents": 190,
+        "min_evaluation_items": 379,
+        "supported_budgets": [
+          10,
+          25,
+          50,
+          100
+        ],
+        "matrix_sha256": "b08a6773ccaac137bddde7a4ef7f7f594bca76276676a0bca6e47b61d23697ce"
+      }
+    }
+  },
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1"
+}

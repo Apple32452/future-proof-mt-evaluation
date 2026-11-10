@@ -1,0 +1,19 @@
+{
+  "protocol_reference": "experiments/quality_shift/WMT26_RANK_HYBRID_PROTOCOL.md",
+  "status": "frozen before evaluating 12 new direction outcomes",
+  "primary": "holdout12, budget10 macro pairwise_accuracy, 20 document-disjoint splits",
+  "secondary": "previous7, budget25; and all other feasible budgets descriptive",
+  "practical_gain_threshold": 0.02,
+  "comparison_methods": [
+    "Random",
+    "Hard-only",
+    "All-dev variance",
+    "Difficulty-stratified",
+    "Dev-cluster-proportional",
+    "Rank-aware hybrid"
+  ],
+  "calibration": "Top six targets and bottom six development models from calibration documents only",
+  "selection": "Six development systems' scores on evaluation pool only; full pool observed",
+  "label_cost": "Incremental strong-target judgments; excludes setup/development annotations",
+  "limitations": "Nonrandom complete-case cESA observation and shared WMT26 data"
+}
