@@ -1,0 +1,898 @@
+{
+  "all_tied": {
+    "policies": {
+      "certificate_racing_v2": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 2,
+        "error_rate": 0.02,
+        "error_rate_ci95": [
+          0.0024313368239425436,
+          0.07038393247107011
+        ],
+        "mean_cost_90_percent": 720.0,
+        "mean_cost_all_pairs": 720.0,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.0013333333333333333,
+        "forced_accuracy_at_half_budget": 0.10066666666666664,
+        "mean_certified_fraction_auc": 0.002855555555555558,
+        "mean_top_two_decision_cost": 718.69,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "shared_racing": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 2,
+        "error_rate": 0.02,
+        "error_rate_ci95": [
+          0.0024313368239425436,
+          0.07038393247107011
+        ],
+        "mean_cost_90_percent": 720.0,
+        "mean_cost_all_pairs": 720.0,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.0006666666666666666,
+        "forced_accuracy_at_half_budget": 0.013333333333333334,
+        "mean_certified_fraction_auc": 0.09183611111111109,
+        "mean_top_two_decision_cost": 662.68,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "random_pair": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 2,
+        "error_rate": 0.02,
+        "error_rate_ci95": [
+          0.0024313368239425436,
+          0.07038393247107011
+        ],
+        "mean_cost_90_percent": 720.0,
+        "mean_cost_all_pairs": 720.0,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.0013333333333333333,
+        "forced_accuracy_at_half_budget": 0.035333333333333335,
+        "mean_certified_fraction_auc": 0.004047222222222224,
+        "mean_top_two_decision_cost": 717.91,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "common_all": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 2,
+        "error_rate": 0.02,
+        "error_rate_ci95": [
+          0.0024313368239425436,
+          0.07038393247107011
+        ],
+        "mean_cost_90_percent": 720.0,
+        "mean_cost_all_pairs": 720.0,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.0013333333333333333,
+        "forced_accuracy_at_half_budget": 0.10066666666666664,
+        "mean_certified_fraction_auc": 0.002801851851851853,
+        "mean_top_two_decision_cost": 718.77,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "common_active": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 2,
+        "error_rate": 0.02,
+        "error_rate_ci95": [
+          0.0024313368239425436,
+          0.07038393247107011
+        ],
+        "mean_cost_90_percent": 720.0,
+        "mean_cost_all_pairs": 720.0,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.0013333333333333333,
+        "forced_accuracy_at_half_budget": 0.10066666666666664,
+        "mean_certified_fraction_auc": 0.002801851851851853,
+        "mean_top_two_decision_cost": 718.77,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      }
+    },
+    "certificate_v2_vs": {
+      "shared_racing": {
+        "cost90_saving_fraction": 0.0,
+        "paired_bootstrap_ci95": [
+          0.0,
+          0.0
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "random_pair": {
+        "cost90_saving_fraction": 0.0,
+        "paired_bootstrap_ci95": [
+          0.0,
+          0.0
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "common_all": {
+        "cost90_saving_fraction": 0.0,
+        "paired_bootstrap_ci95": [
+          0.0,
+          0.0
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "common_active": {
+        "cost90_saving_fraction": 0.0,
+        "paired_bootstrap_ci95": [
+          0.0,
+          0.0
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      }
+    }
+  },
+  "cs_de_development": {
+    "policies": {
+      "certificate_racing_v2": {
+        "runs": 20,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.1684334709830853
+        ],
+        "mean_cost_90_percent": 4336.05,
+        "mean_cost_all_pairs": 4592.25,
+        "complete_runs": 20,
+        "resolved_at_half_budget": 0.395,
+        "forced_accuracy_at_half_budget": 0.9605263157894738,
+        "mean_certified_fraction_auc": 0.39357034632035015,
+        "mean_top_two_decision_cost": 4439.65,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "shared_racing": {
+        "runs": 20,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.1684334709830853
+        ],
+        "mean_cost_90_percent": 4377.9,
+        "mean_cost_all_pairs": 4588.45,
+        "complete_runs": 20,
+        "resolved_at_half_budget": 0.32078947368421046,
+        "forced_accuracy_at_half_budget": 0.9649999999999999,
+        "mean_certified_fraction_auc": 0.35305764411027823,
+        "mean_top_two_decision_cost": 4574.95,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "random_pair": {
+        "runs": 20,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.1684334709830853
+        ],
+        "mean_cost_90_percent": 4438.8,
+        "mean_cost_all_pairs": 4590.7,
+        "complete_runs": 20,
+        "resolved_at_half_budget": 0.37026315789473685,
+        "forced_accuracy_at_half_budget": 0.9652631578947368,
+        "mean_certified_fraction_auc": 0.37040271132376584,
+        "mean_top_two_decision_cost": 4523.05,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "common_all": {
+        "runs": 20,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.1684334709830853
+        ],
+        "mean_cost_90_percent": 4554.3,
+        "mean_cost_all_pairs": 4617.6,
+        "complete_runs": 20,
+        "resolved_at_half_budget": 0.3731578947368421,
+        "forced_accuracy_at_half_budget": 0.9634210526315791,
+        "mean_certified_fraction_auc": 0.3684813738892695,
+        "mean_top_two_decision_cost": 4525.25,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "common_active": {
+        "runs": 20,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.1684334709830853
+        ],
+        "mean_cost_90_percent": 4550.4,
+        "mean_cost_all_pairs": 4592.3,
+        "complete_runs": 20,
+        "resolved_at_half_budget": 0.3731578947368421,
+        "forced_accuracy_at_half_budget": 0.9634210526315791,
+        "mean_certified_fraction_auc": 0.3687890179995451,
+        "mean_top_two_decision_cost": 4522.65,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      }
+    },
+    "certificate_v2_vs": {
+      "shared_racing": {
+        "cost90_saving_fraction": 0.009559377783868839,
+        "paired_bootstrap_ci95": [
+          0.005308929133510729,
+          0.014500961185636574
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "random_pair": {
+        "cost90_saving_fraction": 0.02314814814814814,
+        "paired_bootstrap_ci95": [
+          0.020248523925585564,
+          0.026227142678874566
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "common_all": {
+        "cost90_saving_fraction": 0.04792174428562013,
+        "paired_bootstrap_ci95": [
+          0.045112461947613786,
+          0.05099466747025517
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "common_active": {
+        "cost90_saving_fraction": 0.04710574894514752,
+        "paired_bootstrap_ci95": [
+          0.04445542848958197,
+          0.050035248654226046
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      }
+    }
+  },
+  "heterogeneous_noise": {
+    "policies": {
+      "certificate_racing_v2": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 304.11,
+        "mean_cost_all_pairs": 351.11,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.9793333333333334,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_certified_fraction_auc": 0.7488787037037035,
+        "mean_top_two_decision_cost": 335.92,
+        "top_two_resolved_at_half_budget": 0.82,
+        "top_two_wrong_decision_runs": 0
+      },
+      "shared_racing": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 311.67,
+        "mean_cost_all_pairs": 351.11,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.9786666666666668,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_certified_fraction_auc": 0.7148574074074076,
+        "mean_top_two_decision_cost": 351.11,
+        "top_two_resolved_at_half_budget": 0.69,
+        "top_two_wrong_decision_runs": 0
+      },
+      "random_pair": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 334.77,
+        "mean_cost_all_pairs": 351.11,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.9733333333333334,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_certified_fraction_auc": 0.7252564814814817,
+        "mean_top_two_decision_cost": 344.86,
+        "top_two_resolved_at_half_budget": 0.83,
+        "top_two_wrong_decision_runs": 0
+      },
+      "common_all": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 356.35,
+        "mean_cost_all_pairs": 396.91,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.9073333333333338,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_certified_fraction_auc": 0.7196296296296302,
+        "mean_top_two_decision_cost": 385.85,
+        "top_two_resolved_at_half_budget": 0.1,
+        "top_two_wrong_decision_runs": 0
+      },
+      "common_active": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 336.93,
+        "mean_cost_all_pairs": 351.11,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.9706666666666668,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_certified_fraction_auc": 0.7265462962962965,
+        "mean_top_two_decision_cost": 347.18,
+        "top_two_resolved_at_half_budget": 0.81,
+        "top_two_wrong_decision_runs": 0
+      }
+    },
+    "certificate_v2_vs": {
+      "shared_racing": {
+        "cost90_saving_fraction": 0.02425642506497261,
+        "paired_bootstrap_ci95": [
+          0.015318130974706804,
+          0.03360800844411723
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "random_pair": {
+        "cost90_saving_fraction": 0.09158526749708751,
+        "paired_bootstrap_ci95": [
+          0.08382810788395649,
+          0.09968002977337699
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "common_all": {
+        "cost90_saving_fraction": 0.14659744633085448,
+        "paired_bootstrap_ci95": [
+          0.13596838741666253,
+          0.15742546881854724
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "common_active": {
+        "cost90_saving_fraction": 0.0974089573501914,
+        "paired_bootstrap_ci95": [
+          0.08914271256619295,
+          0.10579330503628603
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      }
+    }
+  },
+  "one_near_tie": {
+    "policies": {
+      "certificate_racing_v2": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 287.69,
+        "mean_cost_all_pairs": 422.22,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.9333333333333336,
+        "forced_accuracy_at_half_budget": 0.992,
+        "mean_certified_fraction_auc": 0.743657407407408,
+        "mean_top_two_decision_cost": 422.22,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "shared_racing": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 418.58,
+        "mean_cost_all_pairs": 422.61,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.5599999999999999,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_certified_fraction_auc": 0.5029898148148149,
+        "mean_top_two_decision_cost": 298.55,
+        "top_two_resolved_at_half_budget": 1.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "random_pair": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 295.22,
+        "mean_cost_all_pairs": 422.14,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.9333333333333336,
+        "forced_accuracy_at_half_budget": 0.9913333333333333,
+        "mean_certified_fraction_auc": 0.7234851851851859,
+        "mean_top_two_decision_cost": 422.14,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "common_all": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 318.17,
+        "mean_cost_all_pairs": 716.63,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.9333333333333336,
+        "forced_accuracy_at_half_budget": 0.9893333333333334,
+        "mean_certified_fraction_auc": 0.6964935185185205,
+        "mean_top_two_decision_cost": 716.63,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "common_active": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 289.1,
+        "mean_cost_all_pairs": 422.24,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.9333333333333336,
+        "forced_accuracy_at_half_budget": 0.992,
+        "mean_certified_fraction_auc": 0.7290166666666673,
+        "mean_top_two_decision_cost": 422.24,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      }
+    },
+    "certificate_v2_vs": {
+      "shared_racing": {
+        "cost90_saving_fraction": 0.31270008122700554,
+        "paired_bootstrap_ci95": [
+          0.31039918777911774,
+          0.31492505142436317
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "random_pair": {
+        "cost90_saving_fraction": 0.025506402005284312,
+        "paired_bootstrap_ci95": [
+          0.020553092484020975,
+          0.03081542152643077
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "common_all": {
+        "cost90_saving_fraction": 0.09579784391991708,
+        "paired_bootstrap_ci95": [
+          0.0916662313996143,
+          0.09969393648129174
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "common_active": {
+        "cost90_saving_fraction": 0.004877205119335981,
+        "paired_bootstrap_ci95": [
+          0.003947764839727997,
+          0.0058376362319249395
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      }
+    }
+  },
+  "strong_item_effect": {
+    "policies": {
+      "certificate_racing_v2": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 459.78,
+        "mean_cost_all_pairs": 466.06,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.6666666666666669,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_certified_fraction_auc": 0.5789370370370371,
+        "mean_top_two_decision_cost": 457.37,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "shared_racing": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 463.28,
+        "mean_cost_all_pairs": 466.06,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.6666666666666669,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_certified_fraction_auc": 0.5693240740740741,
+        "mean_top_two_decision_cost": 460.57,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "random_pair": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 461.07,
+        "mean_cost_all_pairs": 466.06,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.6666666666666669,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_certified_fraction_auc": 0.57067962962963,
+        "mean_top_two_decision_cost": 461.83,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "common_all": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 465.26,
+        "mean_cost_all_pairs": 469.98,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.6666666666666669,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_certified_fraction_auc": 0.5687407407407409,
+        "mean_top_two_decision_cost": 462.06,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "common_active": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 463.93,
+        "mean_cost_all_pairs": 466.06,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.6666666666666669,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_certified_fraction_auc": 0.5692824074074074,
+        "mean_top_two_decision_cost": 461.08,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      }
+    },
+    "certificate_v2_vs": {
+      "shared_racing": {
+        "cost90_saving_fraction": 0.007554826454843733,
+        "paired_bootstrap_ci95": [
+          0.006264686239501077,
+          0.008912425178789695
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "random_pair": {
+        "cost90_saving_fraction": 0.0027978398074045563,
+        "paired_bootstrap_ci95": [
+          0.0009329806949866738,
+          0.004636952612077749
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "common_all": {
+        "cost90_saving_fraction": 0.01177836048660963,
+        "paired_bootstrap_ci95": [
+          0.010276882679209787,
+          0.013344256078800479
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "common_active": {
+        "cost90_saving_fraction": 0.008945315025973843,
+        "paired_bootstrap_ci95": [
+          0.007633744168564499,
+          0.010271135369886216
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      }
+    }
+  },
+  "weak_separation": {
+    "policies": {
+      "certificate_racing_v2": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 708.25,
+        "mean_cost_all_pairs": 713.19,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.002,
+        "forced_accuracy_at_half_budget": 0.7959999999999999,
+        "mean_certified_fraction_auc": 0.07916111111111107,
+        "mean_top_two_decision_cost": 690.76,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "shared_racing": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 707.81,
+        "mean_cost_all_pairs": 712.49,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.0,
+        "forced_accuracy_at_half_budget": 0.812,
+        "mean_certified_fraction_auc": 0.06267870370370367,
+        "mean_top_two_decision_cost": 700.65,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "random_pair": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 709.47,
+        "mean_cost_all_pairs": 712.97,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.0006666666666666666,
+        "forced_accuracy_at_half_budget": 0.806,
+        "mean_certified_fraction_auc": 0.06937685185185181,
+        "mean_top_two_decision_cost": 700.7,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "common_all": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 716.55,
+        "mean_cost_all_pairs": 718.63,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.0006666666666666666,
+        "forced_accuracy_at_half_budget": 0.7953333333333333,
+        "mean_certified_fraction_auc": 0.06702129629629626,
+        "mean_top_two_decision_cost": 696.95,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "common_active": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 711.96,
+        "mean_cost_all_pairs": 713.12,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 0.0006666666666666666,
+        "forced_accuracy_at_half_budget": 0.7953333333333333,
+        "mean_certified_fraction_auc": 0.07001018518518515,
+        "mean_top_two_decision_cost": 695.37,
+        "top_two_resolved_at_half_budget": 0.0,
+        "top_two_wrong_decision_runs": 0
+      }
+    },
+    "certificate_v2_vs": {
+      "shared_racing": {
+        "cost90_saving_fraction": -0.0006216357497068614,
+        "paired_bootstrap_ci95": [
+          -0.002106459621663853,
+          0.0008902548998585931
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "random_pair": {
+        "cost90_saving_fraction": 0.0017195934993727846,
+        "paired_bootstrap_ci95": [
+          0.0006049629654307166,
+          0.002915476540649045
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "common_all": {
+        "cost90_saving_fraction": 0.011583280999232337,
+        "paired_bootstrap_ci95": [
+          0.009560563044594997,
+          0.013732492033749053
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "common_active": {
+        "cost90_saving_fraction": 0.0052109669082532895,
+        "paired_bootstrap_ci95": [
+          0.0037638190031282466,
+          0.006732952491086077
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      }
+    }
+  },
+  "well_separated": {
+    "policies": {
+      "certificate_racing_v2": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 267.44,
+        "mean_cost_all_pairs": 273.44,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 1.0,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_certified_fraction_auc": 0.7662398148148148,
+        "mean_top_two_decision_cost": 264.65,
+        "top_two_resolved_at_half_budget": 1.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "shared_racing": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 270.57,
+        "mean_cost_all_pairs": 273.44,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 1.0,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_certified_fraction_auc": 0.7591657407407407,
+        "mean_top_two_decision_cost": 268.26,
+        "top_two_resolved_at_half_budget": 1.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "random_pair": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 269.27,
+        "mean_cost_all_pairs": 273.44,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 1.0,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_certified_fraction_auc": 0.7599787037037038,
+        "mean_top_two_decision_cost": 268.54,
+        "top_two_resolved_at_half_budget": 1.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "common_all": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 272.53,
+        "mean_cost_all_pairs": 276.9,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 1.0,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_certified_fraction_auc": 0.7586074074074075,
+        "mean_top_two_decision_cost": 269.8,
+        "top_two_resolved_at_half_budget": 1.0,
+        "top_two_wrong_decision_runs": 0
+      },
+      "common_active": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_90_percent": 271.37,
+        "mean_cost_all_pairs": 273.44,
+        "complete_runs": 100,
+        "resolved_at_half_budget": 1.0,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_certified_fraction_auc": 0.7590703703703704,
+        "mean_top_two_decision_cost": 268.9,
+        "top_two_resolved_at_half_budget": 1.0,
+        "top_two_wrong_decision_runs": 0
+      }
+    },
+    "certificate_v2_vs": {
+      "shared_racing": {
+        "cost90_saving_fraction": 0.011568170898473618,
+        "paired_bootstrap_ci95": [
+          0.00955605123840548,
+          0.013677122915573497
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "random_pair": {
+        "cost90_saving_fraction": 0.0067961525606268225,
+        "paired_bootstrap_ci95": [
+          0.004166806182515406,
+          0.009516888382408826
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "common_all": {
+        "cost90_saving_fraction": 0.018676842916376057,
+        "paired_bootstrap_ci95": [
+          0.01625398889106488,
+          0.02118668974955761
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      },
+      "common_active": {
+        "cost90_saving_fraction": 0.014482072447212335,
+        "paired_bootstrap_ci95": [
+          0.01229044199992169,
+          0.01675760585528008
+        ],
+        "scope": "paired simulation/randomization variability; not independent real-language replication"
+      }
+    }
+  }
+}

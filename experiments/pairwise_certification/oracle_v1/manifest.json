@@ -1,0 +1,101 @@
+{
+  "protocol": {
+    "name": "development_hindsight_final_prefix_cost_bound_v1",
+    "date": "2026-11-13",
+    "status": "post-development mechanism diagnostic, not independent validation",
+    "frozen_before_oracle_results": true,
+    "data": "same exposed cs-de_DE fixed score matrix and known [0,1] scaling",
+    "replicates": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "shared_item_order_seeds": [
+      2026111300,
+      2026111301,
+      2026111302,
+      2026111303,
+      2026111304
+    ],
+    "primary_target": "certify at least171 of190pairs, same cost90 definition as v1/v2",
+    "alpha": 0.05,
+    "warmup_minimum": 4,
+    "warmup_condition": "require all-counts4 to resolve fewer than171 before enforcing warmup floor",
+    "oracle_class": "arbitrary per-system prefix increments; relaxation of the deployable pair-bundle action class",
+    "included_evidence": [
+      "earliest usable paired-prefix XOR mixture-betting crossing at global pair threshold",
+      "all unequal-prefix deterministic completion certificates",
+      "exact pair census"
+    ],
+    "excluded": [
+      "transitive inferred orders",
+      "changing stopping thresholds",
+      "unseen datasets",
+      "new ratings",
+      "calling hindsight allocations deployable"
+    ],
+    "optimization": "binary prefix indicators and pair inclusion, maximal-undecided-frontier clauses; minimize total scored cells",
+    "solver": "scipy.optimize.milp with HiGHS; numerical certificates, not exact-rational proof artifacts",
+    "time_limit_per_seed_seconds": 30,
+    "mip_relative_gap_requested": 0.0,
+    "reported": [
+      "feasible hindsight cost",
+      "solver lower bound rounded conservatively down",
+      "optimality gap/status",
+      "actual-inference replay of incumbents",
+      "remaining possible savings versus paired v2 and random baselines"
+    ],
+    "interpretation": "only a tight valid lower bound can rule out large extra savings within this fixed inference/shared-prefix class; a weak or missing bound is inconclusive",
+    "original_files_unchanged": true
+  },
+  "source_hashes": {
+    "oracle_costs.py": "ca6243852d936403a1a957efc6e0b8680e856c45b976608e430f2b096990fe88",
+    "run_oracle_diagnostic.py": "f727797ef4c01005171d1fcc455b144778a90a5fd3b872035c36671e8af5c686",
+    "oracle_protocol.json": "27ee89b0ec71a25f2685eb4edcea41378dc0d0601bf1349022b2e1c2faaa4d4a",
+    "test_oracle_costs.py": "33fbdca10a886a706278be7a63424948f620abeeb1e3bcdc261f9c025ff71f72",
+    "pairwise_racing.py": "cffddb3fc51b1c7b7c3c4aca7491ac85b4ddced94436dd158259c7d2c31c1f0c",
+    "certificate_racing_v2.py": "4c3488e2d5beb24f09a5395c09789712c4e63efcbb6681a13b6236aeaaa7e10c",
+    "loader.py": "593859f526db65360d27b8c8b9e17fb6d6867fd7ee2bc2ddbab2fa5ce9f770d9"
+  },
+  "input": {
+    "systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "items": 231,
+    "documents": 128,
+    "sha256": "f6de1e8da36fb67c7d99ec354e8807a016045c2d5b420f3ab8aeb72816bc279d",
+    "score_bounds_raw": [
+      0.0,
+      100.0
+    ],
+    "human_ratings_per_cell": 2,
+    "data_role": "development_only"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "target_pairs": 171,
+  "scope": "five prespecified exposed development permutations only"
+}

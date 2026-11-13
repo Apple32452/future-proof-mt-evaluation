@@ -1,0 +1,56 @@
+{
+  "protocol_version": "shared_prefix_pairwise_racing_v1",
+  "date": "2026-11-13",
+  "status": "development-only prototype; not preregistered independent replication",
+  "frozen_before_results": true,
+  "target": "signs of all pairwise differences between fixed finite-population mean scores",
+  "alpha_familywise": 0.05,
+  "score_range": [0, 1],
+  "bet_fractions": [0.05, 0.1, 0.2, 0.4, 0.6, 0.8, 0.95],
+  "warmup_rows": 4,
+  "policy_gap_floor": 0.01,
+  "policy_variance_ridge": 0.0001,
+  "policies": ["shared_racing", "random_pair", "common_all", "common_active"],
+  "primary_outcomes": [
+    "any wrong certificate anywhere in a run",
+    "unique mean-score cells needed to certify 90 percent of pairs",
+    "unique mean-score cells needed to decide all pairs"
+  ],
+  "secondary_outcomes": [
+    "certified fraction at 10, 25, 50, and 75 percent of full label cost",
+    "unresolved fraction and forced sample-mean ranking accuracy reported separately",
+    "area under the certified-fraction versus label-fraction curve"
+  ],
+  "synthetic": {
+    "scenarios": ["well_separated", "one_near_tie", "all_tied", "heterogeneous_noise", "strong_item_effect", "weak_separation"],
+    "n_items": 120,
+    "n_systems": 6,
+    "replicates_per_scenario": 100,
+    "seed": 20261113,
+    "unit_of_repeat": "new synthetic finite matrix plus one shared uniform item permutation"
+  },
+  "real_development": {
+    "input": "inputs/cs-de_DE_human_scores.csv",
+    "sha256": "f6de1e8da36fb67c7d99ec354e8807a016045c2d5b420f3ab8aeb72816bc279d",
+    "systems": "all 20 machine-system columns; no quality-based selection",
+    "n_items": 231,
+    "replicates": 20,
+    "seed": 2026111300,
+    "human_ratings_per_mean_cell": 2,
+    "claim_scope": "randomization stability on one previously exposed fixed matrix, not generalization"
+  },
+  "gate": {
+    "safety": "proof plus implementation tests; flag any empirical violation and compare error-frequency uncertainty to alpha",
+    "efficiency": "do not promote unless shared_racing improves cost to 90 percent resolution by at least 10 percent versus both common_active and random_pair; still requires independent data and published strong baselines",
+    "all_findings_reported": true,
+    "no_posthoc_tuning": true
+  },
+  "exclusions": [
+    "no Hayden private or collaborative data/code/results",
+    "no SAFE-EVAL code reuse or claimed novelty relative to that project",
+    "no new untouched test data evaluated",
+    "no new human annotations collected",
+    "no fixed-95-percent intervals used with repeated uncorrected stopping",
+    "no total ranking advertised when comparisons are unresolved"
+  ]
+}

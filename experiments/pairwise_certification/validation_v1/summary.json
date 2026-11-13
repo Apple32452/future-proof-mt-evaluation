@@ -1,0 +1,660 @@
+{
+  "all_tied": {
+    "policies": {
+      "shared_racing": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 2,
+        "error_rate": 0.02,
+        "error_rate_ci95": [
+          0.0024313368239425436,
+          0.07038393247107011
+        ],
+        "mean_cost_all_pairs": 720.0,
+        "mean_cost_90_percent": 720.0,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.09183611111111109,
+        "resolved_at_half_budget": 0.0006666666666666666,
+        "forced_accuracy_at_half_budget": 0.013333333333333334,
+        "mean_betting_certificates": 0.02
+      },
+      "random_pair": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 2,
+        "error_rate": 0.02,
+        "error_rate_ci95": [
+          0.0024313368239425436,
+          0.07038393247107011
+        ],
+        "mean_cost_all_pairs": 720.0,
+        "mean_cost_90_percent": 720.0,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.004047222222222224,
+        "resolved_at_half_budget": 0.0013333333333333333,
+        "forced_accuracy_at_half_budget": 0.035333333333333335,
+        "mean_betting_certificates": 0.02
+      },
+      "common_all": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 2,
+        "error_rate": 0.02,
+        "error_rate_ci95": [
+          0.0024313368239425436,
+          0.07038393247107011
+        ],
+        "mean_cost_all_pairs": 720.0,
+        "mean_cost_90_percent": 720.0,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.002801851851851853,
+        "resolved_at_half_budget": 0.0013333333333333333,
+        "forced_accuracy_at_half_budget": 0.10066666666666664,
+        "mean_betting_certificates": 0.02
+      },
+      "common_active": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 2,
+        "error_rate": 0.02,
+        "error_rate_ci95": [
+          0.0024313368239425436,
+          0.07038393247107011
+        ],
+        "mean_cost_all_pairs": 720.0,
+        "mean_cost_90_percent": 720.0,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.002801851851851853,
+        "resolved_at_half_budget": 0.0013333333333333333,
+        "forced_accuracy_at_half_budget": 0.10066666666666664,
+        "mean_betting_certificates": 0.02
+      }
+    },
+    "shared_racing_vs": {
+      "random_pair": {
+        "cost90_saving_fraction": 0.0,
+        "paired_bootstrap_ci95": [
+          0.0,
+          0.0
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      },
+      "common_all": {
+        "cost90_saving_fraction": 0.0,
+        "paired_bootstrap_ci95": [
+          0.0,
+          0.0
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      },
+      "common_active": {
+        "cost90_saving_fraction": 0.0,
+        "paired_bootstrap_ci95": [
+          0.0,
+          0.0
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      }
+    }
+  },
+  "cs_de_development": {
+    "policies": {
+      "shared_racing": {
+        "runs": 20,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.1684334709830853
+        ],
+        "mean_cost_all_pairs": 4588.45,
+        "mean_cost_90_percent": 4377.9,
+        "complete_runs": 20,
+        "mean_certified_fraction_auc": 0.35305764411027823,
+        "resolved_at_half_budget": 0.32078947368421046,
+        "forced_accuracy_at_half_budget": 0.9649999999999999,
+        "mean_betting_certificates": 166.05
+      },
+      "random_pair": {
+        "runs": 20,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.1684334709830853
+        ],
+        "mean_cost_all_pairs": 4590.7,
+        "mean_cost_90_percent": 4438.8,
+        "complete_runs": 20,
+        "mean_certified_fraction_auc": 0.37040271132376584,
+        "resolved_at_half_budget": 0.37026315789473685,
+        "forced_accuracy_at_half_budget": 0.9652631578947368,
+        "mean_betting_certificates": 166.5
+      },
+      "common_all": {
+        "runs": 20,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.1684334709830853
+        ],
+        "mean_cost_all_pairs": 4617.6,
+        "mean_cost_90_percent": 4554.3,
+        "complete_runs": 20,
+        "mean_certified_fraction_auc": 0.3684813738892695,
+        "resolved_at_half_budget": 0.3731578947368421,
+        "forced_accuracy_at_half_budget": 0.9634210526315791,
+        "mean_betting_certificates": 167.8
+      },
+      "common_active": {
+        "runs": 20,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.1684334709830853
+        ],
+        "mean_cost_all_pairs": 4592.3,
+        "mean_cost_90_percent": 4550.4,
+        "complete_runs": 20,
+        "mean_certified_fraction_auc": 0.3687890179995451,
+        "resolved_at_half_budget": 0.3731578947368421,
+        "forced_accuracy_at_half_budget": 0.9634210526315791,
+        "mean_betting_certificates": 167.8
+      }
+    },
+    "shared_racing_vs": {
+      "random_pair": {
+        "cost90_saving_fraction": 0.013719924303866038,
+        "paired_bootstrap_ci95": [
+          0.00881049671775908,
+          0.01840766204551381
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      },
+      "common_all": {
+        "cost90_saving_fraction": 0.03873262630920238,
+        "paired_bootstrap_ci95": [
+          0.03608249829302178,
+          0.041285598633111306
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      },
+      "common_active": {
+        "cost90_saving_fraction": 0.03790875527426163,
+        "paired_bootstrap_ci95": [
+          0.0351468985184282,
+          0.04045340169359921
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      }
+    }
+  },
+  "heterogeneous_noise": {
+    "policies": {
+      "shared_racing": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 351.11,
+        "mean_cost_90_percent": 311.67,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.7148574074074076,
+        "resolved_at_half_budget": 0.9786666666666668,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_betting_certificates": 15.0
+      },
+      "random_pair": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 351.11,
+        "mean_cost_90_percent": 334.77,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.7252564814814817,
+        "resolved_at_half_budget": 0.9733333333333334,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_betting_certificates": 15.0
+      },
+      "common_all": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 396.91,
+        "mean_cost_90_percent": 356.35,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.7196296296296302,
+        "resolved_at_half_budget": 0.9073333333333338,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_betting_certificates": 15.0
+      },
+      "common_active": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 351.11,
+        "mean_cost_90_percent": 336.93,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.7265462962962965,
+        "resolved_at_half_budget": 0.9706666666666668,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_betting_certificates": 15.0
+      }
+    },
+    "shared_racing_vs": {
+      "random_pair": {
+        "cost90_saving_fraction": 0.06900259879917547,
+        "paired_bootstrap_ci95": [
+          0.060940142433730235,
+          0.07716724369328186
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      },
+      "common_all": {
+        "cost90_saving_fraction": 0.12538234881436794,
+        "paired_bootstrap_ci95": [
+          0.11557624994218632,
+          0.13534695595358745
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      },
+      "common_active": {
+        "cost90_saving_fraction": 0.07497106223844707,
+        "paired_bootstrap_ci95": [
+          0.06750109749516658,
+          0.08271793463787713
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      }
+    }
+  },
+  "one_near_tie": {
+    "policies": {
+      "shared_racing": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 422.61,
+        "mean_cost_90_percent": 418.58,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.5029898148148149,
+        "resolved_at_half_budget": 0.5599999999999999,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_betting_certificates": 14.0
+      },
+      "random_pair": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 422.14,
+        "mean_cost_90_percent": 295.22,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.7234851851851859,
+        "resolved_at_half_budget": 0.9333333333333336,
+        "forced_accuracy_at_half_budget": 0.9913333333333333,
+        "mean_betting_certificates": 14.0
+      },
+      "common_all": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 716.63,
+        "mean_cost_90_percent": 318.17,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.6964935185185205,
+        "resolved_at_half_budget": 0.9333333333333336,
+        "forced_accuracy_at_half_budget": 0.9893333333333334,
+        "mean_betting_certificates": 14.0
+      },
+      "common_active": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 422.24,
+        "mean_cost_90_percent": 289.1,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.7290166666666673,
+        "resolved_at_half_budget": 0.9333333333333336,
+        "forced_accuracy_at_half_budget": 0.992,
+        "mean_betting_certificates": 14.0
+      }
+    },
+    "shared_racing_vs": {
+      "random_pair": {
+        "cost90_saving_fraction": -0.41785786870808184,
+        "paired_bootstrap_ci95": [
+          -0.42576316746155113,
+          -0.40961433636985983
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      },
+      "common_all": {
+        "cost90_saving_fraction": -0.31558600748027765,
+        "paired_bootstrap_ci95": [
+          -0.3243294334777849,
+          -0.3068998837025846
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      },
+      "common_active": {
+        "cost90_saving_fraction": -0.44787270840539595,
+        "paired_bootstrap_ci95": [
+          -0.4528016001371837,
+          -0.44277199211039997
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      }
+    }
+  },
+  "strong_item_effect": {
+    "policies": {
+      "shared_racing": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 466.06,
+        "mean_cost_90_percent": 463.28,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.5693240740740741,
+        "resolved_at_half_budget": 0.6666666666666669,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_betting_certificates": 15.0
+      },
+      "random_pair": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 466.06,
+        "mean_cost_90_percent": 461.07,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.57067962962963,
+        "resolved_at_half_budget": 0.6666666666666669,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_betting_certificates": 15.0
+      },
+      "common_all": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 469.98,
+        "mean_cost_90_percent": 465.26,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.5687407407407409,
+        "resolved_at_half_budget": 0.6666666666666669,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_betting_certificates": 15.0
+      },
+      "common_active": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 466.06,
+        "mean_cost_90_percent": 463.93,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.5692824074074074,
+        "resolved_at_half_budget": 0.6666666666666669,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_betting_certificates": 15.0
+      }
+    },
+    "shared_racing_vs": {
+      "random_pair": {
+        "cost90_saving_fraction": -0.004793198429739576,
+        "paired_bootstrap_ci95": [
+          -0.006318703695887801,
+          -0.003335614845883545
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      },
+      "common_all": {
+        "cost90_saving_fraction": 0.004255684993337061,
+        "paired_bootstrap_ci95": [
+          0.0032687943641146245,
+          0.005304450218312137
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      },
+      "common_active": {
+        "cost90_saving_fraction": 0.0014010734378031575,
+        "paired_bootstrap_ci95": [
+          0.0007548952259689157,
+          0.0020475064607927583
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      }
+    }
+  },
+  "weak_separation": {
+    "policies": {
+      "shared_racing": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 712.49,
+        "mean_cost_90_percent": 707.81,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.06267870370370367,
+        "resolved_at_half_budget": 0.0,
+        "forced_accuracy_at_half_budget": 0.812,
+        "mean_betting_certificates": 5.69
+      },
+      "random_pair": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 712.97,
+        "mean_cost_90_percent": 709.47,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.06937685185185181,
+        "resolved_at_half_budget": 0.0006666666666666666,
+        "forced_accuracy_at_half_budget": 0.806,
+        "mean_betting_certificates": 6.21
+      },
+      "common_all": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 718.63,
+        "mean_cost_90_percent": 716.55,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.06702129629629626,
+        "resolved_at_half_budget": 0.0006666666666666666,
+        "forced_accuracy_at_half_budget": 0.7953333333333333,
+        "mean_betting_certificates": 6.6
+      },
+      "common_active": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 713.12,
+        "mean_cost_90_percent": 711.96,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.07001018518518515,
+        "resolved_at_half_budget": 0.0006666666666666666,
+        "forced_accuracy_at_half_budget": 0.7953333333333333,
+        "mean_betting_certificates": 6.6
+      }
+    },
+    "shared_racing_vs": {
+      "random_pair": {
+        "cost90_saving_fraction": 0.0023397747614417597,
+        "paired_bootstrap_ci95": [
+          0.0011133436720753454,
+          0.0035946123174560997
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      },
+      "common_all": {
+        "cost90_saving_fraction": 0.012197334449794206,
+        "paired_bootstrap_ci95": [
+          0.010024691738953309,
+          0.014552862267484042
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      },
+      "common_active": {
+        "cost90_saving_fraction": 0.005828979156132452,
+        "paired_bootstrap_ci95": [
+          0.004576035906820675,
+          0.0071984087762527954
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      }
+    }
+  },
+  "well_separated": {
+    "policies": {
+      "shared_racing": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 273.44,
+        "mean_cost_90_percent": 270.57,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.7591657407407407,
+        "resolved_at_half_budget": 1.0,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_betting_certificates": 15.0
+      },
+      "random_pair": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 273.44,
+        "mean_cost_90_percent": 269.27,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.7599787037037038,
+        "resolved_at_half_budget": 1.0,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_betting_certificates": 15.0
+      },
+      "common_all": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 276.9,
+        "mean_cost_90_percent": 272.53,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.7586074074074075,
+        "resolved_at_half_budget": 1.0,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_betting_certificates": 15.0
+      },
+      "common_active": {
+        "runs": 100,
+        "runs_with_any_wrong_certificate": 0,
+        "error_rate": 0.0,
+        "error_rate_ci95": [
+          0.0,
+          0.03621669264517641
+        ],
+        "mean_cost_all_pairs": 273.44,
+        "mean_cost_90_percent": 271.37,
+        "complete_runs": 100,
+        "mean_certified_fraction_auc": 0.7590703703703704,
+        "resolved_at_half_budget": 1.0,
+        "forced_accuracy_at_half_budget": 1.0,
+        "mean_betting_certificates": 15.0
+      }
+    },
+    "shared_racing_vs": {
+      "random_pair": {
+        "cost90_saving_fraction": -0.00482786793924328,
+        "paired_bootstrap_ci95": [
+          -0.007253425392449636,
+          -0.002410261782320916
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      },
+      "common_all": {
+        "cost90_saving_fraction": 0.007191868785087818,
+        "paired_bootstrap_ci95": [
+          0.005364668881498338,
+          0.009013655140575965
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      },
+      "common_active": {
+        "cost90_saving_fraction": 0.0029480045694071366,
+        "paired_bootstrap_ci95": [
+          0.0016237345711158369,
+          0.004273504273504369
+        ],
+        "note": "MC variability across matched runs, NOT evidence across independent language populations"
+      }
+    }
+  }
+}

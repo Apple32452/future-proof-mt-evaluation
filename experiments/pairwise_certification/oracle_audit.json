@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "checks": 22122,
+  "issues": [],
+  "optimization_runs_executed_by_audit": 0,
+  "input_sha256": "f6de1e8da36fb67c7d99ec354e8807a016045c2d5b420f3ab8aeb72816bc279d",
+  "oracle_runs_sha256": "80650644fe56a8848cc6d978986b5d96b3a6c76ce379e808575edd0dc4160ac7",
+  "auditor_source_sha256": "43f1b90728518f467dcde3c6f22ba370df48cf86a1c3d385ae6e417f888d85ba",
+  "records": [
+    {
+      "replicate": 0,
+      "seed": 2026111300,
+      "solver_status": 0,
+      "solver_reported_optimal": true,
+      "solver_reported_relative_gap": 0.0,
+      "raw_numerical_dual": 4064.0,
+      "conservative_lower": 4063,
+      "verified_upper": 4064,
+      "numerical_bound_width_cells": 1,
+      "v2_cost90": 4324,
+      "incumbent_resolved_pairs": 171,
+      "wrong_incumbent_certificates": 0,
+      "independent_scalar_tau_checked_pairs": 190,
+      "incumbent_schedules_replayed": 2,
+      "v2_queries_checked": 4324,
+      "warmup_resolved_pairs": 0
+    },
+    {
+      "replicate": 1,
+      "seed": 2026111301,
+      "solver_status": 0,
+      "solver_reported_optimal": true,
+      "solver_reported_relative_gap": 0.0,
+      "raw_numerical_dual": 4085.999999999902,
+      "conservative_lower": 4085,
+      "verified_upper": 4086,
+      "numerical_bound_width_cells": 1,
+      "v2_cost90": 4251,
+      "incumbent_resolved_pairs": 171,
+      "wrong_incumbent_certificates": 0,
+      "independent_scalar_tau_checked_pairs": 190,
+      "incumbent_schedules_replayed": 2,
+      "v2_queries_checked": 4251,
+      "warmup_resolved_pairs": 0
+    },
+    {
+      "replicate": 2,
+      "seed": 2026111302,
+      "solver_status": 0,
+      "solver_reported_optimal": true,
+      "solver_reported_relative_gap": 0.0,
+      "raw_numerical_dual": 4137.999999999999,
+      "conservative_lower": 4137,
+      "verified_upper": 4138,
+      "numerical_bound_width_cells": 1,
+      "v2_cost90": 4359,
+      "incumbent_resolved_pairs": 171,
+      "wrong_incumbent_certificates": 0,
+      "independent_scalar_tau_checked_pairs": 190,
+      "incumbent_schedules_replayed": 2,
+      "v2_queries_checked": 4359,
+      "warmup_resolved_pairs": 0
+    },
+    {
+      "replicate": 3,
+      "seed": 2026111303,
+      "solver_status": 0,
+      "solver_reported_optimal": true,
+      "solver_reported_relative_gap": 0.0,
+      "raw_numerical_dual": 4136.0,
+      "conservative_lower": 4135,
+      "verified_upper": 4136,
+      "numerical_bound_width_cells": 1,
+      "v2_cost90": 4316,
+      "incumbent_resolved_pairs": 171,
+      "wrong_incumbent_certificates": 0,
+      "independent_scalar_tau_checked_pairs": 190,
+      "incumbent_schedules_replayed": 2,
+      "v2_queries_checked": 4316,
+      "warmup_resolved_pairs": 0
+    },
+    {
+      "replicate": 4,
+      "seed": 2026111304,
+      "solver_status": 0,
+      "solver_reported_optimal": true,
+      "solver_reported_relative_gap": 0.0,
+      "raw_numerical_dual": 4147.00000000003,
+      "conservative_lower": 4146,
+      "verified_upper": 4147,
+      "numerical_bound_width_cells": 1,
+      "v2_cost90": 4365,
+      "incumbent_resolved_pairs": 171,
+      "wrong_incumbent_certificates": 0,
+      "independent_scalar_tau_checked_pairs": 190,
+      "incumbent_schedules_replayed": 2,
+      "v2_queries_checked": 4365,
+      "warmup_resolved_pairs": 0
+    }
+  ],
+  "mean_oracle_lower": 4113.2,
+  "mean_verified_upper": 4114.2,
+  "ratio_of_means_saving_intervals": {
+    "certificate_racing_v2": [
+      0.04829979181124222,
+      0.04853111265325005
+    ],
+    "shared_racing": [
+      0.06248290948865187,
+      0.06271078297329324
+    ],
+    "random_pair": [
+      0.07002712477396023,
+      0.07025316455696207
+    ],
+    "common_active": [
+      0.09613779164286662,
+      0.09635748495100849
+    ],
+    "common_all": [
+      0.09681243414120122,
+      0.09703196347031962
+    ]
+  },
+  "inference_review": {
+    "v2_inference_methods_identical_to_v1": true,
+    "certificate_reasons": [
+      "deterministic_completion",
+      "mixture_betting",
+      "exact_census"
+    ],
+    "deployable_score_access": "dimension-only controller plus one guarded callback call per unique next-prefix acquired cell; full labels and true signs are evaluation-side only",
+    "reuse": "one score cell is acquired once and reused only in its observed system/pair prefixes",
+    "forecast": "v2 fictional continuation acts on copied observed betting state; no forecast is passed to observe_next",
+    "static_review_scope": "reviewed frozen source; observed query traces are checked, not a formal information-flow proof"
+  },
+  "limitations": [
+    "These are five prespecified permutations of the same already-exposed development matrix, not five independent MT datasets or new human evaluations.",
+    "Optimal means solver status 0 and numerical primal/dual agreement; this audit does not independently verify an exact-rational branch-and-bound proof.",
+    "Lower bound is conservatively floor(raw dual minus 1e-7), so each reported interval remains one cell wide even when the numerical solver reports zero gap.",
+    "The optimized class permits arbitrary per-system prefix acquisitions but RETAINS at least four acquired cells per system. It relaxes pair-bundle scheduling, not the warmup restriction.",
+    "The zero-certificate all-counts-four check justifies applying the bound to the frozen policies after mandatory warmup; it does not justify applying this lower bound to arbitrary no-warmup algorithms.",
+    "The feasible hindsight allocation need not be realizable by the narrower online pair-bundle action class and is not deployable without unobserved labels.",
+    "The savings intervals bound the hindsight optimum relative to paired baselines on these five orders under this fixed inference protocol; they are not confidence intervals or attainable online improvements.",
+    "No transitive closure or proxy judgments enter actual certificates. Full labels are intentionally available only to the hindsight diagnostic and outer evaluation."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "development_hindsight_final_prefix_cost_bound_v1",
+  "date": "2026-11-13",
+  "status": "post-development mechanism diagnostic, not independent validation",
+  "frozen_before_oracle_results": true,
+  "data": "same exposed cs-de_DE fixed score matrix and known [0,1] scaling",
+  "replicates": [0, 1, 2, 3, 4],
+  "shared_item_order_seeds": [2026111300, 2026111301, 2026111302, 2026111303, 2026111304],
+  "primary_target": "certify at least171 of190pairs, same cost90 definition as v1/v2",
+  "alpha": 0.05,
+  "warmup_minimum": 4,
+  "warmup_condition": "require all-counts4 to resolve fewer than171 before enforcing warmup floor",
+  "oracle_class": "arbitrary per-system prefix increments; relaxation of the deployable pair-bundle action class",
+  "included_evidence": ["earliest usable paired-prefix XOR mixture-betting crossing at global pair threshold", "all unequal-prefix deterministic completion certificates", "exact pair census"],
+  "excluded": ["transitive inferred orders", "changing stopping thresholds", "unseen datasets", "new ratings", "calling hindsight allocations deployable"],
+  "optimization": "binary prefix indicators and pair inclusion, maximal-undecided-frontier clauses; minimize total scored cells",
+  "solver": "scipy.optimize.milp with HiGHS; numerical certificates, not exact-rational proof artifacts",
+  "time_limit_per_seed_seconds": 30,
+  "mip_relative_gap_requested": 0.0,
+  "reported": ["feasible hindsight cost", "solver lower bound rounded conservatively down", "optimality gap/status", "actual-inference replay of incumbents", "remaining possible savings versus paired v2 and random baselines"],
+  "interpretation": "only a tight valid lower bound can rule out large extra savings within this fixed inference/shared-prefix class; a weak or missing bound is inconclusive",
+  "original_files_unchanged": true
+}

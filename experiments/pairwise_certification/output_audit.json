@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "scope": "Independent output/metric recomputation and eight traced development replays; not a proof or new independent dataset",
+  "checked": {
+    "assertions": 156221,
+    "trial_records": 2480,
+    "replayed_query_events": 36751
+  },
+  "expected_trial_records": 2480,
+  "trials_sha256": "cea91c6ddfafa1edf6b640973a18847c2321e0939cfd1331b8041d57ba146873",
+  "real_input_sha256": "f6de1e8da36fb67c7d99ec354e8807a016045c2d5b420f3ab8aeb72816bc279d",
+  "independent_real_truth_pairs": 190,
+  "independent_synthetic_populations": 600,
+  "wrong_certificate_runs": {
+    "all_tied/common_active": 2,
+    "all_tied/common_all": 2,
+    "all_tied/random_pair": 2,
+    "all_tied/shared_racing": 2,
+    "cs_de_development/common_active": 0,
+    "cs_de_development/common_all": 0,
+    "cs_de_development/random_pair": 0,
+    "cs_de_development/shared_racing": 0,
+    "heterogeneous_noise/common_active": 0,
+    "heterogeneous_noise/common_all": 0,
+    "heterogeneous_noise/random_pair": 0,
+    "heterogeneous_noise/shared_racing": 0,
+    "one_near_tie/common_active": 0,
+    "one_near_tie/common_all": 0,
+    "one_near_tie/random_pair": 0,
+    "one_near_tie/shared_racing": 0,
+    "strong_item_effect/common_active": 0,
+    "strong_item_effect/common_all": 0,
+    "strong_item_effect/random_pair": 0,
+    "strong_item_effect/shared_racing": 0,
+    "weak_separation/common_active": 0,
+    "weak_separation/common_all": 0,
+    "weak_separation/random_pair": 0,
+    "weak_separation/shared_racing": 0,
+    "well_separated/common_active": 0,
+    "well_separated/common_all": 0,
+    "well_separated/random_pair": 0,
+    "well_separated/shared_racing": 0
+  },
+  "wrong_certificates": {
+    "all_tied/common_active": 2,
+    "all_tied/common_all": 2,
+    "all_tied/random_pair": 2,
+    "all_tied/shared_racing": 2,
+    "cs_de_development/common_active": 0,
+    "cs_de_development/common_all": 0,
+    "cs_de_development/random_pair": 0,
+    "cs_de_development/shared_racing": 0,
+    "heterogeneous_noise/common_active": 0,
+    "heterogeneous_noise/common_all": 0,
+    "heterogeneous_noise/random_pair": 0,
+    "heterogeneous_noise/shared_racing": 0,
+    "one_near_tie/common_active": 0,
+    "one_near_tie/common_all": 0,
+    "one_near_tie/random_pair": 0,
+    "one_near_tie/shared_racing": 0,
+    "strong_item_effect/common_active": 0,
+    "strong_item_effect/common_all": 0,
+    "strong_item_effect/random_pair": 0,
+    "strong_item_effect/shared_racing": 0,
+    "weak_separation/common_active": 0,
+    "weak_separation/common_all": 0,
+    "weak_separation/random_pair": 0,
+    "weak_separation/shared_racing": 0,
+    "well_separated/common_active": 0,
+    "well_separated/common_all": 0,
+    "well_separated/random_pair": 0,
+    "well_separated/shared_racing": 0
+  },
+  "replays": [
+    {
+      "replicate": 0,
+      "policy": "shared_racing",
+      "seed": 2026111300,
+      "query_events": 4592,
+      "decision_and_cost_replay": "matched"
+    },
+    {
+      "replicate": 0,
+      "policy": "random_pair",
+      "seed": 2026111300,
+      "query_events": 4589,
+      "decision_and_cost_replay": "matched"
+    },
+    {
+      "replicate": 0,
+      "policy": "common_all",
+      "seed": 2026111300,
+      "query_events": 4617,
+      "decision_and_cost_replay": "matched"
+    },
+    {
+      "replicate": 0,
+      "policy": "common_active",
+      "seed": 2026111300,
+      "query_events": 4593,
+      "decision_and_cost_replay": "matched"
+    },
+    {
+      "replicate": 1,
+      "policy": "shared_racing",
+      "seed": 2026111301,
+      "query_events": 4573,
+      "decision_and_cost_replay": "matched"
+    },
+    {
+      "replicate": 1,
+      "policy": "random_pair",
+      "seed": 2026111301,
+      "query_events": 4582,
+      "decision_and_cost_replay": "matched"
+    },
+    {
+      "replicate": 1,
+      "policy": "common_all",
+      "seed": 2026111301,
+      "query_events": 4618,
+      "decision_and_cost_replay": "matched"
+    },
+    {
+      "replicate": 1,
+      "policy": "common_active",
+      "seed": 2026111301,
+      "query_events": 4587,
+      "decision_and_cost_replay": "matched"
+    }
+  ],
+  "issues": [],
+  "limitations": [
+    "Bootstrap percentile intervals not independently recomputed.",
+    "Trace replays use the frozen controller; arithmetic/record checks and finite-matrix truth are independent.",
+    "Development matrix means are not noise-free estimates of latent human preferences."
+  ]
+}
