@@ -1,0 +1,31 @@
+{
+  "protocol_version": "certificate_focused_shared_prefix_v2",
+  "date": "2026-11-13",
+  "status": "one post-v1 development revision; not independent confirmation or a preregistration",
+  "frozen_before_v2_performance_results": true,
+  "motivation": "v1 traces prioritized the near-tied top pair while delaying broad partial certification",
+  "candidate_policy": "certificate_racing_v2",
+  "changed_component": "acquisition only: gain_ab = 1 / predicted_remaining_paired_steps_to_certificate",
+  "forecast": {
+    "continuation": "constant future paired differences equal current paired sample mean, zero at n=0",
+    "starting_evidence": "copies of actual current capitals and historical peaks",
+    "hit_rule": "same guarded directional-XOR betting threshold, pair-prefix deterministic completion, or census",
+    "ahead_system_scores": "excluded from the forecast; no bound or compatibility claim",
+    "actual_certification": "only unmodified v1 RaceState.observe_next",
+    "cache": "invalidate forecasts when paired-prefix count changes",
+    "extra_tuned_hyperparameters": [],
+    "interpretation": "a plug-in forecast, not expected annotation cost or statistical evidence"
+  },
+  "unchanged": ["alpha=0.05", "bet fractions", "known [0,1] score range", "uniform item permutation", "warmup=4 rows", "score cache", "inference and certificate thresholds", "current-action cost normalization", "seeded tie-breaking", "baselines"],
+  "primary_outcomes": ["any wrong certificate anywhere in a run", "cost to certify 90 percent of pairs", "cost to decide all pairs"],
+  "secondary_outcomes": ["certified fraction at 10,25,50,75 percent budgets", "forced ranking accuracy", "certified-fraction AUC", "certificate cost for the full-data top-two pair (evaluation-only)", "top-two resolved fraction at half budget"],
+  "data_and_seeds": "same six synthetic scenarios x 100 replicates and same exposed cs-de matrix x 20 seeds as protocol.json",
+  "comparisons": ["shared_racing", "random_pair", "common_all", "common_active"],
+  "comparison_execution": "reuse the previously audited paired v1 baseline records, with matching seeds and source hashes; run only the new policy",
+  "gate": {
+    "efficiency": "retain the original development gate: at least 10 percent cost90 savings against BOTH random_pair and common_active on the real development matrix",
+    "tradeoffs": "report all synthetic scenarios, full-ranking costs, early-budget certificates and top-two delay, even when unfavorable",
+    "meaning": "an internal go/no-go criterion, not an ACL standard or proof of generalization"
+  },
+  "scope": ["no new holdout data", "no new human annotations", "no published-baseline equivalence claim", "no private collaborative or SAFE-EVAL code", "no tuning or candidate replacement after seeing v2 results", "do not imply partial certification identifies the best system"]
+}

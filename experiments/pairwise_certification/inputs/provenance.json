@@ -1,0 +1,53 @@
+{
+  "dataset": "WMT25 Czech-German general human evaluation",
+  "role": "already-exposed development-only retrospective replay; not an independent holdout",
+  "local_file": "cs-de_DE_human_scores.csv",
+  "retrieved_from": "https://github.com/Apple32452/future-proof-mt-evaluation/blob/f13654ba0a9534b39138c92bb9b4f2b807ec1831/results/score_matrices/cs-de_DE_human_scores.csv",
+  "repository_revision": "f13654ba0a9534b39138c92bb9b4f2b807ec1831",
+  "git_blob_sha1": "22770907bff20fe04908cb7355818bb878177558",
+  "sha256": "f6de1e8da36fb67c7d99ec354e8807a016045c2d5b420f3ab8aeb72816bc279d",
+  "size_bytes": 181353,
+  "schema": {
+    "item_id": "sentence_id",
+    "source_text": "source_text",
+    "score_columns": "all remaining 20 columns",
+    "document_id_rule": "sentence_id.rsplit('_#_',1)[0]",
+    "item_id_rule": "language_pair_#_domain_#_document_#_segment"
+  },
+  "verified_matrix": {
+    "items": 231,
+    "systems": 20,
+    "documents": 128,
+    "missing_cells": 0,
+    "observed_min": 0,
+    "observed_max": 100,
+    "reference_system_refA_included": false
+  },
+  "published_source_manifest": {
+    "url": "https://github.com/Apple32452/future-proof-mt-evaluation/blob/f13654ba0a9534b39138c92bb9b4f2b807ec1831/results/quality_shift_multilingual_terminal/source_data_manifest.json",
+    "official_repository": "wmt-conference/wmt25-general-mt",
+    "official_revision": "2fc0874d85278d8c7e0807951e54d8422e7957e4",
+    "official_raw_path": "data/wmt25-genmt-humeval.jsonl",
+    "raw_sha256": "a36ebce10c9ea26f71449933721de3a87e27f6a5b09d96b5daa026eaf1d197ab",
+    "raw_bytes": 128674273,
+    "raw_fetched_in_this_run": false,
+    "annotation_aggregation": "mean of non-null finite annotations",
+    "human_annotations_per_cell": 2,
+    "total_human_annotations": 9240
+  },
+  "limits": [
+    "Current verification confirms exact committed matrix bytes and schema, not a new raw-data reconstruction.",
+    "Each queried mean cell represents 2 historical human annotations, not 1.",
+    "Confidence against finite released mean scores does not certify latent future-rater or population rankings.",
+    "No independent holdout was retrieved.",
+    "No explicit dataset redistribution license was found in inspected repository root or official README. Keep this existing public input local for testing; provide upstream URL and checksum rather than redistribute raw text in a deliverable archive."
+  ],
+  "wmt24_recovery": {
+    "prepared_matrices_in_public_repo": false,
+    "official_source": "wmt-conference/wmt24-news-systems",
+    "official_source_commit": "fabe1f81d65449b3e3f9f8d37da280fa6cf3650a",
+    "builder_path": "experiments/quality_shift/build_wmt24_esa_matrices.py",
+    "score_type": "ESA 0-100",
+    "raw_waves_not_downloaded": true
+  }
+}

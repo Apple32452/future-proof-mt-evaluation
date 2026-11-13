@@ -1,0 +1,39 @@
+{
+  "runs": 5,
+  "solver_optimal_runs": 5,
+  "mean_oracle_lower_bound": 4113.2,
+  "mean_oracle_upper_bound": 4114.2,
+  "mean_baseline_cost90": {
+    "certificate_racing_v2": 4323.0,
+    "shared_racing": 4388.4,
+    "random_pair": 4424.0,
+    "common_active": 4551.8,
+    "common_all": 4555.2
+  },
+  "possible_saving_fraction_intervals": {
+    "certificate_racing_v2": [
+      0.04829979181124222,
+      0.04853111265325005
+    ],
+    "shared_racing": [
+      0.06248290948865187,
+      0.06271078297329324
+    ],
+    "random_pair": [
+      0.07002712477396023,
+      0.07025316455696207
+    ],
+    "common_active": [
+      0.09613779164286662,
+      0.09635748495100849
+    ],
+    "common_all": [
+      0.09681243414120122,
+      0.09703196347031962
+    ]
+  },
+  "scope": "hindsight diagnostic under fixed inference and five exposed development item orders; not independent MT generalization",
+  "bound_kind": "numerical MILP dual bounds conservatively rounded down, not formal exact-rational certificates",
+  "action_class": "arbitrary per-system prefix acquisitions; incumbents are not guaranteed feasible for the narrower pair-bundle policy class",
+  "wrong_issued_certificates_in_replayed_incumbents": 0
+}

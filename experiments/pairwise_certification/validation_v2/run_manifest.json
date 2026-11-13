@@ -1,0 +1,121 @@
+{
+  "protocol": {
+    "protocol_version": "certificate_focused_shared_prefix_v2",
+    "date": "2026-11-13",
+    "status": "one post-v1 development revision; not independent confirmation or a preregistration",
+    "frozen_before_v2_performance_results": true,
+    "motivation": "v1 traces prioritized the near-tied top pair while delaying broad partial certification",
+    "candidate_policy": "certificate_racing_v2",
+    "changed_component": "acquisition only: gain_ab = 1 / predicted_remaining_paired_steps_to_certificate",
+    "forecast": {
+      "continuation": "constant future paired differences equal current paired sample mean, zero at n=0",
+      "starting_evidence": "copies of actual current capitals and historical peaks",
+      "hit_rule": "same guarded directional-XOR betting threshold, pair-prefix deterministic completion, or census",
+      "ahead_system_scores": "excluded from the forecast; no bound or compatibility claim",
+      "actual_certification": "only unmodified v1 RaceState.observe_next",
+      "cache": "invalidate forecasts when paired-prefix count changes",
+      "extra_tuned_hyperparameters": [],
+      "interpretation": "a plug-in forecast, not expected annotation cost or statistical evidence"
+    },
+    "unchanged": [
+      "alpha=0.05",
+      "bet fractions",
+      "known [0,1] score range",
+      "uniform item permutation",
+      "warmup=4 rows",
+      "score cache",
+      "inference and certificate thresholds",
+      "current-action cost normalization",
+      "seeded tie-breaking",
+      "baselines"
+    ],
+    "primary_outcomes": [
+      "any wrong certificate anywhere in a run",
+      "cost to certify 90 percent of pairs",
+      "cost to decide all pairs"
+    ],
+    "secondary_outcomes": [
+      "certified fraction at 10,25,50,75 percent budgets",
+      "forced ranking accuracy",
+      "certified-fraction AUC",
+      "certificate cost for the full-data top-two pair (evaluation-only)",
+      "top-two resolved fraction at half budget"
+    ],
+    "data_and_seeds": "same six synthetic scenarios x 100 replicates and same exposed cs-de matrix x 20 seeds as protocol.json",
+    "comparisons": [
+      "shared_racing",
+      "random_pair",
+      "common_all",
+      "common_active"
+    ],
+    "comparison_execution": "reuse the previously audited paired v1 baseline records, with matching seeds and source hashes; run only the new policy",
+    "gate": {
+      "efficiency": "retain the original development gate: at least 10 percent cost90 savings against BOTH random_pair and common_active on the real development matrix",
+      "tradeoffs": "report all synthetic scenarios, full-ranking costs, early-budget certificates and top-two delay, even when unfavorable",
+      "meaning": "an internal go/no-go criterion, not an ACL standard or proof of generalization"
+    },
+    "scope": [
+      "no new holdout data",
+      "no new human annotations",
+      "no published-baseline equivalence claim",
+      "no private collaborative or SAFE-EVAL code",
+      "no tuning or candidate replacement after seeing v2 results",
+      "do not imply partial certification identifies the best system"
+    ]
+  },
+  "protocol_sha256": "00230efcaa6db2d3f31ff81139d87510f588c3bb5b558d63f0ac75236533e654",
+  "source_hashes_before_run": {
+    "test_certificate_v2.py": "9e77911a261dc6af7009f153883f2c3f1313a9ad5817b049d74d78e49abdc243",
+    "audit_math.py": "c145f20fa879a94b9608137f94666c3b20d711aafeb505d1ec73e06513cf3607",
+    "validate_v2.py": "a32f1d342e332bd2989be260f956ee64ff58dab9bc332702e5a278d33406710d",
+    "pairwise_racing.py": "cffddb3fc51b1c7b7c3c4aca7491ac85b4ddced94436dd158259c7d2c31c1f0c",
+    "audit_outputs.py": "020d699fe1050bccfcd8119cac2f200964502e7b264d44e99404c4c08d8b230d",
+    "certificate_racing_v2.py": "4c3488e2d5beb24f09a5395c09789712c4e63efcbb6681a13b6236aeaaa7e10c",
+    "validate.py": "fefe495e26f10926e12bcb13f5f3ef161e72cae499fcf057a8b06a2a0b0c8b50",
+    "test_racing.py": "7f2fe1f5ff74e82fd245ec54eaa43a786364d128cdbc653417b5126536758e9b",
+    "loader.py": "593859f526db65360d27b8c8b9e17fb6d6867fd7ee2bc2ddbab2fa5ce9f770d9",
+    "test_loader.py": "30a2191118e0fae3a510bf972ca9662cd728fae34b523b55225e4a0a88cbc97b"
+  },
+  "baseline_trials_sha256": "cea91c6ddfafa1edf6b640973a18847c2321e0939cfd1331b8041d57ba146873",
+  "baseline_manifest_sha256": "68a77072289ab8deb7b86ff5dd0a0e536a46a3a9acaaa9ee49e2f866eb604bf9",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "real_input": {
+    "systems": [
+      "Algharb",
+      "CUNI-MH-v2",
+      "Claude-4",
+      "CommandA",
+      "CommandA-MT",
+      "DeepSeek-V3",
+      "GPT-4.1",
+      "GemTrans",
+      "Gemini-2.5-Pro",
+      "Gemma-3-12B",
+      "Gemma-3-27B",
+      "IRB-MT",
+      "Laniqo",
+      "Mistral-Medium",
+      "SRPOL",
+      "Shy",
+      "TowerPlus-9B",
+      "UvA-MT",
+      "Wenyiil",
+      "Yolu"
+    ],
+    "items": 231,
+    "documents": 128,
+    "sha256": "f6de1e8da36fb67c7d99ec354e8807a016045c2d5b420f3ab8aeb72816bc279d",
+    "score_bounds_raw": [
+      0.0,
+      100.0
+    ],
+    "human_ratings_per_cell": 2,
+    "data_role": "development_only"
+  },
+  "new_runs_planned": 620,
+  "reference_runs_reused": 2480,
+  "scope": "one post-v1 development revision; no untouched validation"
+}
