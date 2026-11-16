@@ -1,0 +1,137 @@
+{
+  "source": "user-transcribed Mac terminal summary, not independently replayed by repository",
+  "status": "preliminary_external_replay_summary",
+  "dated": "2026-11-15",
+  "runs_per_policy_per_panel": 20,
+  "audit_per_panel": {
+    "status": "PASS",
+    "trial_rows": 100,
+    "summary_checks": 30,
+    "total_wrong_certificates": 0,
+    "audit_scope": "summary arithmetic and constraints; no independent policy replay"
+  },
+  "panels": {
+    "wmt22_sqm_ende": {
+      "source": "RicardoRei/wmt-sqm-human-evaluation",
+      "year": 2022,
+      "language_pair": "en-de",
+      "n_items": 1161,
+      "n_systems": 8,
+      "mean_score_cells": 9288,
+      "matrix_sha256": "e5665eec15a72390c891d37cc29f3d6d44ff964b08b9f122b450978846085f52",
+      "policies": {
+        "common_active": {
+          "mean_cost90": 8871.8,
+          "mean_costall": 8879.55,
+          "mean_certified_half": 0.37500000000000006,
+          "posthoc_weighted_tau_half": 0.40052511465557056,
+          "posthoc_top1_half": 0.3,
+          "runs_with_wrong_certificates": 0,
+          "runs": 20,
+          "reached90": 20
+        },
+        "random_pair": {
+          "mean_cost90": 8444.75,
+          "mean_costall": 8878.05,
+          "mean_certified_half": 0.3625,
+          "posthoc_weighted_tau_half": 0.37915731933119873,
+          "posthoc_top1_half": 0.35,
+          "runs_with_wrong_certificates": 0,
+          "runs": 20,
+          "reached90": 20
+        },
+        "certificate_racing_v2": {
+          "mean_cost90": 8327.6,
+          "mean_costall": 8880,
+          "mean_certified_half": 0.4,
+          "posthoc_weighted_tau_half": 0.38341977824265794,
+          "posthoc_top1_half": 0.35,
+          "runs_with_wrong_certificates": 0,
+          "runs": 20,
+          "reached90": 20
+        },
+        "published_inv_rank2": {
+          "mean_cost90": 8350.95,
+          "mean_costall": 9050.3,
+          "mean_certified_half": 0.0642857142857143,
+          "posthoc_weighted_tau_half": 0.9276162393797165,
+          "posthoc_top1_half": 0.95,
+          "runs_with_wrong_certificates": 0,
+          "runs": 20,
+          "reached90": 20
+        },
+        "published_confusion": {
+          "mean_cost90": 8383.5,
+          "mean_costall": 9073.8,
+          "mean_certified_half": 0.017857142857142856,
+          "posthoc_weighted_tau_half": 0.4452906112508077,
+          "posthoc_top1_half": 0.4,
+          "runs_with_wrong_certificates": 0,
+          "runs": 20,
+          "reached90": 20
+        }
+      }
+    },
+    "wmt22_sqm_enzh": {
+      "source": "RicardoRei/wmt-sqm-human-evaluation",
+      "year": 2022,
+      "language_pair": "en-zh",
+      "n_items": 1124,
+      "n_systems": 8,
+      "mean_score_cells": 8992,
+      "matrix_sha256": "510d850760d6ac449e7fe86be9e5279f7253a8232cbc4b0ed20d852b73918459",
+      "policies": {
+        "common_active": {
+          "mean_cost90": 8756.85,
+          "mean_costall": 8762.05,
+          "mean_certified_half": 0.1464285714285714,
+          "posthoc_weighted_tau_half": 0.780994703059019,
+          "posthoc_top1_half": 0.75,
+          "runs_with_wrong_certificates": 0,
+          "runs": 20,
+          "reached90": 20
+        },
+        "random_pair": {
+          "mean_cost90": 8641.15,
+          "mean_costall": 8761.15,
+          "mean_certified_half": 0.1464285714285714,
+          "posthoc_weighted_tau_half": 0.8178574064161184,
+          "posthoc_top1_half": 0.8,
+          "runs_with_wrong_certificates": 0,
+          "runs": 20,
+          "reached90": 20
+        },
+        "certificate_racing_v2": {
+          "mean_cost90": 8475.5,
+          "mean_costall": 8762.6,
+          "mean_certified_half": 0.1607142857142857,
+          "posthoc_weighted_tau_half": 0.7802842932404424,
+          "posthoc_top1_half": 0.75,
+          "runs_with_wrong_certificates": 0,
+          "runs": 20,
+          "reached90": 20
+        },
+        "published_inv_rank2": {
+          "mean_cost90": 8618,
+          "mean_costall": 8848.05,
+          "mean_certified_half": 0.0482142857142857,
+          "posthoc_weighted_tau_half": 0.9272070942691384,
+          "posthoc_top1_half": 0.95,
+          "runs_with_wrong_certificates": 0,
+          "runs": 20,
+          "reached90": 20
+        },
+        "published_confusion": {
+          "mean_cost90": 8525.25,
+          "mean_costall": 8834.7,
+          "mean_certified_half": 0.03571428571428571,
+          "posthoc_weighted_tau_half": 0.9346657240555661,
+          "posthoc_top1_half": 0.95,
+          "runs_with_wrong_certificates": 0,
+          "runs": 20,
+          "reached90": 20
+        }
+      }
+    }
+  }
+}
