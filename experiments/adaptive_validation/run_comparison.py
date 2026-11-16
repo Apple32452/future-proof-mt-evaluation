@@ -127,7 +127,7 @@ def main():
     if args.matrix:
         y, meta = load_matrix(args.matrix)
         cases = ((args.matrix.stem, rep, y) for rep in range(args.reps))
-        summary = run_cases(cases, args.out, "external", meta)
+        summary = run_cases(cases, args.out, "external_unverified_until_cohort_independence_reviewed", meta)
     else:
         summary = run_cases(matrices(), args.out, "synthetic_dev_only",
                             {"scenario_count": 3, "replicates_per_scenario": 12})
