@@ -119,7 +119,7 @@ python3 audit_v2_outputs.py --baseline validation_v1 \
   --results validation_v2 > reproduced_audit_v2.json
 
 python3 run_oracle_diagnostic.py --out reproduced_oracle
-python3 audit_oracle_outputs.py --run-dir reproduced_oracle \
+python3 audit_oracle_outputs.py --run-dir "$PWD/reproduced_oracle" \
   --out reproduced_oracle_audit.json
 ```
 
