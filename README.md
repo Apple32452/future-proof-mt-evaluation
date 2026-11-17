@@ -6,6 +6,26 @@
 **Institution:** Johns Hopkins University  
 **Status:** Research project / paper in preparation
 
+## Adaptive evaluation and ranking certification
+
+The [pairwise certification study](experiments/pairwise_certification/README.md)
+asks how many score cells an evaluation needs to certify pairwise rankings on
+a fixed human score panel. A winner is certified when it has a strict
+certificate against every rival. [V2](experiments/pairwise_certification/METHOD_V2.md)
+prioritizes score cells for pairs close to a certificate.
+
+The [WMT22 comparison](experiments/adaptive_validation/RESULTS_WMT22.md)
+evaluates V2, two random allocation policies and adaptations of inverse rank
+squared and confusion minimization under the same certificate rule. V2 used
+1.39% fewer cells than random pair in English to German and 1.92% fewer in
+English to Chinese to certify 90% of pairs. The adapted inverse rank squared
+policy estimated the top system correctly in 95% of runs at half budget in
+both directions. [Reproduce the WMT22 comparison](experiments/adaptive_validation/README.md).
+
+A separate WMT23 follow-up compares pair coverage with the cost of certifying a
+winner. It adds UCB1 from the [released acquisition code](https://github.com/zouharvi/evaluation-bandit/tree/c74c6f9e771699af1576aba0e576180b1248a5eb).
+The WMT23 runner and results are distributed with the report supplement.
+
 ## New class-project extension: stronger-system ranking
 
 The [quality-shift experiment](experiments/quality_shift/README.md) asks whether
